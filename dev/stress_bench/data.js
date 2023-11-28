@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701178262923,
+  "lastUpdate": 1701179521888,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -247,6 +247,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/6a47349ed4ce8fb9bae572e76acb8e29b57fa4af"
         },
         "date": 1701178261902,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 31,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 45.16129032258064,
+            "unit": "%",
+            "extra": "Crashes in: 020, 015, 028, 002, 016, 019, 013, 029, 031, 018, 007, 011, 025, 008"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "8bfe361fa68235cbb9961ca8d825ce1279300fa7",
+          "message": "[CURA-10918] Put note in gcode if min layer time has been applied.",
+          "timestamp": "2023-11-26T04:05:29Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/1943/commits/8bfe361fa68235cbb9961ca8d825ce1279300fa7"
+        },
+        "date": 1701179521206,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
