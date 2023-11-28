@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701179521888,
+  "lastUpdate": 1701180997681,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -279,6 +279,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/1943/commits/8bfe361fa68235cbb9961ca8d825ce1279300fa7"
         },
         "date": 1701179521206,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 31,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 45.16129032258064,
+            "unit": "%",
+            "extra": "Crashes in: 020, 015, 028, 002, 016, 019, 013, 029, 031, 018, 007, 011, 025, 008"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "r.burema@ultimaker.com",
+            "name": "Remco Burema",
+            "username": "rburema"
+          },
+          "committer": {
+            "email": "r.burema@ultimaker.com",
+            "name": "Remco Burema",
+            "username": "rburema"
+          },
+          "distinct": true,
+          "id": "592e0b70219860b6c6598cbd65d7ef50f5f9e5f0",
+          "message": "'Fix' compiler error on Mac.\n\nThe compiler there isn't modern enough to understand that including <concepts> should add floating_point to std.",
+          "timestamp": "2023-11-28T15:08:11+01:00",
+          "tree_id": "13f7cb82df537b3d62930f5c2de92aac41a604d0",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/592e0b70219860b6c6598cbd65d7ef50f5f9e5f0"
+        },
+        "date": 1701180996856,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
