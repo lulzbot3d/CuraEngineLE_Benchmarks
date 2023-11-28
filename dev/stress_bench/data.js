@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701176295215,
+  "lastUpdate": 1701178262923,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -211,6 +211,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/1988/commits/686fc0bb7be8156bcc739a72161c9707bfe3a110"
         },
         "date": 1701176294443,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 31,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 45.16129032258064,
+            "unit": "%",
+            "extra": "Crashes in: 020, 015, 028, 002, 016, 019, 013, 029, 031, 018, 007, 011, 025, 008"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "41987080+rburema@users.noreply.github.com",
+            "name": "Remco Burema",
+            "username": "rburema"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6a47349ed4ce8fb9bae572e76acb8e29b57fa4af",
+          "message": "CURA-11378 stress benchmarks (#1988)",
+          "timestamp": "2023-11-28T14:22:32+01:00",
+          "tree_id": "1776d88726a56da8e2a29ef0608bed31dee8f38b",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/6a47349ed4ce8fb9bae572e76acb8e29b57fa4af"
+        },
+        "date": 1701178261902,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
