@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701180997681,
+  "lastUpdate": 1701336225196,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -315,6 +315,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/592e0b70219860b6c6598cbd65d7ef50f5f9e5f0"
         },
         "date": 1701180996856,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 31,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 45.16129032258064,
+            "unit": "%",
+            "extra": "Crashes in: 020, 015, 028, 002, 016, 019, 013, 029, 031, 018, 007, 011, 025, 008"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "686df6adf4b080ee6c26625f2bdfebe94e881129",
+          "message": "CURA-11364 Add Sentry Support",
+          "timestamp": "2023-11-26T04:05:29Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/1985/commits/686df6adf4b080ee6c26625f2bdfebe94e881129"
+        },
+        "date": 1701336224351,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
