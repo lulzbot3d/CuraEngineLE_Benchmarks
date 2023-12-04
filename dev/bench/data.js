@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701447390904,
+  "lastUpdate": 1701685742686,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "C++ Benchmark": [
@@ -14888,6 +14888,128 @@ window.BENCHMARK_DATA = {
             "value": 1.241427289652875,
             "unit": "ns/iter",
             "extra": "iterations: 564933907\ncpu: 1.2413933582499594 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "effddefd2f36357e6a3b5192900679e5825e3657",
+          "message": "Cura 10831",
+          "timestamp": "2023-12-03T20:00:44Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/1992/commits/effddefd2f36357e6a3b5192900679e5825e3657"
+        },
+        "date": 1701685741839,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "InfillTest/Infill_generate_connect/1/400",
+            "value": 0.3816451562634683,
+            "unit": "ms/iter",
+            "extra": "iterations: 2323\ncpu: 0.38162638829100304 ms\nthreads: 1"
+          },
+          {
+            "name": "InfillTest/Infill_generate_connect/0/400",
+            "value": 5.9861520820312375,
+            "unit": "ms/iter",
+            "extra": "iterations: 256\ncpu: 5.985882421875 ms\nthreads: 1"
+          },
+          {
+            "name": "InfillTest/Infill_generate_connect/1/800",
+            "value": 47.57343432142745,
+            "unit": "ms/iter",
+            "extra": "iterations: 28\ncpu: 47.57251785714284 ms\nthreads: 1"
+          },
+          {
+            "name": "InfillTest/Infill_generate_connect/0/800",
+            "value": 165.51879424999782,
+            "unit": "ms/iter",
+            "extra": "iterations: 8\ncpu: 165.5152875 ms\nthreads: 1"
+          },
+          {
+            "name": "InfillTest/Infill_generate_connect/1/1200",
+            "value": 550.9139410000046,
+            "unit": "ms/iter",
+            "extra": "iterations: 2\ncpu: 550.8835000000003 ms\nthreads: 1"
+          },
+          {
+            "name": "InfillTest/Infill_generate_connect/0/1200",
+            "value": 965.5417799999668,
+            "unit": "ms/iter",
+            "extra": "iterations: 1\ncpu: 965.4967000000001 ms\nthreads: 1"
+          },
+          {
+            "name": "WallTestFixture/generateWalls/3",
+            "value": 6.346321236486498,
+            "unit": "ms/iter",
+            "extra": "iterations: 148\ncpu: 6.346192567567566 ms\nthreads: 1"
+          },
+          {
+            "name": "WallTestFixture/generateWalls/15",
+            "value": 20.83510941025679,
+            "unit": "ms/iter",
+            "extra": "iterations: 39\ncpu: 20.83420769230766 ms\nthreads: 1"
+          },
+          {
+            "name": "WallTestFixture/generateWalls/9999",
+            "value": 54.67537885714283,
+            "unit": "ms/iter",
+            "extra": "iterations: 14\ncpu: 54.67450000000009 ms\nthreads: 1"
+          },
+          {
+            "name": "WallTestFixture/InsetOrderOptimizer_getRegionOrder/3",
+            "value": 0.032198591065612334,
+            "unit": "ms/iter",
+            "extra": "iterations: 21490\ncpu: 0.03219854350860869 ms\nthreads: 1"
+          },
+          {
+            "name": "WallTestFixture/InsetOrderOptimizer_getRegionOrder/15",
+            "value": 0.6966715494949464,
+            "unit": "ms/iter",
+            "extra": "iterations: 990\ncpu: 0.696651818181819 ms\nthreads: 1"
+          },
+          {
+            "name": "WallTestFixture/InsetOrderOptimizer_getRegionOrder/9999",
+            "value": 4.598092394736852,
+            "unit": "ms/iter",
+            "extra": "iterations: 152\ncpu: 4.597800657894742 ms\nthreads: 1"
+          },
+          {
+            "name": "WallTestFixture/InsetOrderOptimizer_getInsetOrder/3",
+            "value": 0.0008147483874113859,
+            "unit": "ms/iter",
+            "extra": "iterations: 840729\ncpu: 0.0008147318577092032 ms\nthreads: 1"
+          },
+          {
+            "name": "WallTestFixture/InsetOrderOptimizer_getInsetOrder/15",
+            "value": 0.0045249785638698204,
+            "unit": "ms/iter",
+            "extra": "iterations: 154972\ncpu: 0.004524831582479416 ms\nthreads: 1"
+          },
+          {
+            "name": "WallTestFixture/InsetOrderOptimizer_getInsetOrder/9999",
+            "value": 0.013479060578504579,
+            "unit": "ms/iter",
+            "extra": "iterations: 51685\ncpu: 0.013478692077004934 ms\nthreads: 1"
+          },
+          {
+            "name": "SimplifyTestFixture/simplify_local",
+            "value": 0.9289320936125445,
+            "unit": "ns/iter",
+            "extra": "iterations: 752805545\ncpu: 0.9289062821661316 ns\nthreads: 1"
+          },
+          {
+            "name": "SimplifyTestFixture/simplify_slot_noplugin",
+            "value": 1.2481886447436807,
+            "unit": "ns/iter",
+            "extra": "iterations: 565480182\ncpu: 1.2481761916105498 ns\nthreads: 1"
           }
         ]
       }
