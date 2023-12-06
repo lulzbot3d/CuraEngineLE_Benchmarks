@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701853514490,
+  "lastUpdate": 1701864951266,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -447,6 +447,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/1992/commits/6427083fb2d0f92edca4af69eb22c43790965308"
         },
         "date": 1701853513753,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 67,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 47.76119402985074,
+            "unit": "%",
+            "extra": "Crashes in: 056, 020, 037, 015, 044, 034, 053, 048, 014, 028, 002, 060, 016, 051, 039, 032, 036, 033, 041, 019, 059, 038, 013, 029, 031, 018, 045, 007, 011, 025, 040, 008"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "casperlamboo@gmail.com",
+            "name": "c.lamboo",
+            "username": "casperlamboo"
+          },
+          "committer": {
+            "email": "casperlamboo@gmail.com",
+            "name": "c.lamboo",
+            "username": "casperlamboo"
+          },
+          "distinct": true,
+          "id": "4bd604fa3c287830687fd788c0d20c19cb892109",
+          "message": "Fix building on mac",
+          "timestamp": "2023-12-06T13:08:14+01:00",
+          "tree_id": "904303f0456276509ba1217fbad1c38c1913f365",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/4bd604fa3c287830687fd788c0d20c19cb892109"
+        },
+        "date": 1701864950463,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
