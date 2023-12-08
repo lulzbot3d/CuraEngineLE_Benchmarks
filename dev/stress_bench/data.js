@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702042878374,
+  "lastUpdate": 1702054829942,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -551,6 +551,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/26c410e9b6b065f52b2e7701e8ab8f69a1a86df7"
         },
         "date": 1702042877441,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 67,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 47.76119402985074,
+            "unit": "%",
+            "extra": "Crashes in: 053, 034, 036, 020, 048, 039, 013, 041, 033, 011, 037, 025, 008, 040, 031, 056, 051, 029, 028, 044, 002, 032, 038, 014, 007, 045, 018, 060, 059, 019, 016, 015"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "r.burema@ultimaker.com",
+            "name": "Remco Burema",
+            "username": "rburema"
+          },
+          "committer": {
+            "email": "r.burema@ultimaker.com",
+            "name": "Remco Burema",
+            "username": "rburema"
+          },
+          "distinct": true,
+          "id": "5b6c91c1f25a025c25ca9920c14a6198cf24b327",
+          "message": "Revert \"Add examples that still go wrong even if boost-input is fixed.\"\n\nThis reverts commit 8134f05c995238733eadea212ac3f43e65ff98de.",
+          "timestamp": "2023-12-08T17:53:29+01:00",
+          "tree_id": "00e57ab1a39d94a24a3572fec1d7226c1a8ebf1f",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/5b6c91c1f25a025c25ca9920c14a6198cf24b327"
+        },
+        "date": 1702054829136,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
