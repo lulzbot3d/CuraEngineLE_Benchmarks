@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702018529623,
+  "lastUpdate": 1702042878374,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -528,6 +528,42 @@ window.BENCHMARK_DATA = {
             "value": 47.76119402985074,
             "unit": "%",
             "extra": "Crashes in: 056, 020, 037, 015, 044, 034, 053, 048, 014, 028, 002, 060, 016, 051, 039, 032, 036, 033, 041, 019, 059, 038, 013, 029, 031, 018, 045, 007, 011, 025, 040, 008"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "j.spijker@ultimaker.com",
+            "name": "Jelle Spijker",
+            "username": "jellespijker"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "26c410e9b6b065f52b2e7701e8ab8f69a1a86df7",
+          "message": "CURA-10831 (#1992)",
+          "timestamp": "2023-12-08T14:33:35+01:00",
+          "tree_id": "ec3bfb914a44ffee2cfbb77c90b95b8381ad9032",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/26c410e9b6b065f52b2e7701e8ab8f69a1a86df7"
+        },
+        "date": 1702042877441,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 67,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 47.76119402985074,
+            "unit": "%",
+            "extra": "Crashes in: 053, 034, 036, 020, 048, 039, 013, 041, 033, 011, 037, 025, 008, 040, 031, 056, 051, 029, 028, 044, 002, 032, 038, 014, 007, 045, 018, 060, 059, 019, 016, 015"
           }
         ]
       }
