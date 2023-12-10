@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702054829942,
+  "lastUpdate": 1702218073843,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -587,6 +587,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/5b6c91c1f25a025c25ca9920c14a6198cf24b327"
         },
         "date": 1702054829136,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 67,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 47.76119402985074,
+            "unit": "%",
+            "extra": "Crashes in: 053, 034, 036, 020, 048, 039, 013, 041, 033, 011, 037, 025, 008, 040, 031, 056, 051, 029, 028, 044, 002, 032, 038, 014, 007, 045, 018, 060, 059, 019, 016, 015"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jelle.spijker@ultimaker.com",
+            "name": "Jelle Spijker",
+            "username": "jellespijker"
+          },
+          "committer": {
+            "email": "jelle.spijker@ultimaker.com",
+            "name": "Jelle Spijker",
+            "username": "jellespijker"
+          },
+          "distinct": true,
+          "id": "2c1ac2860e67d31169caf7b306dff6371a058773",
+          "message": "Integrate Sentry for better error tracking\n\nSentry has been included to improve error tracking. It has been set to\ntag plugins, Cura version and machine names, allowing more specific and\nconvenient debugging. The actual CuraEngine version has now been set as\nthe Sentry release.\n\nContributes to CURA-11443",
+          "timestamp": "2023-12-10T15:11:52+01:00",
+          "tree_id": "c7cc45cd103a568158dba6918c1386217b2cff86",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/2c1ac2860e67d31169caf7b306dff6371a058773"
+        },
+        "date": 1702218073095,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
