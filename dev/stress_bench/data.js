@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702279304510,
+  "lastUpdate": 1702310494311,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -659,6 +659,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/1bfb7869c527529f7b37553114f901fe30a5c4b0"
         },
         "date": 1702279303397,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 67,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 47.76119402985074,
+            "unit": "%",
+            "extra": "Crashes in: 053, 034, 036, 020, 048, 039, 013, 041, 033, 011, 037, 025, 008, 040, 031, 056, 051, 029, 028, 044, 002, 032, 038, 014, 007, 045, 018, 060, 059, 019, 016, 015"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "818140174347078802673403d1ff15ff7dee20df",
+          "message": "CURA-11392-including-threshold-setting-for-ppr",
+          "timestamp": "2023-12-11T06:08:21Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/1996/commits/818140174347078802673403d1ff15ff7dee20df"
+        },
+        "date": 1702310493499,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
