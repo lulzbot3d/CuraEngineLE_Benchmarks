@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702218073843,
+  "lastUpdate": 1702279304510,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -623,6 +623,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/2c1ac2860e67d31169caf7b306dff6371a058773"
         },
         "date": 1702218073095,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 67,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 47.76119402985074,
+            "unit": "%",
+            "extra": "Crashes in: 053, 034, 036, 020, 048, 039, 013, 041, 033, 011, 037, 025, 008, 040, 031, 056, 051, 029, 028, 044, 002, 032, 038, 014, 007, 045, 018, 060, 059, 019, 016, 015"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "j.spijker@ultimaker.com",
+            "name": "Jelle Spijker",
+            "username": "jellespijker"
+          },
+          "committer": {
+            "email": "j.spijker@ultimaker.com",
+            "name": "Jelle Spijker",
+            "username": "jellespijker"
+          },
+          "distinct": true,
+          "id": "1bfb7869c527529f7b37553114f901fe30a5c4b0",
+          "message": "Don't use Sentry in Arcus communication logic\n\nFails to compile due to WinSock.h already being included.\n\nContribute to CURA-11443",
+          "timestamp": "2023-12-11T08:14:18+01:00",
+          "tree_id": "48def1ecad8aef251705170ec08c0da8afb75f9f",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/1bfb7869c527529f7b37553114f901fe30a5c4b0"
+        },
+        "date": 1702279303397,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
