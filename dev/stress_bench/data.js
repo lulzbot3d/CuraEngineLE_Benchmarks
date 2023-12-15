@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702556580708,
+  "lastUpdate": 1702658113035,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -727,6 +727,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/17399459f6a30c6773ad12781716374da8f7362e"
         },
         "date": 1702556579777,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 67,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 47.76119402985074,
+            "unit": "%",
+            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "3fa2d52f95c1350f1ab042598f9b3aa4b20fe338",
+          "message": "CURA-11482 additional sentry info",
+          "timestamp": "2023-12-13T21:14:33Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/1999/commits/3fa2d52f95c1350f1ab042598f9b3aa4b20fe338"
+        },
+        "date": 1702658112184,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
