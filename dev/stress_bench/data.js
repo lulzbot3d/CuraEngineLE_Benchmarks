@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702829582077,
+  "lastUpdate": 1702916530597,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -855,6 +855,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/1999/commits/c97b060e1e5c3f45fc59cfc99f7a0707a909f4cd"
         },
         "date": 1702829581287,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 67,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 47.76119402985074,
+            "unit": "%",
+            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "70144862+saumyaj3@users.noreply.github.com",
+            "name": "Saumya Jain",
+            "username": "saumyaj3"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f6a6537a135bdd279d79f30174550847a3b1e37f",
+          "message": "CURA-11482 additional sentry info (#1999)",
+          "timestamp": "2023-12-18T17:14:42+01:00",
+          "tree_id": "6c1568de354b94ded26c7e63985220c8a59d90fb",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/f6a6537a135bdd279d79f30174550847a3b1e37f"
+        },
+        "date": 1702916529631,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
