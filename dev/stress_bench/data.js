@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1703258348786,
+  "lastUpdate": 1703261612641,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -1019,6 +1019,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2001/commits/2ccd94f65c1c2ba3d866fdc94408ff8315109a4d"
         },
         "date": 1703258347972,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 67,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 47.76119402985074,
+            "unit": "%",
+            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "c694f08bf68de8b940aa127d93d57db0ea345d09",
+          "message": "Improve slice performance of wall ordering",
+          "timestamp": "2023-12-22T11:35:45Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2001/commits/c694f08bf68de8b940aa127d93d57db0ea345d09"
+        },
+        "date": 1703261611801,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
