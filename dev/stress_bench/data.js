@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1703083439121,
+  "lastUpdate": 1703238580564,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -923,6 +923,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2001/commits/c04523c675008ec649721bcd2411f6fa75af0372"
         },
         "date": 1703083437897,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 67,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 47.76119402985074,
+            "unit": "%",
+            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "92844a44dad07160d415bfb2c49a956902fc01e0",
+          "message": "Fix xy-support distance",
+          "timestamp": "2023-12-22T07:44:22Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2000/commits/92844a44dad07160d415bfb2c49a956902fc01e0"
+        },
+        "date": 1703238579678,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
