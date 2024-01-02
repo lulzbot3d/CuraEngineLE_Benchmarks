@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704189209219,
+  "lastUpdate": 1704189432270,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -1151,6 +1151,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/86107a7ff4e7e0f5c32515a3f7037291b9e2ec3b"
         },
         "date": 1704189208382,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 67,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 47.76119402985074,
+            "unit": "%",
+            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "c.lamboo@ultimaker.com",
+            "name": "Casper Lamboo",
+            "username": "casperlamboo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3718ac91aa2e4cee50be20446bab068ee8b386f3",
+          "message": "Improve slice performance of wall ordering (#2001)",
+          "timestamp": "2024-01-02T10:45:52+01:00",
+          "tree_id": "c334d42ca25d6a36b229c853329df0bfb32aaa37",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/3718ac91aa2e4cee50be20446bab068ee8b386f3"
+        },
+        "date": 1704189430799,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
