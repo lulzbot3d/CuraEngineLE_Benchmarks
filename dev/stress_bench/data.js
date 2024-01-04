@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704375238062,
+  "lastUpdate": 1704377668341,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -1287,6 +1287,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/88903746ebbf3d5c4e2e33185ef5c7120b54b7cb"
         },
         "date": 1704375237180,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 67,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 47.76119402985074,
+            "unit": "%",
+            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "b8e008513af0b1c1b2fe31ab2a99beafb447eddc",
+          "message": "Fix hole expansion",
+          "timestamp": "2024-01-03T21:02:19Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2003/commits/b8e008513af0b1c1b2fe31ab2a99beafb447eddc"
+        },
+        "date": 1704377666900,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
