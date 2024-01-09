@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1704815594348,
+  "lastUpdate": 1704815810618,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -1767,6 +1767,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2006/commits/50d0fd0f342e385fb8ca89adf226da795af9367d"
         },
         "date": 1704815593398,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 67,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 47.76119402985074,
+            "unit": "%",
+            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c8bfce01707852092574a57a742979c0274b635f",
+          "message": "Add raft settings to make margin and remove inside corners configurablle per raft-type (#2006)",
+          "timestamp": "2024-01-09T16:49:00+01:00",
+          "tree_id": "abaf7fc50eb402e79401ec497759076bf4570215",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/c8bfce01707852092574a57a742979c0274b635f"
+        },
+        "date": 1704815809292,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
