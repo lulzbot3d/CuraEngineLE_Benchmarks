@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705505334022,
+  "lastUpdate": 1705507175017,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -2735,6 +2735,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2012/commits/5ab8d496ccf4f060c44b23edb571acd10000a1a2"
         },
         "date": 1705505332851,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 67,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 47.76119402985074,
+            "unit": "%",
+            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "70144862+saumyaj3@users.noreply.github.com",
+            "name": "Saumya Jain",
+            "username": "saumyaj3"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0b3c9d7e29ad0babbfce157d22734dba7a348669",
+          "message": "Fix remaining raft issues (#2012)",
+          "timestamp": "2024-01-17T16:51:25+01:00",
+          "tree_id": "f35f9a9becbcf69191461fe59188c9ea36961d69",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/0b3c9d7e29ad0babbfce157d22734dba7a348669"
+        },
+        "date": 1705507173406,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
