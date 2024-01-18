@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705594850720,
+  "lastUpdate": 1705595039010,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -3063,6 +3063,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2016/commits/30d26d708613a3da3bc6e7fe935fb217a0c984c8"
         },
         "date": 1705594849246,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 52.459016393442624,
+            "unit": "%",
+            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "c.lamboo@ultimaker.com",
+            "name": "Casper Lamboo",
+            "username": "casperlamboo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b4de943d20f831e37001dfdcb047c751048bf719",
+          "message": "[CURA-11395] Prevent islands in smoothed raft. (#2016)",
+          "timestamp": "2024-01-18T17:17:01+01:00",
+          "tree_id": "a556da46fa59ca14a1c3823e58a46c283b61d286",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/b4de943d20f831e37001dfdcb047c751048bf719"
+        },
+        "date": 1705595037775,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
