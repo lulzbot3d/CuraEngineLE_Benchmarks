@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705593558778,
+  "lastUpdate": 1705594124135,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -2974,6 +2974,38 @@ window.BENCHMARK_DATA = {
           {
             "name": "General Stress Level",
             "value": 52.459016393442624,
+            "unit": "%",
+            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "03a25362001229f9545924981dd0c67538b4cea7",
+          "message": "[CURA-11395] Prevent islands in smoothed raft.",
+          "timestamp": "2024-01-18T08:22:20Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2016/commits/03a25362001229f9545924981dd0c67538b4cea7"
+        },
+        "date": 1705594122516,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 67,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 47.76119402985074,
             "unit": "%",
             "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
           }
