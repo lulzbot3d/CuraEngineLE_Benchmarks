@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705595039010,
+  "lastUpdate": 1705936902416,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -3099,6 +3099,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/b4de943d20f831e37001dfdcb047c751048bf719"
         },
         "date": 1705595037775,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 52.459016393442624,
+            "unit": "%",
+            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "saumya.jain@ultimaker.com",
+            "name": "saumya.jain",
+            "username": "saumyaj3"
+          },
+          "committer": {
+            "email": "saumya.jain@ultimaker.com",
+            "name": "saumya.jain",
+            "username": "saumyaj3"
+          },
+          "distinct": true,
+          "id": "24fd96226595911eeeafa6a412bfa59d228523f7",
+          "message": "Unhandled exception CURA issue :https://github.com/Ultimaker/Cura/issues/18092",
+          "timestamp": "2024-01-22T16:03:04+01:00",
+          "tree_id": "4d149ba71c85dc0758ee3afdf919a94b6af22e1a",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/24fd96226595911eeeafa6a412bfa59d228523f7"
+        },
+        "date": 1705936900967,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
