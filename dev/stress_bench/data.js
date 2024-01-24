@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1705936902416,
+  "lastUpdate": 1706093844683,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -3135,6 +3135,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/24fd96226595911eeeafa6a412bfa59d228523f7"
         },
         "date": 1705936900967,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 52.459016393442624,
+            "unit": "%",
+            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "saumya.jain@ultimaker.com",
+            "name": "saumya.jain",
+            "username": "saumyaj3"
+          },
+          "committer": {
+            "email": "saumya.jain@ultimaker.com",
+            "name": "saumya.jain",
+            "username": "saumyaj3"
+          },
+          "distinct": true,
+          "id": "bcd8be64f2f6ed7a3be06dfd97d1a2bc693439c9",
+          "message": "Reverting 24fd96226595911eeeafa6a412bfa59d228523f7",
+          "timestamp": "2024-01-24T11:42:44+01:00",
+          "tree_id": "ce4d0eaece2707871906c3a8562b84d673c6df9b",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/bcd8be64f2f6ed7a3be06dfd97d1a2bc693439c9"
+        },
+        "date": 1706093843414,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
