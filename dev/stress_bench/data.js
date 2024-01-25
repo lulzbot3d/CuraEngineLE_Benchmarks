@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706183991714,
+  "lastUpdate": 1706199053653,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -3395,6 +3395,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2020/commits/138b9ee7ab8b14b4b189d665ae6c14cc03d621a9"
         },
         "date": 1706183990381,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 52.459016393442624,
+            "unit": "%",
+            "extra": "Crashes in: 033, 020, 056, 045, 007, 060, 025, 028, 013, 002, 029, 036, 041, 015, 034, 032, 014, 051, 038, 048, 053, 037, 059, 018, 040, 039, 008, 011, 016, 031, 019, 044"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "c.lamboo@ultimaker.com",
+            "name": "Casper Lamboo",
+            "username": "casperlamboo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "94543accc48c8e5fa45adeae98cfa06cecf1929e",
+          "message": "Cura 11438 raft monotonic top surface (#2018)",
+          "timestamp": "2024-01-25T16:54:34+01:00",
+          "tree_id": "45b6e8e77d1c7373737bd73b12ad298927ed687f",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/94543accc48c8e5fa45adeae98cfa06cecf1929e"
+        },
+        "date": 1706199052456,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
