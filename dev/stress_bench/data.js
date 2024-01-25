@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706175526204,
+  "lastUpdate": 1706179997480,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -3331,6 +3331,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2020/commits/c9c3cd541067b3147077bdca8814540361b64328"
         },
         "date": 1706175524810,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 52.459016393442624,
+            "unit": "%",
+            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "ed913db50dcc1826bfe1db6b85bc0304e4566308",
+          "message": "Cura 11542 optimized prime tower",
+          "timestamp": "2024-01-24T18:14:12Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2020/commits/ed913db50dcc1826bfe1db6b85bc0304e4566308"
+        },
+        "date": 1706179996176,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
