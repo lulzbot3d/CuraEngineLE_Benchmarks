@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706522668653,
+  "lastUpdate": 1706529907301,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -3527,6 +3527,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2021/commits/dab88c0237c6303b9372d56b98df2b9b221f0090"
         },
         "date": 1706522667389,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 52.459016393442624,
+            "unit": "%",
+            "extra": "Crashes in: 033, 020, 056, 045, 007, 060, 025, 028, 013, 002, 029, 036, 041, 015, 034, 032, 014, 051, 038, 048, 053, 037, 059, 018, 040, 039, 008, 011, 016, 031, 019, 044"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "70144862+saumyaj3@users.noreply.github.com",
+            "name": "Saumya Jain",
+            "username": "saumyaj3"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8085fd0920915ea84922c14a890e82548a6b1615",
+          "message": "Re implement wall roofing (#2021)",
+          "timestamp": "2024-01-29T12:57:05+01:00",
+          "tree_id": "a7147f7c3c95dd497eb56c16c4796323e053b54a",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/8085fd0920915ea84922c14a890e82548a6b1615"
+        },
+        "date": 1706529905738,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
