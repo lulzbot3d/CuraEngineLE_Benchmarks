@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706519220379,
+  "lastUpdate": 1706522668653,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -3495,6 +3495,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2023/commits/2ea1f875f07c68d9531ec384a7e1eb39a8b28362"
         },
         "date": 1706519219181,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 52.459016393442624,
+            "unit": "%",
+            "extra": "Crashes in: 033, 020, 056, 045, 007, 060, 025, 028, 013, 002, 029, 036, 041, 015, 034, 032, 014, 051, 038, 048, 053, 037, 059, 018, 040, 039, 008, 011, 016, 031, 019, 044"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "dab88c0237c6303b9372d56b98df2b9b221f0090",
+          "message": "Re implement wall roofing",
+          "timestamp": "2024-01-26T09:50:50Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2021/commits/dab88c0237c6303b9372d56b98df2b9b221f0090"
+        },
+        "date": 1706522667389,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
