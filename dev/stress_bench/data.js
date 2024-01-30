@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706554043707,
+  "lastUpdate": 1706615935459,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -3787,6 +3787,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2024/commits/434a45561786ea08b4b7f7f32bc6c9eeb65e2a60"
         },
         "date": 1706554042427,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 52.459016393442624,
+            "unit": "%",
+            "extra": "Crashes in: 033, 020, 056, 045, 007, 060, 025, 028, 013, 002, 029, 036, 041, 015, 034, 032, 014, 051, 038, 048, 053, 037, 059, 018, 040, 039, 008, 011, 016, 031, 019, 044"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9fae10d54d421bcc4dc752890411d4f003cffcbe",
+          "message": "Fix printing rafts-holes in monotonic order (#2023)",
+          "timestamp": "2024-01-30T12:50:58+01:00",
+          "tree_id": "5962b656977c43ad59d4b233aac31e6846d4d141",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/9fae10d54d421bcc4dc752890411d4f003cffcbe"
+        },
+        "date": 1706615933890,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
