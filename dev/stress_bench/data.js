@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706633064136,
+  "lastUpdate": 1706694146115,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -4111,6 +4111,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2026/commits/84bac03d5a4d99e8a869aed51f6aa90fcf74f80e"
         },
         "date": 1706633062616,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 52.459016393442624,
+            "unit": "%",
+            "extra": "Crashes in: 033, 020, 056, 045, 007, 060, 025, 028, 013, 002, 029, 036, 041, 015, 034, 032, 014, 051, 038, 048, 053, 037, 059, 018, 040, 039, 008, 011, 016, 031, 019, 044"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d300a68c5333456289c24d233ca2f6cee0f3e67c",
+          "message": "Roofing walls II",
+          "timestamp": "2024-01-30T17:02:49Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2026/commits/d300a68c5333456289c24d233ca2f6cee0f3e67c"
+        },
+        "date": 1706694144818,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
