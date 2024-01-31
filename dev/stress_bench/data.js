@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706698153931,
+  "lastUpdate": 1706698624351,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -4188,6 +4188,42 @@ window.BENCHMARK_DATA = {
             "value": 52.459016393442624,
             "unit": "%",
             "extra": "Crashes in: 033, 020, 056, 045, 007, 060, 025, 028, 013, 002, 029, 036, 041, 015, 034, 032, 014, 051, 038, 048, 053, 037, 059, 018, 040, 039, 008, 011, 016, 031, 019, 044"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "70144862+saumyaj3@users.noreply.github.com",
+            "name": "Saumya Jain",
+            "username": "saumyaj3"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4083ff563f6b241afb87e6d9b719bc09fa01bddf",
+          "message": "Roofing walls II (#2026)",
+          "timestamp": "2024-01-31T11:49:33+01:00",
+          "tree_id": "2238f90cbcdf103bca11bd4d8e6461e23708f9a4",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/4083ff563f6b241afb87e6d9b719bc09fa01bddf"
+        },
+        "date": 1706698622941,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 52.459016393442624,
+            "unit": "%",
+            "extra": "Crashes in: 008, 059, 028, 013, 037, 025, 031, 033, 060, 011, 020, 014, 032, 015, 039, 051, 007, 018, 044, 016, 002, 045, 029, 056, 041, 036, 053, 019, 038, 034, 048, 040"
           }
         ]
       }
