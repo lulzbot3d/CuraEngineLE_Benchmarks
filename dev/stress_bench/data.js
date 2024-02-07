@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706801767770,
+  "lastUpdate": 1707310109236,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -4247,6 +4247,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/dca51eacdc564bc2ad6168ae025b3bf8fd2072e7"
         },
         "date": 1706801766397,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 52.459016393442624,
+            "unit": "%",
+            "extra": "Crashes in: 008, 059, 028, 013, 037, 025, 031, 033, 060, 011, 020, 014, 032, 015, 039, 051, 007, 018, 044, 016, 002, 045, 029, 056, 041, 036, 053, 019, 038, 034, 048, 040"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "7586bcd338ea4a52cb5b65deeee88a592cb19dbf",
+          "message": "Np 5 wasupppp",
+          "timestamp": "2024-02-03T11:52:08Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2025/commits/7586bcd338ea4a52cb5b65deeee88a592cb19dbf"
+        },
+        "date": 1707310107873,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
