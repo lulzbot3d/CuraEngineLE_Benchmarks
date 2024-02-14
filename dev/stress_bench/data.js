@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707941494885,
+  "lastUpdate": 1707945127528,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -4375,6 +4375,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2029/commits/1cac0af0d101c161a3a4555987b2b7afd7691ab5"
         },
         "date": 1707941493369,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 52.459016393442624,
+            "unit": "%",
+            "extra": "Crashes in: 011, 051, 025, 016, 008, 044, 015, 039, 034, 036, 041, 040, 007, 060, 002, 013, 031, 053, 029, 045, 038, 014, 020, 037, 032, 018, 019, 048, 056, 028, 059, 033"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "41987080+rburema@users.noreply.github.com",
+            "name": "Remco Burema",
+            "username": "rburema"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3e76b8ac3b6813dd1b0830fc38acd3534fbb3d63",
+          "message": "Cura 11570 engine crashes sentry (#2029)",
+          "timestamp": "2024-02-14T21:29:38+01:00",
+          "tree_id": "41f67fd22bebd30f69f7d3c9c36105b5795c5b07",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/3e76b8ac3b6813dd1b0830fc38acd3534fbb3d63"
+        },
+        "date": 1707945126104,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
