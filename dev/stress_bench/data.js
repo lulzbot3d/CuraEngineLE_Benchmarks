@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707945127528,
+  "lastUpdate": 1707989284701,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -4411,6 +4411,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/3e76b8ac3b6813dd1b0830fc38acd3534fbb3d63"
         },
         "date": 1707945126104,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 52.459016393442624,
+            "unit": "%",
+            "extra": "Crashes in: 011, 051, 025, 016, 008, 044, 015, 039, 034, 036, 041, 040, 007, 060, 002, 013, 031, 053, 029, 045, 038, 014, 020, 037, 032, 018, 019, 048, 056, 028, 059, 033"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "70144862+saumyaj3@users.noreply.github.com",
+            "name": "Saumya Jain",
+            "username": "saumyaj3"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b343d88414add5e6eebf2f2fedc5534d8c987526",
+          "message": "Fix tree support related crash that occurs if there are no overhangs (#2028)",
+          "timestamp": "2024-02-15T10:20:25+01:00",
+          "tree_id": "0b3654f1fb2ad7db682dc270c1681d99535d5336",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/b343d88414add5e6eebf2f2fedc5534d8c987526"
+        },
+        "date": 1707989283474,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
