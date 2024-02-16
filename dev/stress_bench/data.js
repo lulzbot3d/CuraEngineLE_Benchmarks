@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1707989284701,
+  "lastUpdate": 1708090658305,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -4447,6 +4447,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/b343d88414add5e6eebf2f2fedc5534d8c987526"
         },
         "date": 1707989283474,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 52.459016393442624,
+            "unit": "%",
+            "extra": "Crashes in: 011, 051, 025, 016, 008, 044, 015, 039, 034, 036, 041, 040, 007, 060, 002, 013, 031, 053, 029, 045, 038, 014, 020, 037, 032, 018, 019, 048, 056, 028, 059, 033"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "c.lamboo@ultimaker.com",
+            "name": "Casper Lamboo",
+            "username": "casperlamboo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "baf0e170a291afb036646f7a36d8c196775976f5",
+          "message": "Prime/purge tower optimisation (#1875)",
+          "timestamp": "2024-02-16T14:30:01+01:00",
+          "tree_id": "23b419622e1c76ca1ec41fbc069ed8632fde6314",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/baf0e170a291afb036646f7a36d8c196775976f5"
+        },
+        "date": 1708090656971,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
