@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708416091553,
+  "lastUpdate": 1708421747780,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -4579,6 +4579,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2025/commits/de12ba8998a041e587bcebedfa73e663cbb7251a"
         },
         "date": 1708416089867,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 52.459016393442624,
+            "unit": "%",
+            "extra": "Crashes in: 011, 051, 025, 016, 008, 044, 015, 039, 034, 036, 041, 040, 007, 060, 002, 013, 031, 053, 029, 045, 038, 014, 020, 037, 032, 018, 019, 048, 056, 028, 059, 033"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "c.lamboo@ultimaker.com",
+            "name": "Casper Lamboo",
+            "username": "casperlamboo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "996fce7b1e5e49e456f76d601c8457e6fe123faf",
+          "message": "Np 5 wasupppp (#2025)",
+          "timestamp": "2024-02-20T10:18:29+01:00",
+          "tree_id": "ab3f2d69ddb28ae7a67055beb2cc878d63077312",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/996fce7b1e5e49e456f76d601c8457e6fe123faf"
+        },
+        "date": 1708421746487,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
