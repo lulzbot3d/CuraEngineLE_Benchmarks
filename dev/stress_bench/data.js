@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708421747780,
+  "lastUpdate": 1708436829567,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -4615,6 +4615,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/996fce7b1e5e49e456f76d601c8457e6fe123faf"
         },
         "date": 1708421746487,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 52.459016393442624,
+            "unit": "%",
+            "extra": "Crashes in: 011, 051, 025, 016, 008, 044, 015, 039, 034, 036, 041, 040, 007, 060, 002, 013, 031, 053, 029, 045, 038, 014, 020, 037, 032, 018, 019, 048, 056, 028, 059, 033"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "r.burema@ultimaker.com",
+            "name": "Remco Burema",
+            "username": "rburema"
+          },
+          "committer": {
+            "email": "r.burema@ultimaker.com",
+            "name": "Remco Burema",
+            "username": "rburema"
+          },
+          "distinct": true,
+          "id": "0b48b4621fb9cc52b2c55c640c00d3ee33489966",
+          "message": "Make it compile with Win and VS again.",
+          "timestamp": "2024-02-20T14:39:16+01:00",
+          "tree_id": "88d7dd6cc062fa2bc924492a2fb3ac7cea269645",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/0b48b4621fb9cc52b2c55c640c00d3ee33489966"
+        },
+        "date": 1708436828291,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
