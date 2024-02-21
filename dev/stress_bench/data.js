@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708510576493,
+  "lastUpdate": 1708542191312,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -4819,6 +4819,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/4fc5b3395e86af70e9ac873a690d89c38153fb29"
         },
         "date": 1708510575073,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "r.burema@ultimaker.com",
+            "name": "Remco Burema",
+            "username": "rburema"
+          },
+          "committer": {
+            "email": "r.burema@ultimaker.com",
+            "name": "Remco Burema",
+            "username": "rburema"
+          },
+          "distinct": true,
+          "id": "30ebfa425eb32b056a1e0c35863378ffe2c59eac",
+          "message": "Inline definition imported from multiple sources.",
+          "timestamp": "2024-02-21T19:56:17+01:00",
+          "tree_id": "e9c19cd2bca372eed2fcb8e896585bf80923b85e",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/30ebfa425eb32b056a1e0c35863378ffe2c59eac"
+        },
+        "date": 1708542189722,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
