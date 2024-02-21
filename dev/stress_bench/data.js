@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708445885622,
+  "lastUpdate": 1708504571653,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -4700,6 +4700,38 @@ window.BENCHMARK_DATA = {
             "value": 52.459016393442624,
             "unit": "%",
             "extra": "Crashes in: 011, 051, 025, 016, 008, 044, 015, 039, 034, 036, 041, 040, 007, 060, 002, 013, 031, 053, 029, 045, 038, 014, 020, 037, 032, 018, 019, 048, 056, 028, 059, 033"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "44c262f4cd465ee2e0b1b6f3f56d3c5aaff1176c",
+          "message": "[CURA-11444] Use 'wagyu' to prevent slicing crashes [reinterpret_cast version]",
+          "timestamp": "2024-02-21T06:11:02Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2030/commits/44c262f4cd465ee2e0b1b6f3f56d3c5aaff1176c"
+        },
+        "date": 1708504570336,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 98.36065573770492,
+            "unit": "%",
+            "extra": "Crashes in: 011, 009, 046, 042, 005, 022, 051, 062, 025, 058, 010, 004, 027, 052, 055, 016, 008, 044, 015, 039, 034, 036, 041, 040, 006, 012, 007, 043, 060, 030, 002, 013, 023, 031, 021, 053, 029, 003, 045, 017, 001, 038, 065, 024, 066, 049, 014, 020, 037, 032, 018, 026, 019, 048, 056, 028, 059, 033, 047, 050"
           }
         ]
       }
