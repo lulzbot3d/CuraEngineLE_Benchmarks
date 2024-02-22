@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708629283192,
+  "lastUpdate": 1708637055097,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -5271,6 +5271,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2032/commits/fc929fc3bfa3a236ac8acc6b8efac3ed6eaa45c9"
         },
         "date": 1708629281897,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "77c904f333c53bfb001acdf21d4f343ae61902b8",
+          "message": "Try fix benchmarks",
+          "timestamp": "2024-02-22T19:18:55Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2032/commits/77c904f333c53bfb001acdf21d4f343ae61902b8"
+        },
+        "date": 1708637053839,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
