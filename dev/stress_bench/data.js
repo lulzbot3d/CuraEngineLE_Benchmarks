@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708638390517,
+  "lastUpdate": 1708667449558,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -5335,6 +5335,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2032/commits/6b5975031b9f583e4b27134ceaa57f01401446e1"
         },
         "date": 1708638389127,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "f5ac2b902d3e7395505eb8be0284ee029d23f0a0",
+          "message": "Re-Introduce `prime_tower_enable`",
+          "timestamp": "2024-02-22T19:18:55Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2033/commits/f5ac2b902d3e7395505eb8be0284ee029d23f0a0"
+        },
+        "date": 1708667448336,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
