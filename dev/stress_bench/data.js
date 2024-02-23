@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708672033153,
+  "lastUpdate": 1708679164883,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -5463,6 +5463,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2034/commits/3543e011515f53c07c6225136fab7537019f5f5a"
         },
         "date": 1708672031918,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "70144862+saumyaj3@users.noreply.github.com",
+            "name": "Saumya Jain",
+            "username": "saumyaj3"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aae47874d18765e79c1f8643cc07efe889dcaab6",
+          "message": "Fix GcodeAnalyser (#2034)",
+          "timestamp": "2024-02-23T09:59:29+01:00",
+          "tree_id": "b31505d4322ede6db6048871249fc1c24c918aab",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/aae47874d18765e79c1f8643cc07efe889dcaab6"
+        },
+        "date": 1708679163448,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
