@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708679813098,
+  "lastUpdate": 1708685246029,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -5531,6 +5531,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2033/commits/23188b9686079e949217143049967ab3f0d2d5e3"
         },
         "date": 1708679811674,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "c.lamboo@ultimaker.com",
+            "name": "Casper Lamboo",
+            "username": "casperlamboo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8df7de35384b3a51f359380ee08b82d338a6cf7d",
+          "message": "Cura 11553 initial scarring (#2031)",
+          "timestamp": "2024-02-23T11:41:21+01:00",
+          "tree_id": "f4d0bf91b840c7243a0fc28e6ec83e24d8324c58",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/8df7de35384b3a51f359380ee08b82d338a6cf7d"
+        },
+        "date": 1708685244697,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
