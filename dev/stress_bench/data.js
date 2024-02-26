@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708942225948,
+  "lastUpdate": 1708947849856,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -5599,6 +5599,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2033/commits/44c19f1b8d974e67310e4caee7f856fb66affb72"
         },
         "date": 1708942224659,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "68cc5c594a988eddcc73a6aeb444f207bac8e9e9",
+          "message": "Fix travel length regression",
+          "timestamp": "2024-02-22T19:18:55Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2036/commits/68cc5c594a988eddcc73a6aeb444f207bac8e9e9"
+        },
+        "date": 1708947848098,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
