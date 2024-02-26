@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708947849856,
+  "lastUpdate": 1708963310184,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -5631,6 +5631,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2036/commits/68cc5c594a988eddcc73a6aeb444f207bac8e9e9"
         },
         "date": 1708947848098,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "70144862+saumyaj3@users.noreply.github.com",
+            "name": "Saumya Jain",
+            "username": "saumyaj3"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "838681b9688e1a414d018b330e6e5844a87b4aa2",
+          "message": "Fix travel length regression (#2036)",
+          "timestamp": "2024-02-26T16:55:13+01:00",
+          "tree_id": "d2fb8fd0aaa4c5690ded66c8bbc98870f22253ec",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/838681b9688e1a414d018b330e6e5844a87b4aa2"
+        },
+        "date": 1708963308210,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
