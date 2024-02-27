@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1708963310184,
+  "lastUpdate": 1709034991148,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -5667,6 +5667,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/838681b9688e1a414d018b330e6e5844a87b4aa2"
         },
         "date": 1708963308210,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "4788e09de9bdecf458707f61e54a7d3ba3ee1f06",
+          "message": "condition to start position while in case of prime-blob enabled",
+          "timestamp": "2024-02-22T19:18:55Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2038/commits/4788e09de9bdecf458707f61e54a7d3ba3ee1f06"
+        },
+        "date": 1709034989299,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
