@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709034991148,
+  "lastUpdate": 1709036197662,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -5699,6 +5699,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2038/commits/4788e09de9bdecf458707f61e54a7d3ba3ee1f06"
         },
         "date": 1709034989299,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a3a8da53679decb24cf46e1ac2b515d0b4e5811d",
+          "message": "Re-Introduce `prime_tower_enable` (#2033)",
+          "timestamp": "2024-02-27T13:09:39+01:00",
+          "tree_id": "c6874d8566b4c26603176057ef5850b9ed344d36",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/a3a8da53679decb24cf46e1ac2b515d0b4e5811d"
+        },
+        "date": 1709036196024,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
