@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709036197662,
+  "lastUpdate": 1709191606239,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -5735,6 +5735,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/a3a8da53679decb24cf46e1ac2b515d0b4e5811d"
         },
         "date": 1709036196024,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7e9c40b52cb0fad2c3f4cedc5ef60dd712460cc5",
+          "message": "condition to start position while in case of prime-blob enabled (#2038)",
+          "timestamp": "2024-02-29T08:21:06+01:00",
+          "tree_id": "ccf1efeef6c85d26f915aad99a8cba46b39d80ad",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/7e9c40b52cb0fad2c3f4cedc5ef60dd712460cc5"
+        },
+        "date": 1709191604909,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
