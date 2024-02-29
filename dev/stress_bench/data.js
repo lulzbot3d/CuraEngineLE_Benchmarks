@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709204157911,
+  "lastUpdate": 1709206247940,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -5867,6 +5867,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2040/commits/7df7c64d9dadc861b449bda6792d934a75589002"
         },
         "date": 1709204156545,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "54d0fd71b7f5da7a2e855f542051878885428205",
+          "message": "[CURA-11537] Fix remove empty layers when layers do not equal layer height.",
+          "timestamp": "2024-02-28T21:23:43Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2039/commits/54d0fd71b7f5da7a2e855f542051878885428205"
+        },
+        "date": 1709206246407,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
