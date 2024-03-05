@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709276584201,
+  "lastUpdate": 1709632513018,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -5999,6 +5999,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/2325bb796b0761946d43f71f97e3c6ff862623a4"
         },
         "date": 1709276582802,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "20e3401e8b56c30b4ce0e93b51c223995ff68792",
+          "message": "Cura 9838 brim location",
+          "timestamp": "2024-03-04T08:38:53Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2040/commits/20e3401e8b56c30b4ce0e93b51c223995ff68792"
+        },
+        "date": 1709632511470,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
