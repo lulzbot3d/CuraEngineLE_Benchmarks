@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709653372817,
+  "lastUpdate": 1709804110616,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -6095,6 +6095,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2041/commits/b7ae15156c25862462d8ab220fda74ba1704d716"
         },
         "date": 1709653371361,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fd753dd089defbe6dd100e5d44dae9c1ba67980c",
+          "message": "[CURA-11485] Fix: z-offset as a property of gcode paths (#2042)",
+          "timestamp": "2024-03-07T10:27:55+01:00",
+          "tree_id": "87cdfce4f13c77e19ea8b5a6248c6d5eb29616e4",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/fd753dd089defbe6dd100e5d44dae9c1ba67980c"
+        },
+        "date": 1709804109149,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
