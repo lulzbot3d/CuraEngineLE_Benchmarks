@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710148775884,
+  "lastUpdate": 1710161694260,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -6295,6 +6295,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2044/commits/8d297ecb6dff44a8e793a41b2b81fcfbbc468c3c"
         },
         "date": 1710148774394,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "casperlamboo@gmail.com",
+            "name": "c.lamboo",
+            "username": "casperlamboo"
+          },
+          "committer": {
+            "email": "casperlamboo@gmail.com",
+            "name": "c.lamboo",
+            "username": "casperlamboo"
+          },
+          "distinct": true,
+          "id": "04c5ff3a58d676f14fda7e62493ba648879af8f3",
+          "message": "Merge branch 'refs/heads/5.7'",
+          "timestamp": "2024-03-11T13:46:51+01:00",
+          "tree_id": "73d89d458a442d59dcfa1b27564214fb0e77fa06",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/04c5ff3a58d676f14fda7e62493ba648879af8f3"
+        },
+        "date": 1710161692596,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
