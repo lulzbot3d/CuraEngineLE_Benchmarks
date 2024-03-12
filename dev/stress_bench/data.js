@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710257166599,
+  "lastUpdate": 1710259835916,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -6363,6 +6363,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2045/commits/3ea6e8f90219342ea8922637e6366f7aa29e795e"
         },
         "date": 1710257165050,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "91a6a52c326567b49f2e2837a9a0d57d0f9db700",
+          "message": "Cura 11724 disable initial travel for one at a time",
+          "timestamp": "2024-03-11T02:27:22Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2046/commits/91a6a52c326567b49f2e2837a9a0d57d0f9db700"
+        },
+        "date": 1710259834272,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
