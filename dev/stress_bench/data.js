@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710259835916,
+  "lastUpdate": 1710346909783,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -6395,6 +6395,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2046/commits/91a6a52c326567b49f2e2837a9a0d57d0f9db700"
         },
         "date": 1710259834272,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "17d3906fe36e7dc7e3803d0ff4bccc82ff659430",
+          "message": "[CURA-11424] Fix fractional support-layers applied to often.",
+          "timestamp": "2024-03-11T02:27:22Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2047/commits/17d3906fe36e7dc7e3803d0ff4bccc82ff659430"
+        },
+        "date": 1710346908318,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
