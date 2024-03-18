@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710754565421,
+  "lastUpdate": 1710779841577,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -6459,6 +6459,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2041/commits/d0a7b425de5ce67aa6b273c5ba8a7ddff88002b9"
         },
         "date": 1710754563885,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "833994551494ef1d0ef2b9d24415c6182b06e7d7",
+          "message": "Fix support on top of interface",
+          "timestamp": "2024-03-15T13:30:31Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2049/commits/833994551494ef1d0ef2b9d24415c6182b06e7d7"
+        },
+        "date": 1710779840065,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
