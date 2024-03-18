@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710346909783,
+  "lastUpdate": 1710754565421,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -6427,6 +6427,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2047/commits/17d3906fe36e7dc7e3803d0ff4bccc82ff659430"
         },
         "date": 1710346908318,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d0a7b425de5ce67aa6b273c5ba8a7ddff88002b9",
+          "message": "Filter out very thin infill shapes",
+          "timestamp": "2024-03-15T13:30:31Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2041/commits/d0a7b425de5ce67aa6b273c5ba8a7ddff88002b9"
+        },
+        "date": 1710754563885,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
