@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710779841577,
+  "lastUpdate": 1710943138176,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -6491,6 +6491,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2049/commits/833994551494ef1d0ef2b9d24415c6182b06e7d7"
         },
         "date": 1710779840065,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "bd867c2491514117966a4af0debea5b2206128ff",
+          "message": "Cura 11742 crash for writing travel path",
+          "timestamp": "2024-03-15T13:30:31Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2050/commits/bd867c2491514117966a4af0debea5b2206128ff"
+        },
+        "date": 1710943136648,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
