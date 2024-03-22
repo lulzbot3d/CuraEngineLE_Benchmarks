@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711030508232,
+  "lastUpdate": 1711111628346,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -6587,6 +6587,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2052/commits/8fad17d96e74b710aeb49aa614f64011426a85e8"
         },
         "date": 1711030506721,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "75bd3ff479cdb2850c53e7ee6df727cb926c93f9",
+          "message": "CURA-11757 fix crash with empty layers",
+          "timestamp": "2024-03-21T05:15:17Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2053/commits/75bd3ff479cdb2850c53e7ee6df727cb926c93f9"
+        },
+        "date": 1711111626725,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
