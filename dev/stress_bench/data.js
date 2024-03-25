@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711372857628,
+  "lastUpdate": 1711375430723,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -6747,6 +6747,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2055/commits/d3d8f69914f7fee8d6051f12062596c6a9ba83bb"
         },
         "date": 1711372855709,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "a9c428fbee71a4b4a1652dc10f61ebfef5ac4f9d",
+          "message": "added same path for extra combing move introduced",
+          "timestamp": "2024-03-21T05:15:17Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2056/commits/a9c428fbee71a4b4a1652dc10f61ebfef5ac4f9d"
+        },
+        "date": 1711375428514,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
