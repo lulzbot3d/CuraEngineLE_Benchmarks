@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711119189756,
+  "lastUpdate": 1711372857628,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -6715,6 +6715,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2052/commits/61c24662605cdb646ff541cd3889214376c314b8"
         },
         "date": 1711119187623,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d3d8f69914f7fee8d6051f12062596c6a9ba83bb",
+          "message": "Manually fix clang-formating",
+          "timestamp": "2024-03-21T05:15:17Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2055/commits/d3d8f69914f7fee8d6051f12062596c6a9ba83bb"
+        },
+        "date": 1711372855709,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
