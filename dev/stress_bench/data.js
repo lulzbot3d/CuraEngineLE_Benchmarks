@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711375430723,
+  "lastUpdate": 1711552320153,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -6779,6 +6779,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2056/commits/a9c428fbee71a4b4a1652dc10f61ebfef5ac4f9d"
         },
         "date": 1711375428514,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "9f7deffc47f113a514b63c4c00cbdc9b0d4fda93",
+          "message": "CURA-11249 travel up with fractional layer",
+          "timestamp": "2024-03-27T09:31:39Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2057/commits/9f7deffc47f113a514b63c4c00cbdc9b0d4fda93"
+        },
+        "date": 1711552317985,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
