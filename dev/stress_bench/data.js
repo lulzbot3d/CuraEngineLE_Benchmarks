@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711710598229,
+  "lastUpdate": 1711718830466,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -6843,6 +6843,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2058/commits/63a1ca650a6c51e83c4d67794b41b16fb5433707"
         },
         "date": 1711710596549,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "ba6ebd66e4e864246b44004d89fd7b9918cf8ade",
+          "message": "CURA-11717 prime tower has unused material",
+          "timestamp": "2024-03-29T08:58:16Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2059/commits/ba6ebd66e4e864246b44004d89fd7b9918cf8ade"
+        },
+        "date": 1711718828812,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
