@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1711727735927,
+  "lastUpdate": 1711728295496,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -6907,6 +6907,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2059/commits/fa6025f0d2edeb8636c7501d8447bf97b6c9ac77"
         },
         "date": 1711727734053,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "1bcc4b6360592fd66b2063568f7e50b62f6b65e6",
+          "message": "CURA-10857 skirt height not working",
+          "timestamp": "2024-03-29T08:58:16Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2060/commits/1bcc4b6360592fd66b2063568f7e50b62f6b65e6"
+        },
+        "date": 1711728293747,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
