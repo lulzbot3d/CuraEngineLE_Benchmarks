@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712045990853,
+  "lastUpdate": 1712047853592,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -7003,6 +7003,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2059/commits/8fe190df16ea48c7a96c3e80eec2b33da81fd482"
         },
         "date": 1712045988806,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "saumya.jain@ultimaker.com",
+            "name": "Saumya Jain",
+            "username": "saumyaj3"
+          },
+          "committer": {
+            "email": "saumya.jain@ultimaker.com",
+            "name": "Saumya Jain",
+            "username": "saumyaj3"
+          },
+          "distinct": true,
+          "id": "8b1757ec7e7906b138952da2db50934749768469",
+          "message": "merge 5.7",
+          "timestamp": "2024-04-02T10:34:12+02:00",
+          "tree_id": "fee7599d21caf499b337f69d004942bcfb8a4bd9",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/8b1757ec7e7906b138952da2db50934749768469"
+        },
+        "date": 1712047851931,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
