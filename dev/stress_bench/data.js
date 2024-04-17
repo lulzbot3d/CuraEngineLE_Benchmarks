@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1713353254520,
+  "lastUpdate": 1713361405293,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -7391,6 +7391,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2065/commits/97eb08f0cb2a01cadb6ebc1e01078acf4b127f6c"
         },
         "date": 1713353252882,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "513927496c23425e27539088598d4ee6ae67b008",
+          "message": "[CURA-11597] fix duplicate support extrusions",
+          "timestamp": "2024-04-12T16:59:45Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2062/commits/513927496c23425e27539088598d4ee6ae67b008"
+        },
+        "date": 1713361403457,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
