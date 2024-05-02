@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1714644672899,
+  "lastUpdate": 1714645910541,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -7875,6 +7875,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2065/commits/76d32b8b7994f409d0eacc8150928bf80ed26608"
         },
         "date": 1714644671064,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "ae6c9e3a6dd45c30341af8aa44e4ecc1bdbf48fe",
+          "message": "Add extra travel move to outer wall start position",
+          "timestamp": "2024-05-01T09:27:39Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2075/commits/ae6c9e3a6dd45c30341af8aa44e4ecc1bdbf48fe"
+        },
+        "date": 1714645908300,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
