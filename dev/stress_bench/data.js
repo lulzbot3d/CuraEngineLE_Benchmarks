@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1714652980883,
+  "lastUpdate": 1714655348863,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -7939,6 +7939,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2067/commits/9fc42e113f30b88543b344c1eff300fe2ec97b06"
         },
         "date": 1714652978733,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "0ce98e61b0a2bfa10932bb293cca43e42db4f865",
+          "message": "CURA-9830 consolidate polygon classes",
+          "timestamp": "2024-05-01T09:27:39Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2065/commits/0ce98e61b0a2bfa10932bb293cca43e42db4f865"
+        },
+        "date": 1714655346827,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
