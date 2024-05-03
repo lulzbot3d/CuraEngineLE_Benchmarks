@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1714733504020,
+  "lastUpdate": 1714741744200,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
@@ -8067,6 +8067,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2067/commits/962a5a40bb5790117a784f8bbed3f7769ccef5e7"
         },
         "date": 1714733502324,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fc4266a86d180d5f48369b4096e43493aaf227ad",
+          "message": "Cura 11227 zseam support (#2067)",
+          "timestamp": "2024-05-03T15:01:37+02:00",
+          "tree_id": "255222a783ac9462686b6152f4c2d50dd95d6872",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/fc4266a86d180d5f48369b4096e43493aaf227ad"
+        },
+        "date": 1714741742312,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
