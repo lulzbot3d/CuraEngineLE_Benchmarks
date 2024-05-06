@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1714758441965,
+  "lastUpdate": 1714982988171,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "ebf2c68a5404869d0d5c5c76da36550ab4958d9e",
-          "message": "CURA-11378 stress benchmarks",
-          "timestamp": "2023-11-17T06:44:55Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/1988/commits/ebf2c68a5404869d0d5c5c76da36550ab4958d9e"
-        },
-        "date": 1700740789636,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 31,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 45.16129032258064,
-            "unit": "%",
-            "extra": "Crashes in: 020, 015, 028, 002, 016, 019, 013, 029, 031, 018, 007, 011, 025, 008"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8167,6 +8135,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2065/commits/fdeb5651fecdd56ee09fbdab3a111bf4d5404c8c"
         },
         "date": 1714758439783,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "6d77384d1c754155ffcb42db20e2833404d608ea",
+          "message": "Add extra travel move to outer wall start position",
+          "timestamp": "2024-05-04T01:32:16Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2075/commits/6d77384d1c754155ffcb42db20e2833404d608ea"
+        },
+        "date": 1714982986190,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
