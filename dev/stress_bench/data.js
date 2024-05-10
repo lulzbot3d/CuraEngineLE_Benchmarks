@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715182678460,
+  "lastUpdate": 1715337106271,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "r.burema@ultimaker.com",
-            "name": "Remco Burema",
-            "username": "rburema"
-          },
-          "committer": {
-            "email": "r.burema@ultimaker.com",
-            "name": "Remco Burema",
-            "username": "rburema"
-          },
-          "distinct": true,
-          "id": "592e0b70219860b6c6598cbd65d7ef50f5f9e5f0",
-          "message": "'Fix' compiler error on Mac.\n\nThe compiler there isn't modern enough to understand that including <concepts> should add floating_point to std.",
-          "timestamp": "2023-11-28T15:08:11+01:00",
-          "tree_id": "13f7cb82df537b3d62930f5c2de92aac41a604d0",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/592e0b70219860b6c6598cbd65d7ef50f5f9e5f0"
-        },
-        "date": 1701180996856,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 31,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 45.16129032258064,
-            "unit": "%",
-            "extra": "Crashes in: 020, 015, 028, 002, 016, 019, 013, 029, 031, 018, 007, 011, 025, 008"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8163,6 +8127,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2065/commits/64e94c086ccbf31c59f1de333f0d30dc0543596f"
         },
         "date": 1715182676250,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "01a4de6e0869d1930dce26d877a66c0a83630ab0",
+          "message": "CURA-11873 interleaved prime tower bad raft",
+          "timestamp": "2024-05-09T22:01:29Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2078/commits/01a4de6e0869d1930dce26d877a66c0a83630ab0"
+        },
+        "date": 1715337104235,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
