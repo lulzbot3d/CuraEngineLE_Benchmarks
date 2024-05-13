@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715593334869,
+  "lastUpdate": 1715605252639,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "6427083fb2d0f92edca4af69eb22c43790965308",
-          "message": "CURA-10831",
-          "timestamp": "2023-12-03T20:00:44Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/1992/commits/6427083fb2d0f92edca4af69eb22c43790965308"
-        },
-        "date": 1701853513753,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 67,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 47.76119402985074,
-            "unit": "%",
-            "extra": "Crashes in: 056, 020, 037, 015, 044, 034, 053, 048, 014, 028, 002, 060, 016, 051, 039, 032, 036, 033, 041, 019, 059, 038, 013, 029, 031, 018, 045, 007, 011, 025, 040, 008"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8155,6 +8123,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2065/commits/40ed0cdb8a0ba1a7b0c154a2c0de6fda0b784202"
         },
         "date": 1715593332873,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "db39086e14f23db7951b836333841f12129c20d9",
+          "message": "CURA-11873 Prime blob not printed for 2nd extruder when raft is enabled",
+          "timestamp": "2024-05-11T08:13:45Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2079/commits/db39086e14f23db7951b836333841f12129c20d9"
+        },
+        "date": 1715605250624,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
