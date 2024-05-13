@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715337106271,
+  "lastUpdate": 1715585565723,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "686df6adf4b080ee6c26625f2bdfebe94e881129",
-          "message": "CURA-11364 Add Sentry Support",
-          "timestamp": "2023-11-26T04:05:29Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/1985/commits/686df6adf4b080ee6c26625f2bdfebe94e881129"
-        },
-        "date": 1701336224351,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 31,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 45.16129032258064,
-            "unit": "%",
-            "extra": "Crashes in: 020, 015, 028, 002, 016, 019, 013, 029, 031, 018, 007, 011, 025, 008"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8127,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2078/commits/01a4de6e0869d1930dce26d877a66c0a83630ab0"
         },
         "date": 1715337104235,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "991b683639f757b48ed5298470b1ae66c27e5cc6",
+          "message": "CURA-9830 consolidate polygon classes",
+          "timestamp": "2024-05-11T08:13:45Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2065/commits/991b683639f757b48ed5298470b1ae66c27e5cc6"
+        },
+        "date": 1715585563356,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
