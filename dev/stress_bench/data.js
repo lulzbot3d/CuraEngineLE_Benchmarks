@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715593011996,
+  "lastUpdate": 1715593334869,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "c.lamboo@ultimaker.com",
-            "name": "Casper Lamboo",
-            "username": "casperlamboo"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "358ce9d388426012a9cdd424e050d5161e475298",
-          "message": "Add stress test cases (#1994)",
-          "timestamp": "2023-12-05T15:56:28+01:00",
-          "tree_id": "7f155565a698bfd98b253941023d18cc7d4f038d",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/358ce9d388426012a9cdd424e050d5161e475298"
-        },
-        "date": 1701788715664,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 67,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 47.76119402985074,
-            "unit": "%",
-            "extra": "Crashes in: 056, 020, 037, 015, 044, 034, 053, 048, 014, 028, 002, 060, 016, 051, 039, 032, 036, 033, 041, 019, 059, 038, 013, 029, 031, 018, 045, 007, 011, 025, 040, 008"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8123,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2065/commits/0792ef37010e251caabbaab5bab85681faa27a71"
         },
         "date": 1715593010081,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "40ed0cdb8a0ba1a7b0c154a2c0de6fda0b784202",
+          "message": "CURA-9830 consolidate polygon classes",
+          "timestamp": "2024-05-11T08:13:45Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2065/commits/40ed0cdb8a0ba1a7b0c154a2c0de6fda0b784202"
+        },
+        "date": 1715593332873,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
