@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715606520960,
+  "lastUpdate": 1715673605869,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "950be2e1c88b87a605ebec7e0bc4ec943c6d5ce9",
-          "message": "CURA-10831",
-          "timestamp": "2023-12-07T04:27:58Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/1992/commits/950be2e1c88b87a605ebec7e0bc4ec943c6d5ce9"
-        },
-        "date": 1702018528558,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 67,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 47.76119402985074,
-            "unit": "%",
-            "extra": "Crashes in: 056, 020, 037, 015, 044, 034, 053, 048, 014, 028, 002, 060, 016, 051, 039, 032, 036, 033, 041, 019, 059, 038, 013, 029, 031, 018, 045, 007, 011, 025, 040, 008"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8151,6 +8119,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2080/commits/a0f0636c1a416e24ebbaafd50a2149b12f951549"
         },
         "date": 1715606519096,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "c.lamboo@ultimaker.com",
+            "name": "Casper Lamboo",
+            "username": "casperlamboo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8a3debdfff010ff1f9d45d2d5c4bcc2748f45eff",
+          "message": "Cura 11821 crash due to permission (#2073)",
+          "timestamp": "2024-05-14T09:52:42+02:00",
+          "tree_id": "215c9f96345431f16e41f8c1715b56b957ba4f40",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/8a3debdfff010ff1f9d45d2d5c4bcc2748f45eff"
+        },
+        "date": 1715673603973,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
