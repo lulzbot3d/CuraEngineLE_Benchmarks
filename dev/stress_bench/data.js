@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715767847418,
+  "lastUpdate": 1715768091972,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "jelle.spijker@ultimaker.com",
-            "name": "Jelle Spijker",
-            "username": "jellespijker"
-          },
-          "committer": {
-            "email": "jelle.spijker@ultimaker.com",
-            "name": "Jelle Spijker",
-            "username": "jellespijker"
-          },
-          "distinct": true,
-          "id": "2c1ac2860e67d31169caf7b306dff6371a058773",
-          "message": "Integrate Sentry for better error tracking\n\nSentry has been included to improve error tracking. It has been set to\ntag plugins, Cura version and machine names, allowing more specific and\nconvenient debugging. The actual CuraEngine version has now been set as\nthe Sentry release.\n\nContributes to CURA-11443",
-          "timestamp": "2023-12-10T15:11:52+01:00",
-          "tree_id": "c7cc45cd103a568158dba6918c1386217b2cff86",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/2c1ac2860e67d31169caf7b306dff6371a058773"
-        },
-        "date": 1702218073095,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 67,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 47.76119402985074,
-            "unit": "%",
-            "extra": "Crashes in: 053, 034, 036, 020, 048, 039, 013, 041, 033, 011, 037, 025, 008, 040, 031, 056, 051, 029, 028, 044, 002, 032, 038, 014, 007, 045, 018, 060, 059, 019, 016, 015"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8147,6 +8111,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2078/commits/52728ae0b0af57acab24b2ba58fe865e27e05206"
         },
         "date": 1715767845437,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "f62285ebc415f0dba66b6e19592c1f4844bf2da7",
+          "message": "CURA-11873 interleaved prime tower bad raft",
+          "timestamp": "2024-05-14T07:52:47Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2078/commits/f62285ebc415f0dba66b6e19592c1f4844bf2da7"
+        },
+        "date": 1715768087632,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
