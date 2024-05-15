@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715760274969,
+  "lastUpdate": 1715767847418,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "r.burema@ultimaker.com",
-            "name": "Remco Burema",
-            "username": "rburema"
-          },
-          "committer": {
-            "email": "r.burema@ultimaker.com",
-            "name": "Remco Burema",
-            "username": "rburema"
-          },
-          "distinct": true,
-          "id": "5b6c91c1f25a025c25ca9920c14a6198cf24b327",
-          "message": "Revert \"Add examples that still go wrong even if boost-input is fixed.\"\n\nThis reverts commit 8134f05c995238733eadea212ac3f43e65ff98de.",
-          "timestamp": "2023-12-08T17:53:29+01:00",
-          "tree_id": "00e57ab1a39d94a24a3572fec1d7226c1a8ebf1f",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/5b6c91c1f25a025c25ca9920c14a6198cf24b327"
-        },
-        "date": 1702054829136,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 67,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 47.76119402985074,
-            "unit": "%",
-            "extra": "Crashes in: 053, 034, 036, 020, 048, 039, 013, 041, 033, 011, 037, 025, 008, 040, 031, 056, 051, 029, 028, 044, 002, 032, 038, 014, 007, 045, 018, 060, 059, 019, 016, 015"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8151,6 +8115,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2078/commits/dac3de6a306330ce78b2fa79e33b2f6662097bb3"
         },
         "date": 1715760272917,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "52728ae0b0af57acab24b2ba58fe865e27e05206",
+          "message": "CURA-11873 interleaved prime tower bad raft",
+          "timestamp": "2024-05-14T07:52:47Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2078/commits/52728ae0b0af57acab24b2ba58fe865e27e05206"
+        },
+        "date": 1715767845437,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
