@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715936015813,
+  "lastUpdate": 1715957857558,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "3fa2d52f95c1350f1ab042598f9b3aa4b20fe338",
-          "message": "CURA-11482 additional sentry info",
-          "timestamp": "2023-12-13T21:14:33Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/1999/commits/3fa2d52f95c1350f1ab042598f9b3aa4b20fe338"
-        },
-        "date": 1702658112184,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 67,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 47.76119402985074,
-            "unit": "%",
-            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8139,6 +8107,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/09dfa734dbf50b27b481382f6238cd7a7d85d086"
         },
         "date": 1715936013841,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "407ff5d3dc439c52d223b133c67a0fd4272a4d2a",
+          "message": "CURA-11873 interleaved prime tower bad raft",
+          "timestamp": "2024-05-17T14:42:50Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2078/commits/407ff5d3dc439c52d223b133c67a0fd4272a4d2a"
+        },
+        "date": 1715957855188,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
