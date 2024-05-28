@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716883597525,
+  "lastUpdate": 1716886999064,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "acc083c7d194d87c855c60688941ade84b050a42",
-          "message": "Fix xy-support distance",
-          "timestamp": "2023-12-31T23:01:44Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2000/commits/acc083c7d194d87c855c60688941ade84b050a42"
-        },
-        "date": 1704187283666,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 67,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 47.76119402985074,
-            "unit": "%",
-            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8103,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2084/commits/55aa0770cfac2e5437c90298018ef82e00004397"
         },
         "date": 1716883595361,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3fb48b6ef4ff23e343c8a2a85187775772c3ba30",
+          "message": "Add option to command line settings to read in resolved values (#2082)",
+          "timestamp": "2024-05-28T10:50:07+02:00",
+          "tree_id": "16249e4743df028b683dbfd307baf071ef1fc2d3",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/3fb48b6ef4ff23e343c8a2a85187775772c3ba30"
+        },
+        "date": 1716886996586,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
