@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716980108326,
+  "lastUpdate": 1716995742257,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "casperlamboo@gmail.com",
-            "name": "c.lamboo",
-            "username": "casperlamboo"
-          },
-          "committer": {
-            "email": "casperlamboo@gmail.com",
-            "name": "c.lamboo",
-            "username": "casperlamboo"
-          },
-          "distinct": true,
-          "id": "88903746ebbf3d5c4e2e33185ef5c7120b54b7cb",
-          "message": "Prevent divide by zero issues",
-          "timestamp": "2024-01-04T14:27:04+01:00",
-          "tree_id": "c757820e742a3f4a3974e750b3a78d0fc1075032",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/88903746ebbf3d5c4e2e33185ef5c7120b54b7cb"
-        },
-        "date": 1704375237180,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 67,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 47.76119402985074,
-            "unit": "%",
-            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8131,6 +8095,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2084/commits/f409c0f0cbbfe2954dbf943665c1134974b192d6"
         },
         "date": 1716980106402,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "03da1b10e1c7b048c417fe4705d360e054b5c5fe",
+          "message": "[CURA-9474] (Some) Seams Not On Vertices",
+          "timestamp": "2024-05-29T05:50:08Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2087/commits/03da1b10e1c7b048c417fe4705d360e054b5c5fe"
+        },
+        "date": 1716995737891,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
