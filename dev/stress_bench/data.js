@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716995742257,
+  "lastUpdate": 1717509757837,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "b8e008513af0b1c1b2fe31ab2a99beafb447eddc",
-          "message": "Fix hole expansion",
-          "timestamp": "2024-01-03T21:02:19Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2003/commits/b8e008513af0b1c1b2fe31ab2a99beafb447eddc"
-        },
-        "date": 1704377666900,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 67,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 47.76119402985074,
-            "unit": "%",
-            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8127,6 +8095,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2087/commits/03da1b10e1c7b048c417fe4705d360e054b5c5fe"
         },
         "date": 1716995737891,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d22d3dea7c3708a190e698892a0e273e7cabeeb9",
+          "message": "[CURA-9474] (Some) Seams Not On Vertices",
+          "timestamp": "2024-06-04T12:04:38Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2087/commits/d22d3dea7c3708a190e698892a0e273e7cabeeb9"
+        },
+        "date": 1717509755275,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
