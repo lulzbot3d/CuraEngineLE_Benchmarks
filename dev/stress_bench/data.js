@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717603332412,
+  "lastUpdate": 1717603391530,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "c942f16a90f306c37d877b0c72a47fc5955ad4a8",
-          "message": "Improve wall ordering",
-          "timestamp": "2024-01-05T16:46:35Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2003/commits/c942f16a90f306c37d877b0c72a47fc5955ad4a8"
-        },
-        "date": 1704536420494,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 67,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 47.76119402985074,
-            "unit": "%",
-            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8127,6 +8095,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2084/commits/793e742451911113764ad443e1311d46f05798d7"
         },
         "date": 1717603330338,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "j.spijker@ultimaker.com",
+            "name": "Jelle Spijker",
+            "username": "jellespijker"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b93f69b71c375faf513306920c49c7b27d159c77",
+          "message": "NP 207 conan wasm package (#2084)",
+          "timestamp": "2024-06-05T17:50:10+02:00",
+          "tree_id": "cc2adb6610529faa95f2a66b667c55be88c632db",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/b93f69b71c375faf513306920c49c7b27d159c77"
+        },
+        "date": 1717603389340,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
