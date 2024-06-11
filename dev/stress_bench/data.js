@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718091742297,
+  "lastUpdate": 1718113707416,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "956d47aaf59f6be519126f1eddcbc77bef2ce8d4",
-          "message": "Add raft settings to make margin and remove inside corners configurablle per raft-type",
-          "timestamp": "2024-01-09T03:18:04Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2006/commits/956d47aaf59f6be519126f1eddcbc77bef2ce8d4"
-        },
-        "date": 1704792923415,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 67,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 47.76119402985074,
-            "unit": "%",
-            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8103,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2087/commits/f9daec4478f9a954ae25ee0dafc69bda48e2f8e2"
         },
         "date": 1718091740075,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "a9c1d1b92b09eb930b652b6be51cd6eb2b25b910",
+          "message": "[CURA-8076] Split off Seam Overhang Angle from Wall Overhang Angle,",
+          "timestamp": "2024-06-07T11:56:13Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2091/commits/a9c1d1b92b09eb930b652b6be51cd6eb2b25b910"
+        },
+        "date": 1718113704197,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
