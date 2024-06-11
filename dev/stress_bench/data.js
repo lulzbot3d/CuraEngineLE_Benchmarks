@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718113707416,
+  "lastUpdate": 1718114493860,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "ddc10eb67eb09233672a018d7e1a32a1548d0224",
-          "message": "Improve wall ordering",
-          "timestamp": "2024-01-09T03:18:04Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2003/commits/ddc10eb67eb09233672a018d7e1a32a1548d0224"
-        },
-        "date": 1704793294860,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 67,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 47.76119402985074,
-            "unit": "%",
-            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8103,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2091/commits/a9c1d1b92b09eb930b652b6be51cd6eb2b25b910"
         },
         "date": 1718113704197,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "9db7c7409eb914db063368ae00b999dbc569a55b",
+          "message": "[CURA-8076] Split off Seam Overhang Angle from Wall Overhang Angle,",
+          "timestamp": "2024-06-07T11:56:13Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2091/commits/9db7c7409eb914db063368ae00b999dbc569a55b"
+        },
+        "date": 1718114491804,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
