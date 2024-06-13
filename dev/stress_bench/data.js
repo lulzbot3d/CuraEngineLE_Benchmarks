@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718271592739,
+  "lastUpdate": 1718274024737,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "erwan.mathieu@ultimaker.com",
-            "name": "Erwan MATHIEU",
-            "username": "wawanbreton"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "c8bfce01707852092574a57a742979c0274b635f",
-          "message": "Add raft settings to make margin and remove inside corners configurablle per raft-type (#2006)",
-          "timestamp": "2024-01-09T16:49:00+01:00",
-          "tree_id": "abaf7fc50eb402e79401ec497759076bf4570215",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/c8bfce01707852092574a57a742979c0274b635f"
-        },
-        "date": 1704815809292,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 67,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 47.76119402985074,
-            "unit": "%",
-            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8139,6 +8103,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2091/commits/d999c08754a94d0acbb7d5f6a3e404c0c7cca138"
         },
         "date": 1718271590436,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e77eb506616874a6a8305e155906f8154575983f",
+          "message": "[CURA-8076] Split off Seam Overhang Angle from Wall Overhang Angle, (#2091)",
+          "timestamp": "2024-06-13T12:07:04+02:00",
+          "tree_id": "2ccee946a87dc9b36826922da041bf3bce7f44a8",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/e77eb506616874a6a8305e155906f8154575983f"
+        },
+        "date": 1718274022145,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
