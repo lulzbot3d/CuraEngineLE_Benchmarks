@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718808174618,
+  "lastUpdate": 1718810242493,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "9d8f5e4e71a38bf10e0ab940308512ac9988c595",
-          "message": "Cura 11482 sentry",
-          "timestamp": "2024-01-12T13:09:47Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2014/commits/9d8f5e4e71a38bf10e0ab940308512ac9988c595"
-        },
-        "date": 1705146514561,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 67,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 47.76119402985074,
-            "unit": "%",
-            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8139,6 +8107,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2100/commits/4fc7a4428a75809730d38c4f13ccd00c3016364c"
         },
         "date": 1718808172361,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "5c24075c5561a5709bebd2cff506b88b8e97bf6e",
+          "message": "[CURA-9399] Fix 'Innacurate Tops Of Sharp Objects'",
+          "timestamp": "2024-06-19T14:22:09Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2092/commits/5c24075c5561a5709bebd2cff506b88b8e97bf6e"
+        },
+        "date": 1718810239768,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
