@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718798406761,
+  "lastUpdate": 1718801608657,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "72ab846a9c7f189d4250d3f9d8bc060596376fc6",
-          "message": "Fix remaining raft issues",
-          "timestamp": "2024-01-11T07:20:36Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2012/commits/72ab846a9c7f189d4250d3f9d8bc060596376fc6"
-        },
-        "date": 1704979233845,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 67,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 47.76119402985074,
-            "unit": "%",
-            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8139,6 +8107,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2095/commits/cfdf0b40eefbbaa5158f0feffd8d5afa5864561b"
         },
         "date": 1718798404537,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "b7dee9f2c8ef563f94afc2b7ccea6cc060b5d18e",
+          "message": "Remove the debug defines when building with RelWithDebInfo",
+          "timestamp": "2024-06-19T09:50:40Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2096/commits/b7dee9f2c8ef563f94afc2b7ccea6cc060b5d18e"
+        },
+        "date": 1718801606235,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
