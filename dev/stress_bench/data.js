@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718780511910,
+  "lastUpdate": 1718791683203,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "c2deb497e8c3c550fe59f6b7a4578ef07b2b2f1e",
-          "message": "Fix remaining raft issues",
-          "timestamp": "2024-01-11T07:20:36Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2012/commits/c2deb497e8c3c550fe59f6b7a4578ef07b2b2f1e"
-        },
-        "date": 1704974347782,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 67,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 47.76119402985074,
-            "unit": "%",
-            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8103,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2096/commits/72bcdb05577839262b7f0f448b23f6c6ab70862e"
         },
         "date": 1718780509695,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3dc1b9911e782147db97fe0e0e55d8f7a4390a98",
+          "message": "[CURA-9474] (Some) Seams Not On Vertices (#2087)",
+          "timestamp": "2024-06-19T11:50:34+02:00",
+          "tree_id": "e5d2365c6c2fef1d7a5a36e5d2ccc7de1a293fa7",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/3dc1b9911e782147db97fe0e0e55d8f7a4390a98"
+        },
+        "date": 1718791680736,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
