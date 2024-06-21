@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718949753785,
+  "lastUpdate": 1718955416524,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "241b3e24069886d742703f2e5ebc166a4c82ad46",
-          "message": "Cura 11482 sentry",
-          "timestamp": "2024-01-14T00:24:56Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2014/commits/241b3e24069886d742703f2e5ebc166a4c82ad46"
-        },
-        "date": 1705312226912,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 67,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 47.76119402985074,
-            "unit": "%",
-            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8143,6 +8111,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2100/commits/98c040735b45a8613e917fb2cf7071b83a230b53"
         },
         "date": 1718949751207,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "8ca2838b55ba2e42eef1996876cd0c8f9917d12e",
+          "message": "CURA-11947 Improve multimaterial raft",
+          "timestamp": "2024-06-20T08:53:10Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2095/commits/8ca2838b55ba2e42eef1996876cd0c8f9917d12e"
+        },
+        "date": 1718955414232,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
