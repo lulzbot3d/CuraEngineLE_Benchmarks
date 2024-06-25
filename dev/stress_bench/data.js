@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719322023125,
+  "lastUpdate": 1719323303348,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "518d36e2fd6fb3fba21baeb3eae77829d8153499",
-          "message": "Fix remaining raft issues",
-          "timestamp": "2024-01-15T19:39:00Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2012/commits/518d36e2fd6fb3fba21baeb3eae77829d8153499"
-        },
-        "date": 1705420345536,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 67,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 47.76119402985074,
-            "unit": "%",
-            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8151,6 +8119,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2106/commits/de5cbc5550fabe63d1d7052f7f367e66cf1581b8"
         },
         "date": 1719322020309,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b1986ae8f05af457ae878984607d78bbb3b62c63",
+          "message": "Prevent negative (= raft) layers from messing up z-seam calculation. (#2106)",
+          "timestamp": "2024-06-25T15:30:50+02:00",
+          "tree_id": "555105d57eecad4ff4773ebe4c53ebe380e8e04f",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/b1986ae8f05af457ae878984607d78bbb3b62c63"
+        },
+        "date": 1719323300721,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
