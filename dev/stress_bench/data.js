@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719481541822,
+  "lastUpdate": 1719481691928,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "70144862+saumyaj3@users.noreply.github.com",
-            "name": "Saumya Jain",
-            "username": "saumyaj3"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "0b3c9d7e29ad0babbfce157d22734dba7a348669",
-          "message": "Fix remaining raft issues (#2012)",
-          "timestamp": "2024-01-17T16:51:25+01:00",
-          "tree_id": "f35f9a9becbcf69191461fe59188c9ea36961d69",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/0b3c9d7e29ad0babbfce157d22734dba7a348669"
-        },
-        "date": 1705507173406,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 67,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 47.76119402985074,
-            "unit": "%",
-            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8123,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/61576f2c4f55a3783bc176806fe8981b40399e40"
         },
         "date": 1719481538906,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "3afe367e8a7eb1043681afa90e6a1ae00eae0360",
+          "message": "CURA-11795 Activate fans during switch",
+          "timestamp": "2024-06-27T09:35:29Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2107/commits/3afe367e8a7eb1043681afa90e6a1ae00eae0360"
+        },
+        "date": 1719481689114,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
