@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719482070300,
+  "lastUpdate": 1719482426260,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "32454ea10ee8c2cc85f1674979f24eba2f41072c",
-          "message": "[CURA-11395] Prevent islands in smoothed raft.",
-          "timestamp": "2024-01-18T08:22:20Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2016/commits/32454ea10ee8c2cc85f1674979f24eba2f41072c"
-        },
-        "date": 1705585920032,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 67,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 47.76119402985074,
-            "unit": "%",
-            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8155,6 +8123,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2107/commits/91e2078a1a4955f320a8b56d23afe46204e12e53"
         },
         "date": 1719482067739,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "e5843dcafb456a2c74f2281d6ba0fe6b885169b2",
+          "message": "CURA-11795 Activate fans during switch",
+          "timestamp": "2024-06-27T09:35:29Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2107/commits/e5843dcafb456a2c74f2281d6ba0fe6b885169b2"
+        },
+        "date": 1719482423570,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
