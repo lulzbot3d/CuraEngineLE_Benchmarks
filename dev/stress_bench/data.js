@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719833016350,
+  "lastUpdate": 1719838511392,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "a64d8def42aeae8c31d74c185ac0bd58a4ec9ce9",
-          "message": "Fix benchmarks",
-          "timestamp": "2024-01-18T08:22:20Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2015/commits/a64d8def42aeae8c31d74c185ac0bd58a4ec9ce9"
-        },
-        "date": 1705593557136,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 52.459016393442624,
-            "unit": "%",
-            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8127,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2107/commits/c272eb928e078d14bdda10325bb71beab8c2e531"
         },
         "date": 1719833013715,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "097e3c110386700ddf40c77608d7f4ede7e83345",
+          "message": "CURA-11795 Activate fans during switch",
+          "timestamp": "2024-07-01T10:18:52Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2107/commits/097e3c110386700ddf40c77608d7f4ede7e83345"
+        },
+        "date": 1719838508923,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
