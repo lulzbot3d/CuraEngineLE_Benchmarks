@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719927880551,
+  "lastUpdate": 1719929275016,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "saumya.jain@ultimaker.com",
-            "name": "saumya.jain",
-            "username": "saumyaj3"
-          },
-          "committer": {
-            "email": "saumya.jain@ultimaker.com",
-            "name": "saumya.jain",
-            "username": "saumyaj3"
-          },
-          "distinct": true,
-          "id": "24fd96226595911eeeafa6a412bfa59d228523f7",
-          "message": "Unhandled exception CURA issue :https://github.com/Ultimaker/Cura/issues/18092",
-          "timestamp": "2024-01-22T16:03:04+01:00",
-          "tree_id": "4d149ba71c85dc0758ee3afdf919a94b6af22e1a",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/24fd96226595911eeeafa6a412bfa59d228523f7"
-        },
-        "date": 1705936900967,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 52.459016393442624,
-            "unit": "%",
-            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8123,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2110/commits/d0ade560b8c257a5fff0fb90ba85b3eb3451ff17"
         },
         "date": 1719927878244,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "024ca614db28a3c3cc8c018c7b50351bb6e22de2",
+          "message": "CURA-6410 buggy fan speed interpolation",
+          "timestamp": "2024-07-02T13:24:45Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2111/commits/024ca614db28a3c3cc8c018c7b50351bb6e22de2"
+        },
+        "date": 1719929272595,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
