@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719923398673,
+  "lastUpdate": 1719925892918,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "30d26d708613a3da3bc6e7fe935fb217a0c984c8",
-          "message": "[CURA-11395] Prevent islands in smoothed raft.",
-          "timestamp": "2024-01-18T08:22:20Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2016/commits/30d26d708613a3da3bc6e7fe935fb217a0c984c8"
-        },
-        "date": 1705594849246,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 52.459016393442624,
-            "unit": "%",
-            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8127,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/493383fdce8856a2b4d31a2b02e1f7ca4784823c"
         },
         "date": 1719923396079,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "r.burema@ultimaker.com",
+            "name": "Remco Burema",
+            "username": "rburema"
+          },
+          "committer": {
+            "email": "r.burema@ultimaker.com",
+            "name": "Remco Burema",
+            "username": "rburema"
+          },
+          "distinct": true,
+          "id": "653e9fe5dadf07d6309a461a1c2a9721e353259d",
+          "message": "Fix it on other compilers.",
+          "timestamp": "2024-07-02T14:56:54+02:00",
+          "tree_id": "1e4ee7600151e0472a906f2282784cc01cfaa405",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/653e9fe5dadf07d6309a461a1c2a9721e353259d"
+        },
+        "date": 1719925890308,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
