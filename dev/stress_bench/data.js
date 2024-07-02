@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719838511392,
+  "lastUpdate": 1719917795462,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "03a25362001229f9545924981dd0c67538b4cea7",
-          "message": "[CURA-11395] Prevent islands in smoothed raft.",
-          "timestamp": "2024-01-18T08:22:20Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2016/commits/03a25362001229f9545924981dd0c67538b4cea7"
-        },
-        "date": 1705594122516,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 67,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 47.76119402985074,
-            "unit": "%",
-            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8127,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2107/commits/097e3c110386700ddf40c77608d7f4ede7e83345"
         },
         "date": 1719838508923,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "8ba57ad55b7a5ada1c9d41fda28bfe6d0acfd738",
+          "message": "Fix crash when using tangent on angles with PI/2 value",
+          "timestamp": "2024-07-02T09:38:24Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2110/commits/8ba57ad55b7a5ada1c9d41fda28bfe6d0acfd738"
+        },
+        "date": 1719917793140,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
