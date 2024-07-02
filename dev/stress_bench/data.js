@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719917795462,
+  "lastUpdate": 1719923398673,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "41987080+rburema@users.noreply.github.com",
-            "name": "Remco Burema",
-            "username": "rburema"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "8ad432e4e75f2548a3c89c5baf0be02ff1d7ffe8",
-          "message": "Fix benchmarks (#2015)",
-          "timestamp": "2024-01-18T17:12:04+01:00",
-          "tree_id": "345dfb373d55ca3b235f2eb017c10860827c5559",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/8ad432e4e75f2548a3c89c5baf0be02ff1d7ffe8"
-        },
-        "date": 1705594754331,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 52.459016393442624,
-            "unit": "%",
-            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8123,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2110/commits/8ba57ad55b7a5ada1c9d41fda28bfe6d0acfd738"
         },
         "date": 1719917793140,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "493383fdce8856a2b4d31a2b02e1f7ca4784823c",
+          "message": "Reduce the interleaved prime tower wasted filament (#2094)",
+          "timestamp": "2024-07-02T14:15:02+02:00",
+          "tree_id": "b916ec1cf482610f9972d429569851efbfa3da47",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/493383fdce8856a2b4d31a2b02e1f7ca4784823c"
+        },
+        "date": 1719923396079,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
