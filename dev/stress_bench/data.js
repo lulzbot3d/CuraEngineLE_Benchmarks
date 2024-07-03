@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719990189715,
+  "lastUpdate": 1719991179454,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "53018e8fca4f15336e71c66a1ae62fd6a71f1f05",
-          "message": "Cura 11438 raft monotonic top surface",
-          "timestamp": "2024-01-24T02:22:09Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2018/commits/53018e8fca4f15336e71c66a1ae62fd6a71f1f05"
-        },
-        "date": 1706103057027,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 52.459016393442624,
-            "unit": "%",
-            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8151,6 +8119,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2112/commits/35e0245ee3c93eb93a8a92158f0c50f51023dc68"
         },
         "date": 1719990187165,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "41987080+rburema@users.noreply.github.com",
+            "name": "Remco Burema",
+            "username": "rburema"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "663753ba04cd666fce79e56f998f2230b41cdc82",
+          "message": "Mac fixes prime tower (#2112)",
+          "timestamp": "2024-07-03T09:12:58+02:00",
+          "tree_id": "e1b60aad1d483c67f898a6104ee2bcad91380149",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/663753ba04cd666fce79e56f998f2230b41cdc82"
+        },
+        "date": 1719991176989,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
