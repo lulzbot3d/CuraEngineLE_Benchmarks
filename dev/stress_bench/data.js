@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720003881649,
+  "lastUpdate": 1720010095652,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "ed913db50dcc1826bfe1db6b85bc0304e4566308",
-          "message": "Cura 11542 optimized prime tower",
-          "timestamp": "2024-01-24T18:14:12Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2020/commits/ed913db50dcc1826bfe1db6b85bc0304e4566308"
-        },
-        "date": 1706179996176,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 52.459016393442624,
-            "unit": "%",
-            "extra": "Crashes in: 014, 038, 019, 028, 013, 008, 044, 034, 007, 016, 060, 020, 025, 045, 015, 018, 011, 059, 053, 031, 037, 039, 033, 041, 048, 002, 036, 056, 040, 029, 051, 032"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8127,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2110/commits/c08f517a9a1c491135b61e62117033ec76c3f01a"
         },
         "date": 1720003879157,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "77665581+Vandresc@users.noreply.github.com",
+            "name": "Vandresc",
+            "username": "Vandresc"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d2851fd462a962f2b1d3c0753282fcc71d095f2e",
+          "message": "Fix crash when using tangent on angles with PI/2 value (#2110)",
+          "timestamp": "2024-07-03T14:27:42+02:00",
+          "tree_id": "495398f5a6c15373c7d3e5ca71c8a662c111eb94",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/d2851fd462a962f2b1d3c0753282fcc71d095f2e"
+        },
+        "date": 1720010093153,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
