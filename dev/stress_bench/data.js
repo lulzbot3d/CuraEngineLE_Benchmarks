@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720079321700,
+  "lastUpdate": 1720090075527,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "c.lamboo@ultimaker.com",
-            "name": "Casper Lamboo",
-            "username": "casperlamboo"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "94543accc48c8e5fa45adeae98cfa06cecf1929e",
-          "message": "Cura 11438 raft monotonic top surface (#2018)",
-          "timestamp": "2024-01-25T16:54:34+01:00",
-          "tree_id": "45b6e8e77d1c7373737bd73b12ad298927ed687f",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/94543accc48c8e5fa45adeae98cfa06cecf1929e"
-        },
-        "date": 1706199052456,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 52.459016393442624,
-            "unit": "%",
-            "extra": "Crashes in: 033, 020, 056, 045, 007, 060, 025, 028, 013, 002, 029, 036, 041, 015, 034, 032, 014, 051, 038, 048, 053, 037, 059, 018, 040, 039, 008, 011, 016, 031, 019, 044"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8163,6 +8127,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2113/commits/1e48764ecdcb191a08998d3f00241a7b8bcc17ab"
         },
         "date": 1720079319122,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "a3262e9dde198e14f4aa1c4c03b1f8c8d58e1961",
+          "message": "CURA-6410 buggy fan speed interpolation",
+          "timestamp": "2024-07-03T12:28:01Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2111/commits/a3262e9dde198e14f4aa1c4c03b1f8c8d58e1961"
+        },
+        "date": 1720090072895,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
