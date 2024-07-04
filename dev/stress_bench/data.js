@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720010095652,
+  "lastUpdate": 1720079321700,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "138b9ee7ab8b14b4b189d665ae6c14cc03d621a9",
-          "message": "Cura 11542 optimized prime tower",
-          "timestamp": "2024-01-24T18:14:12Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2020/commits/138b9ee7ab8b14b4b189d665ae6c14cc03d621a9"
-        },
-        "date": 1706183990381,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 52.459016393442624,
-            "unit": "%",
-            "extra": "Crashes in: 033, 020, 056, 045, 007, 060, 025, 028, 013, 002, 029, 036, 041, 015, 034, 032, 014, 051, 038, 048, 053, 037, 059, 018, 040, 039, 008, 011, 016, 031, 019, 044"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8163,6 +8131,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/d2851fd462a962f2b1d3c0753282fcc71d095f2e"
         },
         "date": 1720010093153,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "1e48764ecdcb191a08998d3f00241a7b8bcc17ab",
+          "message": "[CURA-11887] Fuzzy Skin Outside Only: Make definition of 'inside' user-settable",
+          "timestamp": "2024-07-03T12:28:01Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2113/commits/1e48764ecdcb191a08998d3f00241a7b8bcc17ab"
+        },
+        "date": 1720079319122,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
