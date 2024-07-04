@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720090075527,
+  "lastUpdate": 1720109143159,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "a62f7a757cf789905db44128a2cbbca81e9cf2e4",
-          "message": "Re implement wall roofing",
-          "timestamp": "2024-01-26T09:50:50Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2021/commits/a62f7a757cf789905db44128a2cbbca81e9cf2e4"
-        },
-        "date": 1706279713505,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 52.459016393442624,
-            "unit": "%",
-            "extra": "Crashes in: 033, 020, 056, 045, 007, 060, 025, 028, 013, 002, 029, 036, 041, 015, 034, 032, 014, 051, 038, 048, 053, 037, 059, 018, 040, 039, 008, 011, 016, 031, 019, 044"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8127,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2111/commits/a3262e9dde198e14f4aa1c4c03b1f8c8d58e1961"
         },
         "date": 1720090072895,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "c750ec6755ba0347806f33ada167a389cb24f34e",
+          "message": "CURA-6410 buggy fan speed interpolation",
+          "timestamp": "2024-07-03T12:28:01Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2111/commits/c750ec6755ba0347806f33ada167a389cb24f34e"
+        },
+        "date": 1720109140236,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
