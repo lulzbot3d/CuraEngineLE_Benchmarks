@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720109143159,
+  "lastUpdate": 1720164417885,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "2ea1f875f07c68d9531ec384a7e1eb39a8b28362",
-          "message": "Fix printing rafts-holes in monotonic order",
-          "timestamp": "2024-01-26T09:50:50Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2023/commits/2ea1f875f07c68d9531ec384a7e1eb39a8b28362"
-        },
-        "date": 1706519219181,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 52.459016393442624,
-            "unit": "%",
-            "extra": "Crashes in: 033, 020, 056, 045, 007, 060, 025, 028, 013, 002, 029, 036, 041, 015, 034, 032, 014, 051, 038, 048, 053, 037, 059, 018, 040, 039, 008, 011, 016, 031, 019, 044"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8127,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2111/commits/c750ec6755ba0347806f33ada167a389cb24f34e"
         },
         "date": 1720109140236,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ac9584b7dd98ffd6e24d05d5acf6aa3401cedac5",
+          "message": "CURA-6410 buggy fan speed interpolation (#2111)",
+          "timestamp": "2024-07-05T09:19:41+02:00",
+          "tree_id": "1feafea08c46c7ca583a87b4fdd9233512298979",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/ac9584b7dd98ffd6e24d05d5acf6aa3401cedac5"
+        },
+        "date": 1720164414938,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
