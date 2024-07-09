@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720164417885,
+  "lastUpdate": 1720514027248,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "dab88c0237c6303b9372d56b98df2b9b221f0090",
-          "message": "Re implement wall roofing",
-          "timestamp": "2024-01-26T09:50:50Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2021/commits/dab88c0237c6303b9372d56b98df2b9b221f0090"
-        },
-        "date": 1706522667389,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 52.459016393442624,
-            "unit": "%",
-            "extra": "Crashes in: 033, 020, 056, 045, 007, 060, 025, 028, 013, 002, 029, 036, 041, 015, 034, 032, 014, 051, 038, 048, 053, 037, 059, 018, 040, 039, 008, 011, 016, 031, 019, 044"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8163,6 +8131,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/ac9584b7dd98ffd6e24d05d5acf6aa3401cedac5"
         },
         "date": 1720164414938,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "f216154cdf930ba21c1e35d34295d252d796a7f4",
+          "message": "CURA-12023 Fix ghost prime tower",
+          "timestamp": "2024-07-08T18:00:31Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2115/commits/f216154cdf930ba21c1e35d34295d252d796a7f4"
+        },
+        "date": 1720514024448,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
