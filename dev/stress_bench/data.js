@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720532295914,
+  "lastUpdate": 1720595866779,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "779c2af618e4dff1570fb8a12aa495419013e4ef",
-          "message": "Cura 11129 wall roofing",
-          "timestamp": "2024-01-26T09:50:50Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2024/commits/779c2af618e4dff1570fb8a12aa495419013e4ef"
-        },
-        "date": 1706539079093,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 52.459016393442624,
-            "unit": "%",
-            "extra": "Crashes in: 033, 020, 056, 045, 007, 060, 025, 028, 013, 002, 029, 036, 041, 015, 034, 032, 014, 051, 038, 048, 053, 037, 059, 018, 040, 039, 008, 011, 016, 031, 019, 044"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8127,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2116/commits/6b5cced4d9b41cdd70787b12801cc38e12a55628"
         },
         "date": 1720532293373,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "9b610fe951366b35c4908cd0f8d42fa39fd436a4",
+          "message": "[CURA-12017] Fix fan-speed got set to (-)NaN",
+          "timestamp": "2024-07-08T18:00:31Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2117/commits/9b610fe951366b35c4908cd0f8d42fa39fd436a4"
+        },
+        "date": 1720595864006,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
