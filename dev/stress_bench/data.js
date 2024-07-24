@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721807397843,
+  "lastUpdate": 1721813973346,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "erwan.mathieu@ultimaker.com",
-            "name": "Erwan MATHIEU",
-            "username": "wawanbreton"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "9fae10d54d421bcc4dc752890411d4f003cffcbe",
-          "message": "Fix printing rafts-holes in monotonic order (#2023)",
-          "timestamp": "2024-01-30T12:50:58+01:00",
-          "tree_id": "5962b656977c43ad59d4b233aac31e6846d4d141",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/9fae10d54d421bcc4dc752890411d4f003cffcbe"
-        },
-        "date": 1706615933890,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 52.459016393442624,
-            "unit": "%",
-            "extra": "Crashes in: 033, 020, 056, 045, 007, 060, 025, 028, 013, 002, 029, 036, 041, 015, 034, 032, 014, 051, 038, 048, 053, 037, 059, 018, 040, 039, 008, 011, 016, 031, 019, 044"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8123,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2123/commits/5327c0286f1421e1f44aba57e58736acc3c77239"
         },
         "date": 1721807394744,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "149226c14dda977d53ddb8b840f34b46cb3ce514",
+          "message": "[CURA-10914] Add ability to register multiple modify plugins (#2123)",
+          "timestamp": "2024-07-24T11:23:15+02:00",
+          "tree_id": "7d2f92d927ae777cc048a53d83d22f8a0c0e0dce",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/149226c14dda977d53ddb8b840f34b46cb3ce514"
+        },
+        "date": 1721813970307,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
