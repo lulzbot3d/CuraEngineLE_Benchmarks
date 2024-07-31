@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722431654156,
+  "lastUpdate": 1722434958975,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "76b6b2aa11f19ee2428dd45308bc57dc43adcd51",
-          "message": "Np 5 wasupppp",
-          "timestamp": "2024-01-30T08:24:34Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2025/commits/76b6b2aa11f19ee2428dd45308bc57dc43adcd51"
-        },
-        "date": 1706626233056,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 52.459016393442624,
-            "unit": "%",
-            "extra": "Crashes in: 033, 020, 056, 045, 007, 060, 025, 028, 013, 002, 029, 036, 041, 015, 034, 032, 014, 051, 038, 048, 053, 037, 059, 018, 040, 039, 008, 011, 016, 031, 019, 044"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8163,6 +8131,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/01b3e09ca186f2a6dc4f8f24772c86c5b7b19316"
         },
         "date": 1722431651515,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "b1adb5571b3b9b0831f726fe80968708620347fa",
+          "message": "[CURA-12043] When the mesh is known, use its center-point, instead of that of the scene.",
+          "timestamp": "2024-07-31T12:58:44Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2126/commits/b1adb5571b3b9b0831f726fe80968708620347fa"
+        },
+        "date": 1722434956378,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
