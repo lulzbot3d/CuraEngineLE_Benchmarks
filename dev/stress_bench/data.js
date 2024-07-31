@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721813973346,
+  "lastUpdate": 1722418047377,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "4cd409024b885506b338dc2e3c556bd49c439cb3",
-          "message": "Cura 11129 wall roofing",
-          "timestamp": "2024-01-30T08:24:34Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2024/commits/4cd409024b885506b338dc2e3c556bd49c439cb3"
-        },
-        "date": 1706619539541,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 52.459016393442624,
-            "unit": "%",
-            "extra": "Crashes in: 033, 020, 056, 045, 007, 060, 025, 028, 013, 002, 029, 036, 041, 015, 034, 032, 014, 051, 038, 048, 053, 037, 059, 018, 040, 039, 008, 011, 016, 031, 019, 044"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8127,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/149226c14dda977d53ddb8b840f34b46cb3ce514"
         },
         "date": 1721813970307,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "e41ddda34dc8b1ef598d38f97116a9b19241f0c9",
+          "message": "[CURA-12061] Remove early-out: Restore 'side-effects' of unioning with empty.",
+          "timestamp": "2024-07-29T13:18:08Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2124/commits/e41ddda34dc8b1ef598d38f97116a9b19241f0c9"
+        },
+        "date": 1722418044777,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
