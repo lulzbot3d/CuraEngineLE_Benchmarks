@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722434958975,
+  "lastUpdate": 1722496937220,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "0fa80186a3d7fc6737931b53f2f6a20ad022f867",
-          "message": "Np 5 wasupppp",
-          "timestamp": "2024-01-30T08:24:34Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2025/commits/0fa80186a3d7fc6737931b53f2f6a20ad022f867"
-        },
-        "date": 1706626240771,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 52.459016393442624,
-            "unit": "%",
-            "extra": "Crashes in: 008, 059, 028, 013, 037, 025, 031, 033, 060, 011, 020, 014, 032, 015, 039, 051, 007, 018, 044, 016, 002, 045, 029, 056, 041, 036, 053, 019, 038, 034, 048, 040"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8163,6 +8131,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2126/commits/b1adb5571b3b9b0831f726fe80968708620347fa"
         },
         "date": 1722434956378,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "nallath@gmail.com",
+            "name": "Jaime van Kessel",
+            "username": "nallath"
+          },
+          "committer": {
+            "email": "nallath@gmail.com",
+            "name": "Jaime van Kessel",
+            "username": "nallath"
+          },
+          "distinct": true,
+          "id": "bb637bb87666a0737628655773136c3d1d72eb10",
+          "message": "Merge branch '5.8' of github.com:Ultimaker/CuraEngine",
+          "timestamp": "2024-08-01T09:15:03+02:00",
+          "tree_id": "fa83b6fbcacb3ecce6e2d2a410a06ed9c8552e5a",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/bb637bb87666a0737628655773136c3d1d72eb10"
+        },
+        "date": 1722496934555,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
