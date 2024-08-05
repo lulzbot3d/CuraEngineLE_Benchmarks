@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722856050464,
+  "lastUpdate": 1722859055389,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "873a11edf6348e0daa96b8e1c099526446654428",
-          "message": "Roofing walls II",
-          "timestamp": "2024-01-30T08:24:34Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2026/commits/873a11edf6348e0daa96b8e1c099526446654428"
-        },
-        "date": 1706632535116,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 52.459016393442624,
-            "unit": "%",
-            "extra": "Crashes in: 033, 020, 056, 045, 007, 060, 025, 028, 013, 002, 029, 036, 041, 015, 034, 032, 014, 051, 038, 048, 053, 037, 059, 018, 040, 039, 008, 011, 016, 031, 019, 044"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8167,6 +8135,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2129/commits/cc034ed460da514cf78a0a862d06bca9a4bf4bbc"
         },
         "date": 1722856047861,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "nallath@gmail.com",
+            "name": "Jaime van Kessel",
+            "username": "nallath"
+          },
+          "committer": {
+            "email": "nallath@gmail.com",
+            "name": "Jaime van Kessel",
+            "username": "nallath"
+          },
+          "distinct": true,
+          "id": "fac38a2b276725eae3de57f6f03a8b7b15e263b9",
+          "message": "Merge branch 'fix_initial_layer_diameter' of https://github.com/ThomasRahm/CuraEngine",
+          "timestamp": "2024-08-05T13:39:58+02:00",
+          "tree_id": "725b4117dc40c4815c26d3770daad083935cd70c",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/fac38a2b276725eae3de57f6f03a8b7b15e263b9"
+        },
+        "date": 1722859052775,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
