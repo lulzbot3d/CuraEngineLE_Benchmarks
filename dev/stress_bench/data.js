@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722954558862,
+  "lastUpdate": 1722955419823,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "e3854cc460d8747f24658c999759c5be3349b873",
-          "message": "Roofing walls II",
-          "timestamp": "2024-01-30T17:02:49Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2026/commits/e3854cc460d8747f24658c999759c5be3349b873"
-        },
-        "date": 1706698152325,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 52.459016393442624,
-            "unit": "%",
-            "extra": "Crashes in: 033, 020, 056, 045, 007, 060, 025, 028, 013, 002, 029, 036, 041, 015, 034, 032, 014, 051, 038, 048, 053, 037, 059, 018, 040, 039, 008, 011, 016, 031, 019, 044"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8175,6 +8143,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2127/commits/f590948bbf5ef96770eeb03f130454a51e388473"
         },
         "date": 1722954556113,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "41987080+rburema@users.noreply.github.com",
+            "name": "Remco Burema",
+            "username": "rburema"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1411c5b122ab7fb916770ed1615e9e729cc300a1",
+          "message": "Np 208 various fixes (#2127)",
+          "timestamp": "2024-08-06T16:28:54+02:00",
+          "tree_id": "52547a1b01cf1fc777b388fd8f7abb568f02e3f6",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/1411c5b122ab7fb916770ed1615e9e729cc300a1"
+        },
+        "date": 1722955416561,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
