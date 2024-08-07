@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722955419823,
+  "lastUpdate": 1723018639726,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "70144862+saumyaj3@users.noreply.github.com",
-            "name": "Saumya Jain",
-            "username": "saumyaj3"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "4083ff563f6b241afb87e6d9b719bc09fa01bddf",
-          "message": "Roofing walls II (#2026)",
-          "timestamp": "2024-01-31T11:49:33+01:00",
-          "tree_id": "2238f90cbcdf103bca11bd4d8e6461e23708f9a4",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/4083ff563f6b241afb87e6d9b719bc09fa01bddf"
-        },
-        "date": 1706698622941,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 52.459016393442624,
-            "unit": "%",
-            "extra": "Crashes in: 008, 059, 028, 013, 037, 025, 031, 033, 060, 011, 020, 014, 032, 015, 039, 051, 007, 018, 044, 016, 002, 045, 029, 056, 041, 036, 053, 019, 038, 034, 048, 040"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8179,6 +8143,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/1411c5b122ab7fb916770ed1615e9e729cc300a1"
         },
         "date": 1722955416561,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "40c342c140980c991ffa9ee1d70f9b62a4049fbd",
+          "message": "NP- 327 emscripten communication",
+          "timestamp": "2024-08-06T14:28:59Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2131/commits/40c342c140980c991ffa9ee1d70f9b62a4049fbd"
+        },
+        "date": 1723018637093,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
