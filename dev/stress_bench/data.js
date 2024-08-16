@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723820145505,
+  "lastUpdate": 1723821344577,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "41987080+rburema@users.noreply.github.com",
-            "name": "Remco Burema",
-            "username": "rburema"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "3e76b8ac3b6813dd1b0830fc38acd3534fbb3d63",
-          "message": "Cura 11570 engine crashes sentry (#2029)",
-          "timestamp": "2024-02-14T21:29:38+01:00",
-          "tree_id": "41f67fd22bebd30f69f7d3c9c36105b5795c5b07",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/3e76b8ac3b6813dd1b0830fc38acd3534fbb3d63"
-        },
-        "date": 1707945126104,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 52.459016393442624,
-            "unit": "%",
-            "extra": "Crashes in: 011, 051, 025, 016, 008, 044, 015, 039, 034, 036, 041, 040, 007, 060, 002, 013, 031, 053, 029, 045, 038, 014, 020, 037, 032, 018, 019, 048, 056, 028, 059, 033"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8171,6 +8135,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2133/commits/f0c0d199edcd575da069b755e40b1c1b9d1f2b84"
         },
         "date": 1723820142684,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "ef4426e8612f456ce84dc1958b02ac6cc7e4af51",
+          "message": "CURA-12096 move gradual flow plugin back into the engine core",
+          "timestamp": "2024-08-15T20:43:11Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2133/commits/ef4426e8612f456ce84dc1958b02ac6cc7e4af51"
+        },
+        "date": 1723821341904,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
