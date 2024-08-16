@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723711947887,
+  "lastUpdate": 1723818306966,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "cd858c15c9cc50f77314863c611b1fe10c2b4207",
-          "message": "Cura 11570 engine crashes sentry",
-          "timestamp": "2024-02-12T22:19:43Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2029/commits/cd858c15c9cc50f77314863c611b1fe10c2b4207"
-        },
-        "date": 1707901044935,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 52.459016393442624,
-            "unit": "%",
-            "extra": "Crashes in: 011, 051, 025, 016, 008, 044, 015, 039, 034, 036, 041, 040, 007, 060, 002, 013, 031, 053, 029, 045, 038, 014, 020, 037, 032, 018, 019, 048, 056, 028, 059, 033"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8171,6 +8139,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2131/commits/9b4a91377d0c9c08bc1cddc18c17a9500e061478"
         },
         "date": 1723711945272,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "38357c4d6a604b495ab26db68c917c98d0ff8c99",
+          "message": "CURA-12096 move gradual flow plugin back into the engine core",
+          "timestamp": "2024-08-15T20:43:11Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2133/commits/38357c4d6a604b495ab26db68c917c98d0ff8c99"
+        },
+        "date": 1723818303682,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
