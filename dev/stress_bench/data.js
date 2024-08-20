@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724052367261,
+  "lastUpdate": 1724164462642,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "c.lamboo@ultimaker.com",
-            "name": "Casper Lamboo",
-            "username": "casperlamboo"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "baf0e170a291afb036646f7a36d8c196775976f5",
-          "message": "Prime/purge tower optimisation (#1875)",
-          "timestamp": "2024-02-16T14:30:01+01:00",
-          "tree_id": "23b419622e1c76ca1ec41fbc069ed8632fde6314",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/baf0e170a291afb036646f7a36d8c196775976f5"
-        },
-        "date": 1708090656971,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 52.459016393442624,
-            "unit": "%",
-            "extra": "Crashes in: 011, 051, 025, 016, 008, 044, 015, 039, 034, 036, 041, 040, 007, 060, 002, 013, 031, 053, 029, 045, 038, 014, 020, 037, 032, 018, 019, 048, 056, 028, 059, 033"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8167,6 +8131,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/f05cf24d80f81cc1a1afc692c763d36ff8eb9f5e"
         },
         "date": 1724052364379,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "6697713ce16a799646e093fb10866eb70684f2d6",
+          "message": "NP- 327 emscripten communication",
+          "timestamp": "2024-08-20T03:02:44Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2131/commits/6697713ce16a799646e093fb10866eb70684f2d6"
+        },
+        "date": 1724164459599,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
