@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724164462642,
+  "lastUpdate": 1724165318288,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "bc18e29962fdf841afc7d3c880d62170d3b56e34",
-          "message": "Np 5 wasupppp",
-          "timestamp": "2024-02-12T22:19:43Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2025/commits/bc18e29962fdf841afc7d3c880d62170d3b56e34"
-        },
-        "date": 1708172789715,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 52.459016393442624,
-            "unit": "%",
-            "extra": "Crashes in: 011, 051, 025, 016, 008, 044, 015, 039, 034, 036, 041, 040, 007, 060, 002, 013, 031, 053, 029, 045, 038, 014, 020, 037, 032, 018, 019, 048, 056, 028, 059, 033"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8163,6 +8131,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2131/commits/6697713ce16a799646e093fb10866eb70684f2d6"
         },
         "date": 1724164459599,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "0f8e04fffb27200beaac2a53bcda8185fcb8d619",
+          "message": "refactor(FffGcodeWriter): fix extruder order calculation bug",
+          "timestamp": "2024-08-20T03:02:44Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2134/commits/0f8e04fffb27200beaac2a53bcda8185fcb8d619"
+        },
+        "date": 1724165315568,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
