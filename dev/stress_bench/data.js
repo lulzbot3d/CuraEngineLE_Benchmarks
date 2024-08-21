@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724231503417,
+  "lastUpdate": 1724235524488,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "de12ba8998a041e587bcebedfa73e663cbb7251a",
-          "message": "Np 5 wasupppp",
-          "timestamp": "2024-02-19T14:32:53Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2025/commits/de12ba8998a041e587bcebedfa73e663cbb7251a"
-        },
-        "date": 1708416089867,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 52.459016393442624,
-            "unit": "%",
-            "extra": "Crashes in: 011, 051, 025, 016, 008, 044, 015, 039, 034, 036, 041, 040, 007, 060, 002, 013, 031, 053, 029, 045, 038, 014, 020, 037, 032, 018, 019, 048, 056, 028, 059, 033"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8163,6 +8131,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2133/commits/6f301755c516b17998b0f1d6ec76ce5bf9b6ffe4"
         },
         "date": 1724231500770,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1b78d4fe6ce1c4ccc1453c7a278eae209730c606",
+          "message": "CURA-12096 move gradual flow plugin back into the engine core (#2133)",
+          "timestamp": "2024-08-21T12:04:10+02:00",
+          "tree_id": "7cab38ec523b745d343ebca338a3b2e01788de3a",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/1b78d4fe6ce1c4ccc1453c7a278eae209730c606"
+        },
+        "date": 1724235521568,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
