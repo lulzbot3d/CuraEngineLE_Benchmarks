@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724244372955,
+  "lastUpdate": 1724246237605,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "r.burema@ultimaker.com",
-            "name": "Remco Burema",
-            "username": "rburema"
-          },
-          "committer": {
-            "email": "r.burema@ultimaker.com",
-            "name": "Remco Burema",
-            "username": "rburema"
-          },
-          "distinct": true,
-          "id": "0b48b4621fb9cc52b2c55c640c00d3ee33489966",
-          "message": "Make it compile with Win and VS again.",
-          "timestamp": "2024-02-20T14:39:16+01:00",
-          "tree_id": "88d7dd6cc062fa2bc924492a2fb3ac7cea269645",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/0b48b4621fb9cc52b2c55c640c00d3ee33489966"
-        },
-        "date": 1708436828291,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 52.459016393442624,
-            "unit": "%",
-            "extra": "Crashes in: 011, 051, 025, 016, 008, 044, 015, 039, 034, 036, 041, 040, 007, 060, 002, 013, 031, 053, 029, 045, 038, 014, 020, 037, 032, 018, 019, 048, 056, 028, 059, 033"
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8163,6 +8127,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2136/commits/ee99fda4ce0a72753e906ae99fd7a3125be0d973"
         },
         "date": 1724244367040,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "77db867f87b8c6b1d5e8e6d78e582e53c6ca0489",
+          "message": "Np 351 adding gcode header to emscription",
+          "timestamp": "2024-08-21T10:04:15Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2136/commits/77db867f87b8c6b1d5e8e6d78e582e53c6ca0489"
+        },
+        "date": 1724246234587,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
