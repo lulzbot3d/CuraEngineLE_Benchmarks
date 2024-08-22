@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724313751615,
+  "lastUpdate": 1724317010361,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "c.lamboo@ultimaker.com",
-            "name": "Casper Lamboo",
-            "username": "casperlamboo"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "4fc5b3395e86af70e9ac873a690d89c38153fb29",
-          "message": "[CURA-11444] Use 'wagyu' to prevent slicing crashes (#2030)",
-          "timestamp": "2024-02-21T11:10:07+01:00",
-          "tree_id": "b5e07b302f79619daf3333c423e761234d30aba5",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/4fc5b3395e86af70e9ac873a690d89c38153fb29"
-        },
-        "date": 1708510575073,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8155,6 +8119,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2131/commits/63a84d0640c27345038aae1a8d48e7b9c0a88edc"
         },
         "date": 1724313749003,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d5afe4fd954e784b01730a015c994a95f1a48aa8",
+          "message": "NP- 327 emscripten communication",
+          "timestamp": "2024-08-21T10:04:15Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2131/commits/d5afe4fd954e784b01730a015c994a95f1a48aa8"
+        },
+        "date": 1724317007339,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
