@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724833628479,
+  "lastUpdate": 1725002218675,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "0cedca708eaf79d996ad3f51e04927b193a38b5e",
-          "message": "Try fix benchmarks",
-          "timestamp": "2024-02-22T15:20:18Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2032/commits/0cedca708eaf79d996ad3f51e04927b193a38b5e"
-        },
-        "date": 1708627497534,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8147,6 +8115,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2139/commits/8c721eb291e00da793fd9b7bff99c298ff4ae7b2"
         },
         "date": 1724833625515,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0270dce423405ed8ea807cfb33a4ce587b38c6ec",
+          "message": "NP- 327 emscripten communication (#2131)",
+          "timestamp": "2024-08-30T09:03:11+02:00",
+          "tree_id": "9972fbbf620a0ffa7bd91736115b834756b4972d",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/0270dce423405ed8ea807cfb33a4ce587b38c6ec"
+        },
+        "date": 1725002215688,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
