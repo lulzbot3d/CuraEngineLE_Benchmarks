@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725373105677,
+  "lastUpdate": 1725521594940,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "77c904f333c53bfb001acdf21d4f343ae61902b8",
-          "message": "Try fix benchmarks",
-          "timestamp": "2024-02-22T19:18:55Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2032/commits/77c904f333c53bfb001acdf21d4f343ae61902b8"
-        },
-        "date": 1708637053839,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8155,6 +8123,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/8868c17ff3fbcbbcf7ba94a978f58c8910d1d498"
         },
         "date": 1725373101935,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5c8de197daba5ef4ce82841ce1e3c461595a488b",
+          "message": "refactor-improve-math-functions (#2135)",
+          "timestamp": "2024-09-05T09:13:54+02:00",
+          "tree_id": "e7feaf3b7fb13efd2290c3128b91aad0421c2999",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/5c8de197daba5ef4ce82841ce1e3c461595a488b"
+        },
+        "date": 1725521591947,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
