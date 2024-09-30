@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725521594940,
+  "lastUpdate": 1727686429334,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "6b5975031b9f583e4b27134ceaa57f01401446e1",
-          "message": "Try fix benchmarks",
-          "timestamp": "2024-02-22T19:18:55Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2032/commits/6b5975031b9f583e4b27134ceaa57f01401446e1"
-        },
-        "date": 1708638389127,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8127,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/5c8de197daba5ef4ce82841ce1e3c461595a488b"
         },
         "date": 1725521591947,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a4cb6be92934f00f741eca3ad3a6cb5900b1b20c",
+          "message": "Plugin gcode modify patches (#1979)",
+          "timestamp": "2024-09-30T10:36:18+02:00",
+          "tree_id": "81c1b309c10e84a3bf19077616236611ec54e436",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/a4cb6be92934f00f741eca3ad3a6cb5900b1b20c"
+        },
+        "date": 1727686426104,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
