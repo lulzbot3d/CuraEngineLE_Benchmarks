@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728305495435,
+  "lastUpdate": 1728387051066,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "2127371789c489da73ecad8a7ce0ed2aadcd9638",
-          "message": "Fix GcodeAnalyser",
-          "timestamp": "2024-02-22T19:18:55Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2034/commits/2127371789c489da73ecad8a7ce0ed2aadcd9638"
-        },
-        "date": 1708671218490,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8163,6 +8131,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2144/commits/3541f2d51b78cf7e683c2be8af04577eef5a410b"
         },
         "date": 1728305492559,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "ac5f1aff6ba8b4825c579f5e22c29128f0d7b903",
+          "message": "Change segment overhanging calculation formula",
+          "timestamp": "2024-10-04T12:34:06Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2144/commits/ac5f1aff6ba8b4825c579f5e22c29128f0d7b903"
+        },
+        "date": 1728387048200,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
