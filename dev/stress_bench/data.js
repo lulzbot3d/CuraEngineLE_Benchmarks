@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728387051066,
+  "lastUpdate": 1728491518824,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "3543e011515f53c07c6225136fab7537019f5f5a",
-          "message": "Fix GcodeAnalyser",
-          "timestamp": "2024-02-22T19:18:55Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2034/commits/3543e011515f53c07c6225136fab7537019f5f5a"
-        },
-        "date": 1708672031918,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8163,6 +8131,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2144/commits/ac5f1aff6ba8b4825c579f5e22c29128f0d7b903"
         },
         "date": 1728387048200,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "1752db52531887c67b7bbc4218cf85e1619537f8",
+          "message": "[CURA-12153] Fix 'encompassing hole' issue (tree support).",
+          "timestamp": "2024-10-09T07:25:59Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2145/commits/1752db52531887c67b7bbc4218cf85e1619537f8"
+        },
+        "date": 1728491515542,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
