@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728558040949,
+  "lastUpdate": 1728558816889,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "c.lamboo@ultimaker.com",
-            "name": "Casper Lamboo",
-            "username": "casperlamboo"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "8df7de35384b3a51f359380ee08b82d338a6cf7d",
-          "message": "Cura 11553 initial scarring (#2031)",
-          "timestamp": "2024-02-23T11:41:21+01:00",
-          "tree_id": "f4d0bf91b840c7243a0fc28e6ec83e24d8324c58",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/8df7de35384b3a51f359380ee08b82d338a6cf7d"
-        },
-        "date": 1708685244697,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8123,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2146/commits/916a92aabe7fada3fbfa2f1507969eb8edbaa2af"
         },
         "date": 1728558037326,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "6c4fad3399212ac85815623e2a560b02c5151def",
+          "message": "Add engine info handler for getting engine version and hash",
+          "timestamp": "2024-10-09T07:25:59Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2146/commits/6c4fad3399212ac85815623e2a560b02c5151def"
+        },
+        "date": 1728558814087,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
