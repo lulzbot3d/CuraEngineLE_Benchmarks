@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728555457158,
+  "lastUpdate": 1728558040949,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "23188b9686079e949217143049967ab3f0d2d5e3",
-          "message": "Re-Introduce `prime_tower_enable`",
-          "timestamp": "2024-02-22T19:18:55Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2033/commits/23188b9686079e949217143049967ab3f0d2d5e3"
-        },
-        "date": 1708679811674,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8127,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2146/commits/45c585e3b3669f90b15e1f0084e184a0efd1ed23"
         },
         "date": 1728555454149,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "916a92aabe7fada3fbfa2f1507969eb8edbaa2af",
+          "message": "Add engine info handler for getting engine version and hash",
+          "timestamp": "2024-10-09T07:25:59Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2146/commits/916a92aabe7fada3fbfa2f1507969eb8edbaa2af"
+        },
+        "date": 1728558037326,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
