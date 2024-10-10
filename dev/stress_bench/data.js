@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728558816889,
+  "lastUpdate": 1728562973568,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "44c19f1b8d974e67310e4caee7f856fb66affb72",
-          "message": "Re-Introduce `prime_tower_enable`",
-          "timestamp": "2024-02-22T19:18:55Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2033/commits/44c19f1b8d974e67310e4caee7f856fb66affb72"
-        },
-        "date": 1708942224659,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8155,6 +8123,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2146/commits/6c4fad3399212ac85815623e2a560b02c5151def"
         },
         "date": 1728558814087,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "nallath@gmail.com",
+            "name": "Jaime van Kessel",
+            "username": "nallath"
+          },
+          "committer": {
+            "email": "nallath@gmail.com",
+            "name": "Jaime van Kessel",
+            "username": "nallath"
+          },
+          "distinct": true,
+          "id": "82a49861cd185bfd65e6cf2a1cf45b1d9233b238",
+          "message": "Merge branch 'main' of https://github.com/TheSin-/CuraEngine",
+          "timestamp": "2024-10-10T14:07:17+02:00",
+          "tree_id": "1d467a69a8ec0209699d09c64ad0fda241f8f081",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/82a49861cd185bfd65e6cf2a1cf45b1d9233b238"
+        },
+        "date": 1728562970471,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
