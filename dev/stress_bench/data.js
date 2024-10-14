@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728893363960,
+  "lastUpdate": 1728896358992,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "70144862+saumyaj3@users.noreply.github.com",
-            "name": "Saumya Jain",
-            "username": "saumyaj3"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "838681b9688e1a414d018b330e6e5844a87b4aa2",
-          "message": "Fix travel length regression (#2036)",
-          "timestamp": "2024-02-26T16:55:13+01:00",
-          "tree_id": "d2fb8fd0aaa4c5690ded66c8bbc98870f22253ec",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/838681b9688e1a414d018b330e6e5844a87b4aa2"
-        },
-        "date": 1708963308210,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8123,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2146/commits/c579c96373b4817a1ed2f3419ebce17f793aa232"
         },
         "date": 1728893360983,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "b4565262429a0618e519dd0c4d4aa48370865452",
+          "message": "[CURA-12153] Fix 'encompassing hole' issue (tree support).",
+          "timestamp": "2024-10-12T14:34:46Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2145/commits/b4565262429a0618e519dd0c4d4aa48370865452"
+        },
+        "date": 1728896355537,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
