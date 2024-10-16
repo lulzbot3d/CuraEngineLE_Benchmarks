@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728983045678,
+  "lastUpdate": 1729107541091,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "erwan.mathieu@ultimaker.com",
-            "name": "Erwan MATHIEU",
-            "username": "wawanbreton"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "a3a8da53679decb24cf46e1ac2b515d0b4e5811d",
-          "message": "Re-Introduce `prime_tower_enable` (#2033)",
-          "timestamp": "2024-02-27T13:09:39+01:00",
-          "tree_id": "c6874d8566b4c26603176057ef5850b9ed344d36",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/a3a8da53679decb24cf46e1ac2b515d0b4e5811d"
-        },
-        "date": 1709036196024,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8155,6 +8119,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2147/commits/a1f65ab8a2a1053b07304004cd0dee9bf26a628f"
         },
         "date": 1728983042835,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "edeaf0a3a4e67ef6728da6713c809bb19d9b43ed",
+          "message": "CURA-12164 Fix innerwall seam position",
+          "timestamp": "2024-10-15T15:25:54Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2148/commits/edeaf0a3a4e67ef6728da6713c809bb19d9b43ed"
+        },
+        "date": 1729107537806,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
