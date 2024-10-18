@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1729254822743,
+  "lastUpdate": 1729257361218,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "258c34e9e491dd1079559f10a639f2407dfddd45",
-          "message": "[CURA-11537] Fix remove empty layers when layers do not equal layer height.",
-          "timestamp": "2024-02-28T21:23:43Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2039/commits/258c34e9e491dd1079559f10a639f2407dfddd45"
-        },
-        "date": 1709224594698,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8147,6 +8115,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2148/commits/1a0f74193e0953fd57049c18b0d93161d6775d5a"
         },
         "date": 1729254819728,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "83c254ce14c1480bfc5906999fcc0dc9b092567b",
+          "message": "CURA-12164 Fix innerwall seam position",
+          "timestamp": "2024-10-17T08:45:36Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2148/commits/83c254ce14c1480bfc5906999fcc0dc9b092567b"
+        },
+        "date": 1729257357665,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
