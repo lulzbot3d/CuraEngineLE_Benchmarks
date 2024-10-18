@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1729231760636,
+  "lastUpdate": 1729240309505,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "7df7c64d9dadc861b449bda6792d934a75589002",
-          "message": "Cura 9838 brim location",
-          "timestamp": "2024-02-28T21:23:43Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2040/commits/7df7c64d9dadc861b449bda6792d934a75589002"
-        },
-        "date": 1709204156545,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8147,6 +8115,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2150/commits/0f896bd254f7e8e8f0bf2003f062dd49a7988033"
         },
         "date": 1729231757600,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "10faafa8b9dc4d7fc4fbb690f9960cec2a46a3a8",
+          "message": "CURA-12164 Fix innerwall seam position",
+          "timestamp": "2024-10-17T08:45:36Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2148/commits/10faafa8b9dc4d7fc4fbb690f9960cec2a46a3a8"
+        },
+        "date": 1729240306385,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
