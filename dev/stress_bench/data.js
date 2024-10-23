@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1729587959078,
+  "lastUpdate": 1729667546837,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "b7ae15156c25862462d8ab220fda74ba1704d716",
-          "message": "Filter out very thin infill shapes",
-          "timestamp": "2024-03-05T10:15:59Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2041/commits/b7ae15156c25862462d8ab220fda74ba1704d716"
-        },
-        "date": 1709653371361,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8147,6 +8115,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/5b798aa6e5b5528d19481a4c49fdeb9bd3307a22"
         },
         "date": 1729587955475,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "6db4b4ff830da77500dbcdceab9ddf6ef8949c9b",
+          "message": "[CURA-12173] Only perform 'tiny loops' fix if there's space to do so.",
+          "timestamp": "2024-10-22T15:48:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2153/commits/6db4b4ff830da77500dbcdceab9ddf6ef8949c9b"
+        },
+        "date": 1729667543701,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
