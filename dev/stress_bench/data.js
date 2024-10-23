@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1729667546837,
+  "lastUpdate": 1729692161326,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "erwan.mathieu@ultimaker.com",
-            "name": "Erwan MATHIEU",
-            "username": "wawanbreton"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "fd753dd089defbe6dd100e5d44dae9c1ba67980c",
-          "message": "[CURA-11485] Fix: z-offset as a property of gcode paths (#2042)",
-          "timestamp": "2024-03-07T10:27:55+01:00",
-          "tree_id": "87cdfce4f13c77e19ea8b5a6248c6d5eb29616e4",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/fd753dd089defbe6dd100e5d44dae9c1ba67980c"
-        },
-        "date": 1709804109149,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8147,6 +8111,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2153/commits/6db4b4ff830da77500dbcdceab9ddf6ef8949c9b"
         },
         "date": 1729667543701,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "669da734c19deb22d1de6566d339f40be4b149c7",
+          "message": "[CURA-12065] Fix (sort-of) conflict between per-object and per-mesh retraction.",
+          "timestamp": "2024-10-22T15:48:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2154/commits/669da734c19deb22d1de6566d339f40be4b149c7"
+        },
+        "date": 1729692157865,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
