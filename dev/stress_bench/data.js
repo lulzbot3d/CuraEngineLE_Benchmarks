@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1729758227941,
+  "lastUpdate": 1729759448479,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "1b9fe0d6f26ab89ade1a5ee897c5cd52411ae426",
-          "message": "Cura 9838 brim location",
-          "timestamp": "2024-03-07T08:34:49Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2040/commits/1b9fe0d6f26ab89ade1a5ee897c5cd52411ae426"
-        },
-        "date": 1709825161795,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8143,6 +8111,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2153/commits/2da46b19271c4ba29f98d94b3715e90d9cdf83c2"
         },
         "date": 1729758224379,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "c0d91c9a41c68487fca32d44184ca4b03838aca2",
+          "message": "[CURA-12068] Fix missing infill in thin strips of space.",
+          "timestamp": "2024-10-22T15:48:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2156/commits/c0d91c9a41c68487fca32d44184ca4b03838aca2"
+        },
+        "date": 1729759445237,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
