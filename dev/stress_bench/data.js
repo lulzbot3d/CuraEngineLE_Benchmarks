@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1729759448479,
+  "lastUpdate": 1729838443415,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "4d35c9728c5da336dfdfd823123c2ff407267818",
-          "message": "Cura 9838 brim location (#2040)",
-          "timestamp": "2024-03-08T13:32:46+01:00",
-          "tree_id": "70d5b489d350d652719904d5a614eabe86ec0046",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/4d35c9728c5da336dfdfd823123c2ff407267818"
-        },
-        "date": 1709901579760,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8143,6 +8107,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2156/commits/c0d91c9a41c68487fca32d44184ca4b03838aca2"
         },
         "date": 1729759445237,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "ebcd20a02d04e5f4a36fc30fabbca45d023d5b6f",
+          "message": "CURA-12175 Fix scarf seam and coasting interaction",
+          "timestamp": "2024-10-22T15:48:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2155/commits/ebcd20a02d04e5f4a36fc30fabbca45d023d5b6f"
+        },
+        "date": 1729838440281,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
