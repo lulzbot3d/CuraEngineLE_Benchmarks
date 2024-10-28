@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1729838461316,
+  "lastUpdate": 1730127039016,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "casperlamboo@gmail.com",
-            "name": "c.lamboo",
-            "username": "casperlamboo"
-          },
-          "committer": {
-            "email": "casperlamboo@gmail.com",
-            "name": "c.lamboo",
-            "username": "casperlamboo"
-          },
-          "distinct": true,
-          "id": "04c5ff3a58d676f14fda7e62493ba648879af8f3",
-          "message": "Merge branch 'refs/heads/5.7'",
-          "timestamp": "2024-03-11T13:46:51+01:00",
-          "tree_id": "73d89d458a442d59dcfa1b27564214fb0e77fa06",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/04c5ff3a58d676f14fda7e62493ba648879af8f3"
-        },
-        "date": 1710161692596,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8139,6 +8103,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2155/commits/c05c8c983537a32c18fbd2996dcd02e5e264e2d8"
         },
         "date": 1729838458189,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d036c0bb08ddf0fe1c6e9c287ea321374d2a477a",
+          "message": "Apply scarf seam and speed gradient in surface mode",
+          "timestamp": "2024-10-22T15:48:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2158/commits/d036c0bb08ddf0fe1c6e9c287ea321374d2a477a"
+        },
+        "date": 1730127035702,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
