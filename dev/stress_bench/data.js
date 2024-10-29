@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730127039016,
+  "lastUpdate": 1730196493216,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "3ea6e8f90219342ea8922637e6366f7aa29e795e",
-          "message": "Fix unecessary travel move to prime tower",
-          "timestamp": "2024-03-11T02:27:22Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2045/commits/3ea6e8f90219342ea8922637e6366f7aa29e795e"
-        },
-        "date": 1710257165050,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8103,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2158/commits/d036c0bb08ddf0fe1c6e9c287ea321374d2a477a"
         },
         "date": 1730127035702,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "b394b7bfcc9658045aaa18e5fcaa736e6d7efbae",
+          "message": "Add writeGcodeFile function to GCodeExport",
+          "timestamp": "2024-10-22T15:48:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2159/commits/b394b7bfcc9658045aaa18e5fcaa736e6d7efbae"
+        },
+        "date": 1730196489693,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
