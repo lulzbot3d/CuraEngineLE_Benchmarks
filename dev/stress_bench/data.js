@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730199471658,
+  "lastUpdate": 1730205279564,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "17d3906fe36e7dc7e3803d0ff4bccc82ff659430",
-          "message": "[CURA-11424] Fix fractional support-layers applied to often.",
-          "timestamp": "2024-03-11T02:27:22Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2047/commits/17d3906fe36e7dc7e3803d0ff4bccc82ff659430"
-        },
-        "date": 1710346908318,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8103,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2159/commits/3bb6d32ec62ce7cd9b67dd607fd32ef25ac0968d"
         },
         "date": 1730199468491,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "81d2ce014358a3dc930c71770e3ad7341ff13d8a",
+          "message": "CURA-12218 fix scattered seam for round models",
+          "timestamp": "2024-10-22T15:48:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2160/commits/81d2ce014358a3dc930c71770e3ad7341ff13d8a"
+        },
+        "date": 1730205276257,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
