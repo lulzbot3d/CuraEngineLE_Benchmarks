@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730279480623,
+  "lastUpdate": 1730286364260,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "8fad17d96e74b710aeb49aa614f64011426a85e8",
-          "message": "Cura 11735 support interface layer",
-          "timestamp": "2024-03-21T05:15:17Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2052/commits/8fad17d96e74b710aeb49aa614f64011426a85e8"
-        },
-        "date": 1711030506721,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8103,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2160/commits/32a279d139094005205e20e8a95af14393805692"
         },
         "date": 1730279476918,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "43d5d2da84973e2d9af69f0a94fcbcaeb307a3ce",
+          "message": "CURA-12245 fix spiralize mode",
+          "timestamp": "2024-10-29T14:22:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2161/commits/43d5d2da84973e2d9af69f0a94fcbcaeb307a3ce"
+        },
+        "date": 1730286360754,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
