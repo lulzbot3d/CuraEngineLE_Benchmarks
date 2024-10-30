@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730279364298,
+  "lastUpdate": 1730279480623,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "794357bf4172660a02c27623b0b1ae055959f6be",
-          "message": "Fix double support on first layer",
-          "timestamp": "2024-03-15T13:30:31Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2051/commits/794357bf4172660a02c27623b0b1ae055959f6be"
-        },
-        "date": 1710951350255,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8103,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2160/commits/71ac23e50ea58b7ec08a5823b0bbd5a03dec1c25"
         },
         "date": 1730279361094,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "32a279d139094005205e20e8a95af14393805692",
+          "message": "CURA-12218 fix scattered seam for round models",
+          "timestamp": "2024-10-29T14:22:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2160/commits/32a279d139094005205e20e8a95af14393805692"
+        },
+        "date": 1730279476918,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
