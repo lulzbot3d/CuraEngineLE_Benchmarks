@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730307064087,
+  "lastUpdate": 1730366559585,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "c51619e6960ac0dbd602742f47016bf9d0723b34",
-          "message": "Cura 11742 crash for writing travel path",
-          "timestamp": "2024-03-21T05:15:17Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2050/commits/c51619e6960ac0dbd602742f47016bf9d0723b34"
-        },
-        "date": 1711112031148,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8103,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2162/commits/1ae45ef17a4a76c691840023857256cacf503bfa"
         },
         "date": 1730307060630,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "69c3e42cd04d3a57e2832dda18f9a2def41f9bd5",
+          "message": "Apply scarf seam and speed gradient in surface mode",
+          "timestamp": "2024-10-31T03:05:28Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2158/commits/69c3e42cd04d3a57e2832dda18f9a2def41f9bd5"
+        },
+        "date": 1730366555974,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
