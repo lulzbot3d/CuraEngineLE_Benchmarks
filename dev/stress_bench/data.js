@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730462581680,
+  "lastUpdate": 1730468099082,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "9f7deffc47f113a514b63c4c00cbdc9b0d4fda93",
-          "message": "CURA-11249 travel up with fractional layer",
-          "timestamp": "2024-03-27T09:31:39Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2057/commits/9f7deffc47f113a514b63c4c00cbdc9b0d4fda93"
-        },
-        "date": 1711552317985,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8103,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2163/commits/d68cc1160ba3482e4f96068cf007185d9433a81c"
         },
         "date": 1730462578465,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "ba75a260f43d8f03ed10a72c6e2fe19e5e71b2b3",
+          "message": "CURA-12232 fix sentry crashes",
+          "timestamp": "2024-11-01T10:54:03Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2162/commits/ba75a260f43d8f03ed10a72c6e2fe19e5e71b2b3"
+        },
+        "date": 1730468095776,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
