@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730468099082,
+  "lastUpdate": 1730817595116,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "63a1ca650a6c51e83c4d67794b41b16fb5433707",
-          "message": "CURA-11718 skirt has height on outer",
-          "timestamp": "2024-03-29T08:58:16Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2058/commits/63a1ca650a6c51e83c4d67794b41b16fb5433707"
-        },
-        "date": 1711710596549,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8103,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2162/commits/ba75a260f43d8f03ed10a72c6e2fe19e5e71b2b3"
         },
         "date": 1730468095776,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "0948be12be131fb28611181290892e3f34bb6ee2",
+          "message": "Fix dirty print lines and micro-segments",
+          "timestamp": "2024-11-05T06:58:26Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2166/commits/0948be12be131fb28611181290892e3f34bb6ee2"
+        },
+        "date": 1730817591575,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
