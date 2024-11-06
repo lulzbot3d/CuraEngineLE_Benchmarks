@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730821761672,
+  "lastUpdate": 1730918651134,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "fa6025f0d2edeb8636c7501d8447bf97b6c9ac77",
-          "message": "CURA-11717 prime tower has unused material",
-          "timestamp": "2024-03-29T08:58:16Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2059/commits/fa6025f0d2edeb8636c7501d8447bf97b6c9ac77"
-        },
-        "date": 1711727734053,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8103,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2167/commits/a6450b00d2c7e030d308bc07e16ee11b8355b18b"
         },
         "date": 1730821758217,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "c6faf2ae11ff089e6060eee8a0ad50e915dc97b9",
+          "message": "CURA-12234 combing over top surface",
+          "timestamp": "2024-11-05T22:46:14Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2168/commits/c6faf2ae11ff089e6060eee8a0ad50e915dc97b9"
+        },
+        "date": 1730918647299,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
