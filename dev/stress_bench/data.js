@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730970197305,
+  "lastUpdate": 1730990732094,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "1ee8726e9a149ee1c52ed1ba81fa152f04dfe449",
-          "message": "CURA-11717 prime tower has unused material",
-          "timestamp": "2024-04-01T20:58:05Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2059/commits/1ee8726e9a149ee1c52ed1ba81fa152f04dfe449"
-        },
-        "date": 1712045943579,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8139,6 +8107,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/7876d035c30d17a0f0e48568913e7d47ce4a3223"
         },
         "date": 1730970193927,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "643a7124ed418a0435423eb788fc6bc0aeba5c8c",
+          "message": "CURA-12268 Fix useless Z move before switching layer",
+          "timestamp": "2024-11-07T08:46:29Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2169/commits/643a7124ed418a0435423eb788fc6bc0aeba5c8c"
+        },
+        "date": 1730990728277,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
