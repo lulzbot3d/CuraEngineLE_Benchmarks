@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731079963301,
+  "lastUpdate": 1731079972946,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "659aa52b08b1b611ad53c87b4946c82ffeb53615",
-          "message": "Work-In-Progress [CURA-11597] fix duplicate support extrusions",
-          "timestamp": "2024-04-01T20:58:05Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2062/commits/659aa52b08b1b611ad53c87b4946c82ffeb53615"
-        },
-        "date": 1712172470104,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8103,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2170/commits/3e7f35af50d85b4e675bdbfcdd48385d394731ec"
         },
         "date": 1731079959924,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "fd222be8a9bc50f7fe40804d295ebe179a0f8d29",
+          "message": "CURA-12265 the wiping movement goes in the wrong direction",
+          "timestamp": "2024-11-08T06:16:26Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2170/commits/fd222be8a9bc50f7fe40804d295ebe179a0f8d29"
+        },
+        "date": 1731079969489,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
