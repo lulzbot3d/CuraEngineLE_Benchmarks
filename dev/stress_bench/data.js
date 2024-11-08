@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731054474205,
+  "lastUpdate": 1731079963301,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "saumya.jain@ultimaker.com",
-            "name": "Saumya Jain",
-            "username": "saumyaj3"
-          },
-          "committer": {
-            "email": "saumya.jain@ultimaker.com",
-            "name": "Saumya Jain",
-            "username": "saumyaj3"
-          },
-          "distinct": true,
-          "id": "8b1757ec7e7906b138952da2db50934749768469",
-          "message": "merge 5.7",
-          "timestamp": "2024-04-02T10:34:12+02:00",
-          "tree_id": "fee7599d21caf499b337f69d004942bcfb8a4bd9",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/8b1757ec7e7906b138952da2db50934749768469"
-        },
-        "date": 1712047851931,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8139,6 +8103,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2168/commits/cae1d6ed8dd193ce3a9e0cbc07a783858bb3115c"
         },
         "date": 1731054466122,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "3e7f35af50d85b4e675bdbfcdd48385d394731ec",
+          "message": "CURA-12265 the wiping movement goes in the wrong direction",
+          "timestamp": "2024-11-08T06:16:26Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2170/commits/3e7f35af50d85b4e675bdbfcdd48385d394731ec"
+        },
+        "date": 1731079959924,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
