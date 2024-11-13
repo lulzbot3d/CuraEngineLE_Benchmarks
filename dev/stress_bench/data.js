@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731421663628,
+  "lastUpdate": 1731499783857,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "fdb724fda234cfad308bc920be8e065895a06000",
-          "message": "CURA-9830 consolidate polygon classes",
-          "timestamp": "2024-04-09T10:18:39Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2065/commits/fdb724fda234cfad308bc920be8e065895a06000"
-        },
-        "date": 1712912421058,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8103,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2172/commits/57f8e1de812348ad6f09a2569f6bde8864c54709"
         },
         "date": 1731421660059,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "880114df5f2f9e2e5d000d4e9ea7f0257ca7a36c",
+          "message": "Fix (some) crash-logs divide-by-zero issues",
+          "timestamp": "2024-11-12T17:43:05Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2173/commits/880114df5f2f9e2e5d000d4e9ea7f0257ca7a36c"
+        },
+        "date": 1731499780348,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
