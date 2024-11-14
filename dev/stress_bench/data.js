@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731499783857,
+  "lastUpdate": 1731576591894,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "38965fdd895df3ed10cb1b2bec307c4d0ec4f97c",
-          "message": "CURA-9830 consolidate polygon classes",
-          "timestamp": "2024-04-09T10:18:39Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2065/commits/38965fdd895df3ed10cb1b2bec307c4d0ec4f97c"
-        },
-        "date": 1712935247158,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8103,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2173/commits/880114df5f2f9e2e5d000d4e9ea7f0257ca7a36c"
         },
         "date": 1731499780348,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "7dff0622921af87902fb945a093338b65f99ed8d",
+          "message": "Apply coasting only on walls",
+          "timestamp": "2024-11-12T17:43:05Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2174/commits/7dff0622921af87902fb945a093338b65f99ed8d"
+        },
+        "date": 1731576587934,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
