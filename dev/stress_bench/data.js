@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731665228428,
+  "lastUpdate": 1732105417623,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "1e043b06ca8ad6195d8bd08e6d45be2c73a63390",
-          "message": "CURA-9830 consolidate polygon classes",
-          "timestamp": "2024-04-12T16:59:45Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2065/commits/1e043b06ca8ad6195d8bd08e6d45be2c73a63390"
-        },
-        "date": 1713251964564,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8135,6 +8103,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2174/commits/ecb2ae08e4361f1acac8e55b32d83ac0b1d93597"
         },
         "date": 1731665225189,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "committer": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "distinct": true,
+          "id": "cd01288b6d6cc230d72a50af55d01649895b4b4e",
+          "message": "Merge remote-tracking branch 'origin/5.9'",
+          "timestamp": "2024-11-20T13:12:10+01:00",
+          "tree_id": "2e164b2dba3501474bdfdb0f82bf054bd630bf60",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/cd01288b6d6cc230d72a50af55d01649895b4b4e"
+        },
+        "date": 1732105414384,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
