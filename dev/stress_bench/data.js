@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1732105417623,
+  "lastUpdate": 1732263845013,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "784cba4512953cb5c7034ee109731e2178976082",
-          "message": "CURA-9830 consolidate polygon classes",
-          "timestamp": "2024-04-12T16:59:45Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2065/commits/784cba4512953cb5c7034ee109731e2178976082"
-        },
-        "date": 1713280062534,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8139,6 +8107,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/cd01288b6d6cc230d72a50af55d01649895b4b4e"
         },
         "date": 1732105414384,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "committer": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "distinct": true,
+          "id": "6b20571fe08811e8f000bc48d023297ee1f901b6",
+          "message": "Fix wrong scoring tendancy\n\nCURA-12324\nWhen processing the last criterion pass, we used to keep all the best candidates in regard to the scoring threshold, then the first one of them would be returned, which is not always the one with the actual best score. Now we just early-out with the best candidate in case of the last pass. This is also more efficient.",
+          "timestamp": "2024-11-22T09:06:30+01:00",
+          "tree_id": "a9b6e398a044b70049975c9a95e3df92de02ddce",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/6b20571fe08811e8f000bc48d023297ee1f901b6"
+        },
+        "date": 1732263841310,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
