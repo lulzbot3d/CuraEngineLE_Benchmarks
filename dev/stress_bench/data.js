@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1732263994949,
+  "lastUpdate": 1732787338208,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "513927496c23425e27539088598d4ee6ae67b008",
-          "message": "[CURA-11597] fix duplicate support extrusions",
-          "timestamp": "2024-04-12T16:59:45Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2062/commits/513927496c23425e27539088598d4ee6ae67b008"
-        },
-        "date": 1713361403457,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8143,6 +8111,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2175/commits/6b20571fe08811e8f000bc48d023297ee1f901b6"
         },
         "date": 1732263991666,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "4907464d8bebbf39e7ea81a2a3abb17ff20b8e0a",
+          "message": "CURA-12324 random seam is not so random",
+          "timestamp": "2024-11-27T13:31:25Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2175/commits/4907464d8bebbf39e7ea81a2a3abb17ff20b8e0a"
+        },
+        "date": 1732787334860,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
