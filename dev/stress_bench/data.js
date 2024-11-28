@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1732787338208,
+  "lastUpdate": 1732787499364,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "8c6d99eb821f6194cf17150b657cbe5c5ea8ad7f",
-          "message": "Cura 11227 zseam support",
-          "timestamp": "2024-04-19T11:49:20Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2067/commits/8c6d99eb821f6194cf17150b657cbe5c5ea8ad7f"
-        },
-        "date": 1713539789539,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8143,6 +8111,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2175/commits/4907464d8bebbf39e7ea81a2a3abb17ff20b8e0a"
         },
         "date": 1732787334860,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "0abecdc2e61595302f10471c271ef676ab2b0154",
+          "message": "CURA-12324 random seam is not so random",
+          "timestamp": "2024-11-27T13:31:25Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2175/commits/0abecdc2e61595302f10471c271ef676ab2b0154"
+        },
+        "date": 1732787495618,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
