@@ -1,2448 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724663428771,
+  "lastUpdate": 1732882500705,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "e3e9f30e69806dce2ed3bacd90119aa7d5d17500",
-          "message": "Try fix benchmarks",
-          "timestamp": "2024-02-22T15:20:18Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2032/commits/e3e9f30e69806dce2ed3bacd90119aa7d5d17500"
-        },
-        "date": 1708621205001,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "9f5c4c14fe9e6b2ad066305c9b303460339adfff",
-          "message": "Try fix benchmarks",
-          "timestamp": "2024-02-22T15:20:18Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2032/commits/9f5c4c14fe9e6b2ad066305c9b303460339adfff"
-        },
-        "date": 1708621213210,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "a58c65a16839bdceaa3a7a59d2701e1f10a9c2ee",
-          "message": "Try fix benchmarks",
-          "timestamp": "2024-02-22T15:20:18Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2032/commits/a58c65a16839bdceaa3a7a59d2701e1f10a9c2ee"
-        },
-        "date": 1708625988286,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "0cedca708eaf79d996ad3f51e04927b193a38b5e",
-          "message": "Try fix benchmarks",
-          "timestamp": "2024-02-22T15:20:18Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2032/commits/0cedca708eaf79d996ad3f51e04927b193a38b5e"
-        },
-        "date": 1708627497534,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "5bb0e50c2ed1a37624d44f073e12c17b4dd2a31d",
-          "message": "Try fix benchmarks",
-          "timestamp": "2024-02-22T15:20:18Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2032/commits/5bb0e50c2ed1a37624d44f073e12c17b4dd2a31d"
-        },
-        "date": 1708628048660,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "b70433128e36a486abadfc26a15e66300e1b0733",
-          "message": "Try fix benchmarks",
-          "timestamp": "2024-02-22T15:20:18Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2032/commits/b70433128e36a486abadfc26a15e66300e1b0733"
-        },
-        "date": 1708628890469,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "fc929fc3bfa3a236ac8acc6b8efac3ed6eaa45c9",
-          "message": "Try fix benchmarks",
-          "timestamp": "2024-02-22T15:20:18Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2032/commits/fc929fc3bfa3a236ac8acc6b8efac3ed6eaa45c9"
-        },
-        "date": 1708629281897,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "77c904f333c53bfb001acdf21d4f343ae61902b8",
-          "message": "Try fix benchmarks",
-          "timestamp": "2024-02-22T19:18:55Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2032/commits/77c904f333c53bfb001acdf21d4f343ae61902b8"
-        },
-        "date": 1708637053839,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "6b5975031b9f583e4b27134ceaa57f01401446e1",
-          "message": "Try fix benchmarks",
-          "timestamp": "2024-02-22T19:18:55Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2032/commits/6b5975031b9f583e4b27134ceaa57f01401446e1"
-        },
-        "date": 1708638389127,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "f5ac2b902d3e7395505eb8be0284ee029d23f0a0",
-          "message": "Re-Introduce `prime_tower_enable`",
-          "timestamp": "2024-02-22T19:18:55Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2033/commits/f5ac2b902d3e7395505eb8be0284ee029d23f0a0"
-        },
-        "date": 1708667448336,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "24cfc945977988b410a2818dd863d04da802273b",
-          "message": "Fix GcodeAnalyser",
-          "timestamp": "2024-02-22T19:18:55Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2034/commits/24cfc945977988b410a2818dd863d04da802273b"
-        },
-        "date": 1708671179506,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "2127371789c489da73ecad8a7ce0ed2aadcd9638",
-          "message": "Fix GcodeAnalyser",
-          "timestamp": "2024-02-22T19:18:55Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2034/commits/2127371789c489da73ecad8a7ce0ed2aadcd9638"
-        },
-        "date": 1708671218490,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "3543e011515f53c07c6225136fab7537019f5f5a",
-          "message": "Fix GcodeAnalyser",
-          "timestamp": "2024-02-22T19:18:55Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2034/commits/3543e011515f53c07c6225136fab7537019f5f5a"
-        },
-        "date": 1708672031918,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "email": "70144862+saumyaj3@users.noreply.github.com",
-            "name": "Saumya Jain",
-            "username": "saumyaj3"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "aae47874d18765e79c1f8643cc07efe889dcaab6",
-          "message": "Fix GcodeAnalyser (#2034)",
-          "timestamp": "2024-02-23T09:59:29+01:00",
-          "tree_id": "b31505d4322ede6db6048871249fc1c24c918aab",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/aae47874d18765e79c1f8643cc07efe889dcaab6"
-        },
-        "date": 1708679163448,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "23188b9686079e949217143049967ab3f0d2d5e3",
-          "message": "Re-Introduce `prime_tower_enable`",
-          "timestamp": "2024-02-22T19:18:55Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2033/commits/23188b9686079e949217143049967ab3f0d2d5e3"
-        },
-        "date": 1708679811674,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "email": "c.lamboo@ultimaker.com",
-            "name": "Casper Lamboo",
-            "username": "casperlamboo"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "8df7de35384b3a51f359380ee08b82d338a6cf7d",
-          "message": "Cura 11553 initial scarring (#2031)",
-          "timestamp": "2024-02-23T11:41:21+01:00",
-          "tree_id": "f4d0bf91b840c7243a0fc28e6ec83e24d8324c58",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/8df7de35384b3a51f359380ee08b82d338a6cf7d"
-        },
-        "date": 1708685244697,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "44c19f1b8d974e67310e4caee7f856fb66affb72",
-          "message": "Re-Introduce `prime_tower_enable`",
-          "timestamp": "2024-02-22T19:18:55Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2033/commits/44c19f1b8d974e67310e4caee7f856fb66affb72"
-        },
-        "date": 1708942224659,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "68cc5c594a988eddcc73a6aeb444f207bac8e9e9",
-          "message": "Fix travel length regression",
-          "timestamp": "2024-02-22T19:18:55Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2036/commits/68cc5c594a988eddcc73a6aeb444f207bac8e9e9"
-        },
-        "date": 1708947848098,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "email": "70144862+saumyaj3@users.noreply.github.com",
-            "name": "Saumya Jain",
-            "username": "saumyaj3"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "838681b9688e1a414d018b330e6e5844a87b4aa2",
-          "message": "Fix travel length regression (#2036)",
-          "timestamp": "2024-02-26T16:55:13+01:00",
-          "tree_id": "d2fb8fd0aaa4c5690ded66c8bbc98870f22253ec",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/838681b9688e1a414d018b330e6e5844a87b4aa2"
-        },
-        "date": 1708963308210,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "4788e09de9bdecf458707f61e54a7d3ba3ee1f06",
-          "message": "condition to start position while in case of prime-blob enabled",
-          "timestamp": "2024-02-22T19:18:55Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2038/commits/4788e09de9bdecf458707f61e54a7d3ba3ee1f06"
-        },
-        "date": 1709034989299,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "email": "erwan.mathieu@ultimaker.com",
-            "name": "Erwan MATHIEU",
-            "username": "wawanbreton"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "a3a8da53679decb24cf46e1ac2b515d0b4e5811d",
-          "message": "Re-Introduce `prime_tower_enable` (#2033)",
-          "timestamp": "2024-02-27T13:09:39+01:00",
-          "tree_id": "c6874d8566b4c26603176057ef5850b9ed344d36",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/a3a8da53679decb24cf46e1ac2b515d0b4e5811d"
-        },
-        "date": 1709036196024,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "email": "erwan.mathieu@ultimaker.com",
-            "name": "Erwan MATHIEU",
-            "username": "wawanbreton"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "7e9c40b52cb0fad2c3f4cedc5ef60dd712460cc5",
-          "message": "condition to start position while in case of prime-blob enabled (#2038)",
-          "timestamp": "2024-02-29T08:21:06+01:00",
-          "tree_id": "ccf1efeef6c85d26f915aad99a8cba46b39d80ad",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/7e9c40b52cb0fad2c3f4cedc5ef60dd712460cc5"
-        },
-        "date": 1709191604909,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "24d0c3191e39aa37611c8919711671ab01ab0b97",
-          "message": "[CURA-11537] Fix remove empty layers when layers do not equal layer height.",
-          "timestamp": "2024-02-28T21:23:43Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2039/commits/24d0c3191e39aa37611c8919711671ab01ab0b97"
-        },
-        "date": 1709202102307,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "4eb7ec7a4e506732c4dd553740fe71f0a4ae1520",
-          "message": "Cura 9838 brim location",
-          "timestamp": "2024-02-28T21:23:43Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2040/commits/4eb7ec7a4e506732c4dd553740fe71f0a4ae1520"
-        },
-        "date": 1709203673129,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "7df7c64d9dadc861b449bda6792d934a75589002",
-          "message": "Cura 9838 brim location",
-          "timestamp": "2024-02-28T21:23:43Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2040/commits/7df7c64d9dadc861b449bda6792d934a75589002"
-        },
-        "date": 1709204156545,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "54d0fd71b7f5da7a2e855f542051878885428205",
-          "message": "[CURA-11537] Fix remove empty layers when layers do not equal layer height.",
-          "timestamp": "2024-02-28T21:23:43Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2039/commits/54d0fd71b7f5da7a2e855f542051878885428205"
-        },
-        "date": 1709206246407,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "a7047be762d639cf2a42736c8a8c5c7c1c58912f",
-          "message": "Cura 9838 brim location",
-          "timestamp": "2024-02-28T21:23:43Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2040/commits/a7047be762d639cf2a42736c8a8c5c7c1c58912f"
-        },
-        "date": 1709216047974,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "258c34e9e491dd1079559f10a639f2407dfddd45",
-          "message": "[CURA-11537] Fix remove empty layers when layers do not equal layer height.",
-          "timestamp": "2024-02-28T21:23:43Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2039/commits/258c34e9e491dd1079559f10a639f2407dfddd45"
-        },
-        "date": 1709224594698,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "email": "erwan.mathieu@ultimaker.com",
-            "name": "Erwan MATHIEU",
-            "username": "wawanbreton"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "2325bb796b0761946d43f71f97e3c6ff862623a4",
-          "message": "[CURA-11537] Fix remove empty layers when layers do not equal layer height. (#2039)",
-          "timestamp": "2024-03-01T07:57:13+01:00",
-          "tree_id": "d8cf2e9d9fce8c8007efa47d0d0516ccb3f2581b",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/2325bb796b0761946d43f71f97e3c6ff862623a4"
-        },
-        "date": 1709276582802,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "20e3401e8b56c30b4ce0e93b51c223995ff68792",
-          "message": "Cura 9838 brim location",
-          "timestamp": "2024-03-04T08:38:53Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2040/commits/20e3401e8b56c30b4ce0e93b51c223995ff68792"
-        },
-        "date": 1709632511470,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "1c85d020e5a42513c8ed758be9c2447cc9e21f6b",
-          "message": "Filter out very thin infill shapes",
-          "timestamp": "2024-03-05T10:15:59Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2041/commits/1c85d020e5a42513c8ed758be9c2447cc9e21f6b"
-        },
-        "date": 1709635072543,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "b7ae15156c25862462d8ab220fda74ba1704d716",
-          "message": "Filter out very thin infill shapes",
-          "timestamp": "2024-03-05T10:15:59Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2041/commits/b7ae15156c25862462d8ab220fda74ba1704d716"
-        },
-        "date": 1709653371361,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "email": "erwan.mathieu@ultimaker.com",
-            "name": "Erwan MATHIEU",
-            "username": "wawanbreton"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "fd753dd089defbe6dd100e5d44dae9c1ba67980c",
-          "message": "[CURA-11485] Fix: z-offset as a property of gcode paths (#2042)",
-          "timestamp": "2024-03-07T10:27:55+01:00",
-          "tree_id": "87cdfce4f13c77e19ea8b5a6248c6d5eb29616e4",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/fd753dd089defbe6dd100e5d44dae9c1ba67980c"
-        },
-        "date": 1709804109149,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "c1be45288c35fe828357ceca3b73076555241708",
-          "message": "Cura 9838 brim location",
-          "timestamp": "2024-03-07T08:34:49Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2040/commits/c1be45288c35fe828357ceca3b73076555241708"
-        },
-        "date": 1709805819395,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "288faff717161150ca7a20aca04deaa19794134f",
-          "message": "Cura 9838 brim location",
-          "timestamp": "2024-03-07T08:34:49Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2040/commits/288faff717161150ca7a20aca04deaa19794134f"
-        },
-        "date": 1709808724658,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "1b9fe0d6f26ab89ade1a5ee897c5cd52411ae426",
-          "message": "Cura 9838 brim location",
-          "timestamp": "2024-03-07T08:34:49Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2040/commits/1b9fe0d6f26ab89ade1a5ee897c5cd52411ae426"
-        },
-        "date": 1709825161795,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "4d35c9728c5da336dfdfd823123c2ff407267818",
-          "message": "Cura 9838 brim location (#2040)",
-          "timestamp": "2024-03-08T13:32:46+01:00",
-          "tree_id": "70d5b489d350d652719904d5a614eabe86ec0046",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/4d35c9728c5da336dfdfd823123c2ff407267818"
-        },
-        "date": 1709901579760,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "8d297ecb6dff44a8e793a41b2b81fcfbbc468c3c",
-          "message": "Fix secondary brim generation",
-          "timestamp": "2024-03-11T02:27:22Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2044/commits/8d297ecb6dff44a8e793a41b2b81fcfbbc468c3c"
-        },
-        "date": 1710148774394,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "email": "casperlamboo@gmail.com",
-            "name": "c.lamboo",
-            "username": "casperlamboo"
-          },
-          "committer": {
-            "email": "casperlamboo@gmail.com",
-            "name": "c.lamboo",
-            "username": "casperlamboo"
-          },
-          "distinct": true,
-          "id": "04c5ff3a58d676f14fda7e62493ba648879af8f3",
-          "message": "Merge branch 'refs/heads/5.7'",
-          "timestamp": "2024-03-11T13:46:51+01:00",
-          "tree_id": "73d89d458a442d59dcfa1b27564214fb0e77fa06",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/04c5ff3a58d676f14fda7e62493ba648879af8f3"
-        },
-        "date": 1710161692596,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "3ea6e8f90219342ea8922637e6366f7aa29e795e",
-          "message": "Fix unecessary travel move to prime tower",
-          "timestamp": "2024-03-11T02:27:22Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2045/commits/3ea6e8f90219342ea8922637e6366f7aa29e795e"
-        },
-        "date": 1710257165050,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "91a6a52c326567b49f2e2837a9a0d57d0f9db700",
-          "message": "Cura 11724 disable initial travel for one at a time",
-          "timestamp": "2024-03-11T02:27:22Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2046/commits/91a6a52c326567b49f2e2837a9a0d57d0f9db700"
-        },
-        "date": 1710259834272,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "17d3906fe36e7dc7e3803d0ff4bccc82ff659430",
-          "message": "[CURA-11424] Fix fractional support-layers applied to often.",
-          "timestamp": "2024-03-11T02:27:22Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2047/commits/17d3906fe36e7dc7e3803d0ff4bccc82ff659430"
-        },
-        "date": 1710346908318,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "d0a7b425de5ce67aa6b273c5ba8a7ddff88002b9",
-          "message": "Filter out very thin infill shapes",
-          "timestamp": "2024-03-15T13:30:31Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2041/commits/d0a7b425de5ce67aa6b273c5ba8a7ddff88002b9"
-        },
-        "date": 1710754563885,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "833994551494ef1d0ef2b9d24415c6182b06e7d7",
-          "message": "Fix support on top of interface",
-          "timestamp": "2024-03-15T13:30:31Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2049/commits/833994551494ef1d0ef2b9d24415c6182b06e7d7"
-        },
-        "date": 1710779840065,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "bd867c2491514117966a4af0debea5b2206128ff",
-          "message": "Cura 11742 crash for writing travel path",
-          "timestamp": "2024-03-15T13:30:31Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2050/commits/bd867c2491514117966a4af0debea5b2206128ff"
-        },
-        "date": 1710943136648,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "794357bf4172660a02c27623b0b1ae055959f6be",
-          "message": "Fix double support on first layer",
-          "timestamp": "2024-03-15T13:30:31Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2051/commits/794357bf4172660a02c27623b0b1ae055959f6be"
-        },
-        "date": 1710951350255,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "8fad17d96e74b710aeb49aa614f64011426a85e8",
-          "message": "Cura 11735 support interface layer",
-          "timestamp": "2024-03-21T05:15:17Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2052/commits/8fad17d96e74b710aeb49aa614f64011426a85e8"
-        },
-        "date": 1711030506721,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "75bd3ff479cdb2850c53e7ee6df727cb926c93f9",
-          "message": "CURA-11757 fix crash with empty layers",
-          "timestamp": "2024-03-21T05:15:17Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2053/commits/75bd3ff479cdb2850c53e7ee6df727cb926c93f9"
-        },
-        "date": 1711111626725,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "c51619e6960ac0dbd602742f47016bf9d0723b34",
-          "message": "Cura 11742 crash for writing travel path",
-          "timestamp": "2024-03-21T05:15:17Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2050/commits/c51619e6960ac0dbd602742f47016bf9d0723b34"
-        },
-        "date": 1711112031148,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "585102595a01e81082396253783fc996ef63ce6f",
-          "message": "Cura 11735 support interface layer",
-          "timestamp": "2024-03-21T05:15:17Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2052/commits/585102595a01e81082396253783fc996ef63ce6f"
-        },
-        "date": 1711117529930,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "61c24662605cdb646ff541cd3889214376c314b8",
-          "message": "Cura 11735 support interface layer",
-          "timestamp": "2024-03-21T05:15:17Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2052/commits/61c24662605cdb646ff541cd3889214376c314b8"
-        },
-        "date": 1711119187623,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "d3d8f69914f7fee8d6051f12062596c6a9ba83bb",
-          "message": "Manually fix clang-formating",
-          "timestamp": "2024-03-21T05:15:17Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2055/commits/d3d8f69914f7fee8d6051f12062596c6a9ba83bb"
-        },
-        "date": 1711372855709,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "a9c428fbee71a4b4a1652dc10f61ebfef5ac4f9d",
-          "message": "added same path for extra combing move introduced",
-          "timestamp": "2024-03-21T05:15:17Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2056/commits/a9c428fbee71a4b4a1652dc10f61ebfef5ac4f9d"
-        },
-        "date": 1711375428514,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "9f7deffc47f113a514b63c4c00cbdc9b0d4fda93",
-          "message": "CURA-11249 travel up with fractional layer",
-          "timestamp": "2024-03-27T09:31:39Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2057/commits/9f7deffc47f113a514b63c4c00cbdc9b0d4fda93"
-        },
-        "date": 1711552317985,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "63a1ca650a6c51e83c4d67794b41b16fb5433707",
-          "message": "CURA-11718 skirt has height on outer",
-          "timestamp": "2024-03-29T08:58:16Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2058/commits/63a1ca650a6c51e83c4d67794b41b16fb5433707"
-        },
-        "date": 1711710596549,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "ba6ebd66e4e864246b44004d89fd7b9918cf8ade",
-          "message": "CURA-11717 prime tower has unused material",
-          "timestamp": "2024-03-29T08:58:16Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2059/commits/ba6ebd66e4e864246b44004d89fd7b9918cf8ade"
-        },
-        "date": 1711718828812,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "fa6025f0d2edeb8636c7501d8447bf97b6c9ac77",
-          "message": "CURA-11717 prime tower has unused material",
-          "timestamp": "2024-03-29T08:58:16Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2059/commits/fa6025f0d2edeb8636c7501d8447bf97b6c9ac77"
-        },
-        "date": 1711727734053,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "1bcc4b6360592fd66b2063568f7e50b62f6b65e6",
-          "message": "CURA-10857 skirt height not working",
-          "timestamp": "2024-03-29T08:58:16Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2060/commits/1bcc4b6360592fd66b2063568f7e50b62f6b65e6"
-        },
-        "date": 1711728293747,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "1ee8726e9a149ee1c52ed1ba81fa152f04dfe449",
-          "message": "CURA-11717 prime tower has unused material",
-          "timestamp": "2024-04-01T20:58:05Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2059/commits/1ee8726e9a149ee1c52ed1ba81fa152f04dfe449"
-        },
-        "date": 1712045943579,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "8fe190df16ea48c7a96c3e80eec2b33da81fd482",
-          "message": "CURA-11717 prime tower has unused material",
-          "timestamp": "2024-04-01T20:58:05Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2059/commits/8fe190df16ea48c7a96c3e80eec2b33da81fd482"
-        },
-        "date": 1712045988806,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "email": "saumya.jain@ultimaker.com",
-            "name": "Saumya Jain",
-            "username": "saumyaj3"
-          },
-          "committer": {
-            "email": "saumya.jain@ultimaker.com",
-            "name": "Saumya Jain",
-            "username": "saumyaj3"
-          },
-          "distinct": true,
-          "id": "8b1757ec7e7906b138952da2db50934749768469",
-          "message": "merge 5.7",
-          "timestamp": "2024-04-02T10:34:12+02:00",
-          "tree_id": "fee7599d21caf499b337f69d004942bcfb8a4bd9",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/8b1757ec7e7906b138952da2db50934749768469"
-        },
-        "date": 1712047851931,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "659aa52b08b1b611ad53c87b4946c82ffeb53615",
-          "message": "Work-In-Progress [CURA-11597] fix duplicate support extrusions",
-          "timestamp": "2024-04-01T20:58:05Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2062/commits/659aa52b08b1b611ad53c87b4946c82ffeb53615"
-        },
-        "date": 1712172470104,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "f05f5386c7fb2226d3630cebc429ee35f1850eb4",
-          "message": "Work-In-Progress [CURA-11597] fix duplicate support extrusions",
-          "timestamp": "2024-04-09T10:18:39Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2062/commits/f05f5386c7fb2226d3630cebc429ee35f1850eb4"
-        },
-        "date": 1712826779857,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "449c209cda975a42c37f104286dc3b0443e97db9",
-          "message": "Work-In-Progress [CURA-11597] fix duplicate support extrusions",
-          "timestamp": "2024-04-09T10:18:39Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2062/commits/449c209cda975a42c37f104286dc3b0443e97db9"
-        },
-        "date": 1712828175524,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "eeec9636f7b3f749b790a1bea4c2901196cee027",
-          "message": "Work-In-Progress [CURA-11597] fix duplicate support extrusions",
-          "timestamp": "2024-04-09T10:18:39Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2062/commits/eeec9636f7b3f749b790a1bea4c2901196cee027"
-        },
-        "date": 1712828554626,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "ac86cfd79e772ab2e95b3f981a5d6689bdc5aee2",
-          "message": "Put note in gcode if min layer time has been applied.",
-          "timestamp": "2024-04-09T10:18:39Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/1943/commits/ac86cfd79e772ab2e95b3f981a5d6689bdc5aee2"
-        },
-        "date": 1712833298953,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "fdb724fda234cfad308bc920be8e065895a06000",
-          "message": "CURA-9830 consolidate polygon classes",
-          "timestamp": "2024-04-09T10:18:39Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2065/commits/fdb724fda234cfad308bc920be8e065895a06000"
-        },
-        "date": 1712912421058,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "38965fdd895df3ed10cb1b2bec307c4d0ec4f97c",
-          "message": "CURA-9830 consolidate polygon classes",
-          "timestamp": "2024-04-09T10:18:39Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2065/commits/38965fdd895df3ed10cb1b2bec307c4d0ec4f97c"
-        },
-        "date": 1712935247158,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "e8ace68a39e2679180e38bb2abb1113f3b6e1de2",
-          "message": "CURA-9830 consolidate polygon classes",
-          "timestamp": "2024-04-12T16:59:45Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2065/commits/e8ace68a39e2679180e38bb2abb1113f3b6e1de2"
-        },
-        "date": 1713166187344,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "1e043b06ca8ad6195d8bd08e6d45be2c73a63390",
-          "message": "CURA-9830 consolidate polygon classes",
-          "timestamp": "2024-04-12T16:59:45Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2065/commits/1e043b06ca8ad6195d8bd08e6d45be2c73a63390"
-        },
-        "date": 1713251964564,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "784cba4512953cb5c7034ee109731e2178976082",
-          "message": "CURA-9830 consolidate polygon classes",
-          "timestamp": "2024-04-12T16:59:45Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2065/commits/784cba4512953cb5c7034ee109731e2178976082"
-        },
-        "date": 1713280062534,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "97eb08f0cb2a01cadb6ebc1e01078acf4b127f6c",
-          "message": "CURA-9830 consolidate polygon classes",
-          "timestamp": "2024-04-12T16:59:45Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2065/commits/97eb08f0cb2a01cadb6ebc1e01078acf4b127f6c"
-        },
-        "date": 1713353252882,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "513927496c23425e27539088598d4ee6ae67b008",
-          "message": "[CURA-11597] fix duplicate support extrusions",
-          "timestamp": "2024-04-12T16:59:45Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2062/commits/513927496c23425e27539088598d4ee6ae67b008"
-        },
-        "date": 1713361403457,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "8c6d99eb821f6194cf17150b657cbe5c5ea8ad7f",
-          "message": "Cura 11227 zseam support",
-          "timestamp": "2024-04-19T11:49:20Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2067/commits/8c6d99eb821f6194cf17150b657cbe5c5ea8ad7f"
-        },
-        "date": 1713539789539,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "9d35904f20a05f20b2bf977681d7eda3f82b1b14",
-          "message": "Cura 11227 zseam support",
-          "timestamp": "2024-04-22T07:11:27Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2067/commits/9d35904f20a05f20b2bf977681d7eda3f82b1b14"
-        },
-        "date": 1713873336966,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8147,6 +5707,2446 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2138/commits/98cb1052d9dd08b7003ad0050ada44019621f379"
         },
         "date": 1724663425891,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "b719a424d26fcf57de19f09524fc1c56456f8695",
+          "message": "NP- 327 emscripten communication",
+          "timestamp": "2024-08-21T10:04:15Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2131/commits/b719a424d26fcf57de19f09524fc1c56456f8695"
+        },
+        "date": 1724752407311,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "aa7cbbd849fad50bdd0b1f14e2d48e3cd0ab0854",
+          "message": "Np 343",
+          "timestamp": "2024-08-21T10:04:15Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2139/commits/aa7cbbd849fad50bdd0b1f14e2d48e3cd0ab0854"
+        },
+        "date": 1724832568418,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "8c721eb291e00da793fd9b7bff99c298ff4ae7b2",
+          "message": "Fix unexpected type casting issues",
+          "timestamp": "2024-08-21T10:04:15Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2139/commits/8c721eb291e00da793fd9b7bff99c298ff4ae7b2"
+        },
+        "date": 1724833625515,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0270dce423405ed8ea807cfb33a4ce587b38c6ec",
+          "message": "NP- 327 emscripten communication (#2131)",
+          "timestamp": "2024-08-30T09:03:11+02:00",
+          "tree_id": "9972fbbf620a0ffa7bd91736115b834756b4972d",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/0270dce423405ed8ea807cfb33a4ce587b38c6ec"
+        },
+        "date": 1725002215688,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "4dd86a4825ac813191ede06c6a9b4acc36240414",
+          "message": "Fix unexpected type casting issues",
+          "timestamp": "2024-08-30T07:06:44Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2139/commits/4dd86a4825ac813191ede06c6a9b4acc36240414"
+        },
+        "date": 1725027790848,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d8ca053d7a31dc328d3148c79253e473c855bcdf",
+          "message": "Fix unexpected type casting issues",
+          "timestamp": "2024-09-02T02:20:19Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2139/commits/d8ca053d7a31dc328d3148c79253e473c855bcdf"
+        },
+        "date": 1725270320689,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8868c17ff3fbcbbcf7ba94a978f58c8910d1d498",
+          "message": "Fix unexpected type casting issues (#2139)",
+          "timestamp": "2024-09-03T15:57:31+02:00",
+          "tree_id": "612925be67c6aa3aa65112c0375b38d396aa0196",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/8868c17ff3fbcbbcf7ba94a978f58c8910d1d498"
+        },
+        "date": 1725373101935,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5c8de197daba5ef4ce82841ce1e3c461595a488b",
+          "message": "refactor-improve-math-functions (#2135)",
+          "timestamp": "2024-09-05T09:13:54+02:00",
+          "tree_id": "e7feaf3b7fb13efd2290c3128b91aad0421c2999",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/5c8de197daba5ef4ce82841ce1e3c461595a488b"
+        },
+        "date": 1725521591947,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a4cb6be92934f00f741eca3ad3a6cb5900b1b20c",
+          "message": "Plugin gcode modify patches (#1979)",
+          "timestamp": "2024-09-30T10:36:18+02:00",
+          "tree_id": "81c1b309c10e84a3bf19077616236611ec54e436",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/a4cb6be92934f00f741eca3ad3a6cb5900b1b20c"
+        },
+        "date": 1727686426104,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "54609c88b2ff06061fe2c07d7e6ab1e95288926d",
+          "message": "CURA-12081 Scarf seam",
+          "timestamp": "2024-10-02T00:51:05Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2137/commits/54609c88b2ff06061fe2c07d7e6ab1e95288926d"
+        },
+        "date": 1727963869765,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "3541f2d51b78cf7e683c2be8af04577eef5a410b",
+          "message": "Change segment overhanging calculation formula",
+          "timestamp": "2024-10-04T12:34:06Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2144/commits/3541f2d51b78cf7e683c2be8af04577eef5a410b"
+        },
+        "date": 1728305492559,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "ac5f1aff6ba8b4825c579f5e22c29128f0d7b903",
+          "message": "Change segment overhanging calculation formula",
+          "timestamp": "2024-10-04T12:34:06Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2144/commits/ac5f1aff6ba8b4825c579f5e22c29128f0d7b903"
+        },
+        "date": 1728387048200,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "1752db52531887c67b7bbc4218cf85e1619537f8",
+          "message": "[CURA-12153] Fix 'encompassing hole' issue (tree support).",
+          "timestamp": "2024-10-09T07:25:59Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2145/commits/1752db52531887c67b7bbc4218cf85e1619537f8"
+        },
+        "date": 1728491515542,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "45c585e3b3669f90b15e1f0084e184a0efd1ed23",
+          "message": "Add engine info handler for getting engine version and hash",
+          "timestamp": "2024-10-09T07:25:59Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2146/commits/45c585e3b3669f90b15e1f0084e184a0efd1ed23"
+        },
+        "date": 1728555454149,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "916a92aabe7fada3fbfa2f1507969eb8edbaa2af",
+          "message": "Add engine info handler for getting engine version and hash",
+          "timestamp": "2024-10-09T07:25:59Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2146/commits/916a92aabe7fada3fbfa2f1507969eb8edbaa2af"
+        },
+        "date": 1728558037326,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "6c4fad3399212ac85815623e2a560b02c5151def",
+          "message": "Add engine info handler for getting engine version and hash",
+          "timestamp": "2024-10-09T07:25:59Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2146/commits/6c4fad3399212ac85815623e2a560b02c5151def"
+        },
+        "date": 1728558814087,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "nallath@gmail.com",
+            "name": "Jaime van Kessel",
+            "username": "nallath"
+          },
+          "committer": {
+            "email": "nallath@gmail.com",
+            "name": "Jaime van Kessel",
+            "username": "nallath"
+          },
+          "distinct": true,
+          "id": "82a49861cd185bfd65e6cf2a1cf45b1d9233b238",
+          "message": "Merge branch 'main' of https://github.com/TheSin-/CuraEngine",
+          "timestamp": "2024-10-10T14:07:17+02:00",
+          "tree_id": "1d467a69a8ec0209699d09c64ad0fda241f8f081",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/82a49861cd185bfd65e6cf2a1cf45b1d9233b238"
+        },
+        "date": 1728562970471,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "c579c96373b4817a1ed2f3419ebce17f793aa232",
+          "message": "Add engine info handler for getting engine version and hash",
+          "timestamp": "2024-10-12T14:34:46Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2146/commits/c579c96373b4817a1ed2f3419ebce17f793aa232"
+        },
+        "date": 1728893360983,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "b4565262429a0618e519dd0c4d4aa48370865452",
+          "message": "[CURA-12153] Fix 'encompassing hole' issue (tree support).",
+          "timestamp": "2024-10-12T14:34:46Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2145/commits/b4565262429a0618e519dd0c4d4aa48370865452"
+        },
+        "date": 1728896355537,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "a1f65ab8a2a1053b07304004cd0dee9bf26a628f",
+          "message": "[CURA-12200] fix fan speed during extruder switch",
+          "timestamp": "2024-10-12T14:34:46Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2147/commits/a1f65ab8a2a1053b07304004cd0dee9bf26a628f"
+        },
+        "date": 1728983042835,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "edeaf0a3a4e67ef6728da6713c809bb19d9b43ed",
+          "message": "CURA-12164 Fix innerwall seam position",
+          "timestamp": "2024-10-15T15:25:54Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2148/commits/edeaf0a3a4e67ef6728da6713c809bb19d9b43ed"
+        },
+        "date": 1729107537806,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "a9124567017c18198d4efa495c09355b24d2323f",
+          "message": "CURA-12164 Fix innerwall seam position",
+          "timestamp": "2024-10-15T15:25:54Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2148/commits/a9124567017c18198d4efa495c09355b24d2323f"
+        },
+        "date": 1729147353901,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "5cedf8616213c0f49dc13059eb9fe7d1af2f2f65",
+          "message": "Prevent implicit unsigned to signed conversions",
+          "timestamp": "2024-10-17T08:45:36Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2149/commits/5cedf8616213c0f49dc13059eb9fe7d1af2f2f65"
+        },
+        "date": 1729178282331,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "0f896bd254f7e8e8f0bf2003f062dd49a7988033",
+          "message": "CURA-12207 Infill line printed multiple times with extra lines",
+          "timestamp": "2024-10-17T08:45:36Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2150/commits/0f896bd254f7e8e8f0bf2003f062dd49a7988033"
+        },
+        "date": 1729231757600,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "10faafa8b9dc4d7fc4fbb690f9960cec2a46a3a8",
+          "message": "CURA-12164 Fix innerwall seam position",
+          "timestamp": "2024-10-17T08:45:36Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2148/commits/10faafa8b9dc4d7fc4fbb690f9960cec2a46a3a8"
+        },
+        "date": 1729240306385,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "b0cf410da985e750e8bc506d657454886c1b1caa",
+          "message": "CURA-12164 Fix innerwall seam position",
+          "timestamp": "2024-10-17T08:45:36Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2148/commits/b0cf410da985e750e8bc506d657454886c1b1caa"
+        },
+        "date": 1729249467953,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "1a0f74193e0953fd57049c18b0d93161d6775d5a",
+          "message": "CURA-12164 Fix innerwall seam position",
+          "timestamp": "2024-10-17T08:45:36Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2148/commits/1a0f74193e0953fd57049c18b0d93161d6775d5a"
+        },
+        "date": 1729254819728,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "83c254ce14c1480bfc5906999fcc0dc9b092567b",
+          "message": "CURA-12164 Fix innerwall seam position",
+          "timestamp": "2024-10-17T08:45:36Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2148/commits/83c254ce14c1480bfc5906999fcc0dc9b092567b"
+        },
+        "date": 1729257357665,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "2f67d221bb675c65ffe54cebeff17a1d0bec675b",
+          "message": "Fix issue with convex hull",
+          "timestamp": "2024-10-17T08:45:36Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2151/commits/2f67d221bb675c65ffe54cebeff17a1d0bec675b"
+        },
+        "date": 1729322389621,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "26ef1a173cb2a07df8378a5ad553e74fc9cf256c",
+          "message": "Fix issue with convex hull",
+          "timestamp": "2024-10-17T08:45:36Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2151/commits/26ef1a173cb2a07df8378a5ad553e74fc9cf256c"
+        },
+        "date": 1729323239362,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "committer": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "distinct": true,
+          "id": "5b798aa6e5b5528d19481a4c49fdeb9bd3307a22",
+          "message": "Merge remote-tracking branch 'origin/5.9'",
+          "timestamp": "2024-10-22T10:45:13+02:00",
+          "tree_id": "1f102964b9ab6629f4dccbae852796d03cf2b4a1",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/5b798aa6e5b5528d19481a4c49fdeb9bd3307a22"
+        },
+        "date": 1729587955475,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "6db4b4ff830da77500dbcdceab9ddf6ef8949c9b",
+          "message": "[CURA-12173] Only perform 'tiny loops' fix if there's space to do so.",
+          "timestamp": "2024-10-22T15:48:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2153/commits/6db4b4ff830da77500dbcdceab9ddf6ef8949c9b"
+        },
+        "date": 1729667543701,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "669da734c19deb22d1de6566d339f40be4b149c7",
+          "message": "[CURA-12065] Fix (sort-of) conflict between per-object and per-mesh retraction.",
+          "timestamp": "2024-10-22T15:48:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2154/commits/669da734c19deb22d1de6566d339f40be4b149c7"
+        },
+        "date": 1729692157865,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "f37622470e576687c1a06b3db42b58da6d02f89b",
+          "message": "CURA-12175 Fix scarf seam and coasting interaction",
+          "timestamp": "2024-10-22T15:48:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2155/commits/f37622470e576687c1a06b3db42b58da6d02f89b"
+        },
+        "date": 1729694939198,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "2da46b19271c4ba29f98d94b3715e90d9cdf83c2",
+          "message": "[CURA-12173] Only perform 'tiny loops' fix if there's space to do so.",
+          "timestamp": "2024-10-22T15:48:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2153/commits/2da46b19271c4ba29f98d94b3715e90d9cdf83c2"
+        },
+        "date": 1729758224379,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "c0d91c9a41c68487fca32d44184ca4b03838aca2",
+          "message": "[CURA-12068] Fix missing infill in thin strips of space.",
+          "timestamp": "2024-10-22T15:48:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2156/commits/c0d91c9a41c68487fca32d44184ca4b03838aca2"
+        },
+        "date": 1729759445237,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "ebcd20a02d04e5f4a36fc30fabbca45d023d5b6f",
+          "message": "CURA-12175 Fix scarf seam and coasting interaction",
+          "timestamp": "2024-10-22T15:48:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2155/commits/ebcd20a02d04e5f4a36fc30fabbca45d023d5b6f"
+        },
+        "date": 1729838440281,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "c05c8c983537a32c18fbd2996dcd02e5e264e2d8",
+          "message": "CURA-12175 Fix scarf seam and coasting interaction",
+          "timestamp": "2024-10-22T15:48:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2155/commits/c05c8c983537a32c18fbd2996dcd02e5e264e2d8"
+        },
+        "date": 1729838458189,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d036c0bb08ddf0fe1c6e9c287ea321374d2a477a",
+          "message": "Apply scarf seam and speed gradient in surface mode",
+          "timestamp": "2024-10-22T15:48:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2158/commits/d036c0bb08ddf0fe1c6e9c287ea321374d2a477a"
+        },
+        "date": 1730127035702,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "b394b7bfcc9658045aaa18e5fcaa736e6d7efbae",
+          "message": "Add writeGcodeFile function to GCodeExport",
+          "timestamp": "2024-10-22T15:48:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2159/commits/b394b7bfcc9658045aaa18e5fcaa736e6d7efbae"
+        },
+        "date": 1730196489693,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "3bb6d32ec62ce7cd9b67dd607fd32ef25ac0968d",
+          "message": "Add writeGcodeFile function to GCodeExport",
+          "timestamp": "2024-10-22T15:48:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2159/commits/3bb6d32ec62ce7cd9b67dd607fd32ef25ac0968d"
+        },
+        "date": 1730199468491,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "81d2ce014358a3dc930c71770e3ad7341ff13d8a",
+          "message": "CURA-12218 fix scattered seam for round models",
+          "timestamp": "2024-10-22T15:48:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2160/commits/81d2ce014358a3dc930c71770e3ad7341ff13d8a"
+        },
+        "date": 1730205276257,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "6ccc9a04dd5f79a5a90f4464705eaa91f14da398",
+          "message": "CURA-12218 fix scattered seam for round models",
+          "timestamp": "2024-10-29T14:22:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2160/commits/6ccc9a04dd5f79a5a90f4464705eaa91f14da398"
+        },
+        "date": 1730212657047,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "12491b406a5687fb961b556a8fdf61f1a14a261b",
+          "message": "Apply scarf seam and speed gradient in surface mode",
+          "timestamp": "2024-10-29T14:22:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2158/commits/12491b406a5687fb961b556a8fdf61f1a14a261b"
+        },
+        "date": 1730213880722,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "71ac23e50ea58b7ec08a5823b0bbd5a03dec1c25",
+          "message": "CURA-12218 fix scattered seam for round models",
+          "timestamp": "2024-10-29T14:22:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2160/commits/71ac23e50ea58b7ec08a5823b0bbd5a03dec1c25"
+        },
+        "date": 1730279361094,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "32a279d139094005205e20e8a95af14393805692",
+          "message": "CURA-12218 fix scattered seam for round models",
+          "timestamp": "2024-10-29T14:22:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2160/commits/32a279d139094005205e20e8a95af14393805692"
+        },
+        "date": 1730279476918,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "43d5d2da84973e2d9af69f0a94fcbcaeb307a3ce",
+          "message": "CURA-12245 fix spiralize mode",
+          "timestamp": "2024-10-29T14:22:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2161/commits/43d5d2da84973e2d9af69f0a94fcbcaeb307a3ce"
+        },
+        "date": 1730286360754,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "1ae45ef17a4a76c691840023857256cacf503bfa",
+          "message": "CURA-12232 fix sentry crashes",
+          "timestamp": "2024-10-29T14:22:57Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2162/commits/1ae45ef17a4a76c691840023857256cacf503bfa"
+        },
+        "date": 1730307060630,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "69c3e42cd04d3a57e2832dda18f9a2def41f9bd5",
+          "message": "Apply scarf seam and speed gradient in surface mode",
+          "timestamp": "2024-10-31T03:05:28Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2158/commits/69c3e42cd04d3a57e2832dda18f9a2def41f9bd5"
+        },
+        "date": 1730366555974,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "3a8682b217e896c1a92185eb400a23a4be543dcf",
+          "message": "CURA-12244 coasting generates z0 points",
+          "timestamp": "2024-10-31T03:05:28Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2163/commits/3a8682b217e896c1a92185eb400a23a4be543dcf"
+        },
+        "date": 1730377329863,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "e61c204661baf3858d58ef9ce7a674a3b56caf89",
+          "message": "CURA-12175 Fix scarf seam and coasting interaction",
+          "timestamp": "2024-10-31T03:05:28Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2155/commits/e61c204661baf3858d58ef9ce7a674a3b56caf89"
+        },
+        "date": 1730388333020,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "03116d9dd8c950c9b25517c14c91cbcab4d256d6",
+          "message": "CURA-12252 Fix outer wall being translated",
+          "timestamp": "2024-10-31T03:05:28Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2164/commits/03116d9dd8c950c9b25517c14c91cbcab4d256d6"
+        },
+        "date": 1730457838501,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d68cc1160ba3482e4f96068cf007185d9433a81c",
+          "message": "CURA-12244 coasting generates z0 points",
+          "timestamp": "2024-11-01T10:54:03Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2163/commits/d68cc1160ba3482e4f96068cf007185d9433a81c"
+        },
+        "date": 1730462578465,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "ba75a260f43d8f03ed10a72c6e2fe19e5e71b2b3",
+          "message": "CURA-12232 fix sentry crashes",
+          "timestamp": "2024-11-01T10:54:03Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2162/commits/ba75a260f43d8f03ed10a72c6e2fe19e5e71b2b3"
+        },
+        "date": 1730468095776,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "0948be12be131fb28611181290892e3f34bb6ee2",
+          "message": "Fix dirty print lines and micro-segments",
+          "timestamp": "2024-11-05T06:58:26Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2166/commits/0948be12be131fb28611181290892e3f34bb6ee2"
+        },
+        "date": 1730817591575,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "a6450b00d2c7e030d308bc07e16ee11b8355b18b",
+          "message": "CURA-12264 Fix seam alignment",
+          "timestamp": "2024-11-05T06:58:26Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2167/commits/a6450b00d2c7e030d308bc07e16ee11b8355b18b"
+        },
+        "date": 1730821758217,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "c6faf2ae11ff089e6060eee8a0ad50e915dc97b9",
+          "message": "CURA-12234 combing over top surface",
+          "timestamp": "2024-11-05T22:46:14Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2168/commits/c6faf2ae11ff089e6060eee8a0ad50e915dc97b9"
+        },
+        "date": 1730918647299,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "committer": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "distinct": true,
+          "id": "7876d035c30d17a0f0e48568913e7d47ce4a3223",
+          "message": "Merge remote-tracking branch 'origin/5.9'",
+          "timestamp": "2024-11-07T09:46:14+01:00",
+          "tree_id": "ede388edf634aef275338bdfe5bb41b7ed972da4",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/7876d035c30d17a0f0e48568913e7d47ce4a3223"
+        },
+        "date": 1730970193927,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "643a7124ed418a0435423eb788fc6bc0aeba5c8c",
+          "message": "CURA-12268 Fix useless Z move before switching layer",
+          "timestamp": "2024-11-07T08:46:29Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2169/commits/643a7124ed418a0435423eb788fc6bc0aeba5c8c"
+        },
+        "date": 1730990728277,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "cae1d6ed8dd193ce3a9e0cbc07a783858bb3115c",
+          "message": "CURA-12234 combing over top surface",
+          "timestamp": "2024-11-08T06:16:26Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2168/commits/cae1d6ed8dd193ce3a9e0cbc07a783858bb3115c"
+        },
+        "date": 1731054466122,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "3e7f35af50d85b4e675bdbfcdd48385d394731ec",
+          "message": "CURA-12265 the wiping movement goes in the wrong direction",
+          "timestamp": "2024-11-08T06:16:26Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2170/commits/3e7f35af50d85b4e675bdbfcdd48385d394731ec"
+        },
+        "date": 1731079959924,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "fd222be8a9bc50f7fe40804d295ebe179a0f8d29",
+          "message": "CURA-12265 the wiping movement goes in the wrong direction",
+          "timestamp": "2024-11-08T06:16:26Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2170/commits/fd222be8a9bc50f7fe40804d295ebe179a0f8d29"
+        },
+        "date": 1731079969489,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "2ba2e24c9fe3d2a45ce863931d34a22ef205ad32",
+          "message": "CURA-12234 combing over top surface",
+          "timestamp": "2024-11-08T06:16:26Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2168/commits/2ba2e24c9fe3d2a45ce863931d34a22ef205ad32"
+        },
+        "date": 1731319755539,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "f94839affc78f7ab40d00757f17a2b049c801806",
+          "message": "CURA-12265 the wiping movement goes in the wrong direction",
+          "timestamp": "2024-11-08T06:16:26Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2170/commits/f94839affc78f7ab40d00757f17a2b049c801806"
+        },
+        "date": 1731321031865,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "3607b068e36037f946232a48232a4407fb6223ea",
+          "message": "Cura 12275 retract before outer wall only works on the initial layer",
+          "timestamp": "2024-11-08T06:16:26Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2172/commits/3607b068e36037f946232a48232a4407fb6223ea"
+        },
+        "date": 1731328159939,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "57f8e1de812348ad6f09a2569f6bde8864c54709",
+          "message": "Cura 12275 retract before outer wall only works on the initial layer",
+          "timestamp": "2024-11-08T06:16:26Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2172/commits/57f8e1de812348ad6f09a2569f6bde8864c54709"
+        },
+        "date": 1731421660059,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "880114df5f2f9e2e5d000d4e9ea7f0257ca7a36c",
+          "message": "Fix (some) crash-logs divide-by-zero issues",
+          "timestamp": "2024-11-12T17:43:05Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2173/commits/880114df5f2f9e2e5d000d4e9ea7f0257ca7a36c"
+        },
+        "date": 1731499780348,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "7dff0622921af87902fb945a093338b65f99ed8d",
+          "message": "Apply coasting only on walls",
+          "timestamp": "2024-11-12T17:43:05Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2174/commits/7dff0622921af87902fb945a093338b65f99ed8d"
+        },
+        "date": 1731576587934,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "ecb2ae08e4361f1acac8e55b32d83ac0b1d93597",
+          "message": "Apply coasting only on walls",
+          "timestamp": "2024-11-12T17:43:05Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2174/commits/ecb2ae08e4361f1acac8e55b32d83ac0b1d93597"
+        },
+        "date": 1731665225189,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "committer": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "distinct": true,
+          "id": "cd01288b6d6cc230d72a50af55d01649895b4b4e",
+          "message": "Merge remote-tracking branch 'origin/5.9'",
+          "timestamp": "2024-11-20T13:12:10+01:00",
+          "tree_id": "2e164b2dba3501474bdfdb0f82bf054bd630bf60",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/cd01288b6d6cc230d72a50af55d01649895b4b4e"
+        },
+        "date": 1732105414384,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "committer": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "distinct": true,
+          "id": "6b20571fe08811e8f000bc48d023297ee1f901b6",
+          "message": "Fix wrong scoring tendancy\n\nCURA-12324\nWhen processing the last criterion pass, we used to keep all the best candidates in regard to the scoring threshold, then the first one of them would be returned, which is not always the one with the actual best score. Now we just early-out with the best candidate in case of the last pass. This is also more efficient.",
+          "timestamp": "2024-11-22T09:06:30+01:00",
+          "tree_id": "a9b6e398a044b70049975c9a95e3df92de02ddce",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/6b20571fe08811e8f000bc48d023297ee1f901b6"
+        },
+        "date": 1732263841310,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "6b20571fe08811e8f000bc48d023297ee1f901b6",
+          "message": "CURA-12324 random seam is not so random",
+          "timestamp": "2024-11-22T08:10:31Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2175/commits/6b20571fe08811e8f000bc48d023297ee1f901b6"
+        },
+        "date": 1732263991666,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "4907464d8bebbf39e7ea81a2a3abb17ff20b8e0a",
+          "message": "CURA-12324 random seam is not so random",
+          "timestamp": "2024-11-27T13:31:25Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2175/commits/4907464d8bebbf39e7ea81a2a3abb17ff20b8e0a"
+        },
+        "date": 1732787334860,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "0abecdc2e61595302f10471c271ef676ab2b0154",
+          "message": "CURA-12324 random seam is not so random",
+          "timestamp": "2024-11-27T13:31:25Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2175/commits/0abecdc2e61595302f10471c271ef676ab2b0154"
+        },
+        "date": 1732787495618,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1812a2edd6b547944598ad510548b281610716f7",
+          "message": "CURA-12324 random seam is not so random (#2175)",
+          "timestamp": "2024-11-29T12:59:32+01:00",
+          "tree_id": "95f924de191c6492f54ce88a03a67922a833f5e7",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/1812a2edd6b547944598ad510548b281610716f7"
+        },
+        "date": 1732882496947,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
