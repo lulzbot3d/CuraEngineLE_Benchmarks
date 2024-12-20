@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734704911524,
+  "lastUpdate": 1734704916549,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "saumya.jain@ultimaker.com",
-            "name": "Saumya Jain",
-            "username": "saumyaj3"
-          },
-          "committer": {
-            "email": "saumya.jain@ultimaker.com",
-            "name": "Saumya Jain",
-            "username": "saumyaj3"
-          },
-          "distinct": true,
-          "id": "fb484b824dbc5b648181ce00e1185ff8fd9e909f",
-          "message": "merge 5.7",
-          "timestamp": "2024-04-26T15:59:13+02:00",
-          "tree_id": "366c8020acd50f967ec4966dce2fd6362d8639fd",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/fb484b824dbc5b648181ce00e1185ff8fd9e909f"
-        },
-        "date": 1714141126563,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8151,6 +8115,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2191/commits/9ac032997fe89e4b8ef839e11275e79f537408e8"
         },
         "date": 1734704908220,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "committer": {
+            "email": "erwan.mathieu@ultimaker.com",
+            "name": "Erwan MATHIEU",
+            "username": "wawanbreton"
+          },
+          "distinct": true,
+          "id": "39de9508e7c1ae736ecb95288a73dc54c76f1a61",
+          "message": "Set unit test setting for benchmarks",
+          "timestamp": "2024-12-20T15:22:40+01:00",
+          "tree_id": "5d97d55e53abdb990c83e4e0cda3e93a9091b871",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/39de9508e7c1ae736ecb95288a73dc54c76f1a61"
+        },
+        "date": 1734704909494,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
