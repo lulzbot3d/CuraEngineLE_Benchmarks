@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736434478372,
+  "lastUpdate": 1736434528096,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "8537117012f0800af85112921d774b680da6b1e2",
-          "message": "Cura 11227 zseam support",
-          "timestamp": "2024-05-01T09:27:39Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2067/commits/8537117012f0800af85112921d774b680da6b1e2"
-        },
-        "date": 1714556756975,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8151,6 +8119,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2187/commits/80fab600a66e6fbb6a7e33c09017dc2f70bdfecb"
         },
         "date": 1736434474457,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "4e0f5fe13aba3a9f54938d1a3e8f84137b653391",
+          "message": "CURA-11966 reduce speed on overhang",
+          "timestamp": "2025-01-08T06:20:05Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2186/commits/4e0f5fe13aba3a9f54938d1a3e8f84137b653391"
+        },
+        "date": 1736434524313,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
