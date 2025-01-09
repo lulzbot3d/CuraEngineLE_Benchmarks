@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736422324997,
+  "lastUpdate": 1736422407649,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "e167f89086902ab2f053a897c2b298aa80f9e48a",
-          "message": "Add extra travel move to outer wall start position",
-          "timestamp": "2024-04-26T13:59:34Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2075/commits/e167f89086902ab2f053a897c2b298aa80f9e48a"
-        },
-        "date": 1714379667150,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8151,6 +8119,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2186/commits/a9e2a362d4766c1e2e4713dcdfeaa1c963f682ec"
         },
         "date": 1736422321123,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "5720be861f2010dab8255d17754d82aa6f6f355a",
+          "message": "CURA-11966 reduce speed on overhang",
+          "timestamp": "2025-01-08T06:20:05Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2186/commits/5720be861f2010dab8255d17754d82aa6f6f355a"
+        },
+        "date": 1736422404128,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
