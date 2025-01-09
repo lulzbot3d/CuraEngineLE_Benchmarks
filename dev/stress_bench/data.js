@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736422407649,
+  "lastUpdate": 1736425794553,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "34b4c1998ff045c9bd65c3672b834cbb3e01dda1",
-          "message": "Add extra travel move to outer wall start position",
-          "timestamp": "2024-04-26T13:59:34Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2075/commits/34b4c1998ff045c9bd65c3672b834cbb3e01dda1"
-        },
-        "date": 1714379667070,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8151,6 +8119,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2186/commits/5720be861f2010dab8255d17754d82aa6f6f355a"
         },
         "date": 1736422404128,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "d30de99097c9e5831dacf3fe2066482716a3267c",
+          "message": "CURA-12352 different minimum layer time for layers that contain overhangs",
+          "timestamp": "2025-01-08T06:20:05Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2187/commits/d30de99097c9e5831dacf3fe2066482716a3267c"
+        },
+        "date": 1736425790874,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
