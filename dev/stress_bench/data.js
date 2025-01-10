@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736434528096,
+  "lastUpdate": 1736514005149,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "7d947d1affd05f31f9498798fec1b3b34bb9cd82",
-          "message": "Add extra travel move to outer wall start position",
-          "timestamp": "2024-05-01T09:27:39Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2075/commits/7d947d1affd05f31f9498798fec1b3b34bb9cd82"
-        },
-        "date": 1714577251882,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8151,6 +8119,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2186/commits/4e0f5fe13aba3a9f54938d1a3e8f84137b653391"
         },
         "date": 1736434524313,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5438caa8a3cdd478087f5a11fb892a203471d1a3",
+          "message": "Fix wrong retraction settings being used (#2191)",
+          "timestamp": "2025-01-10T13:34:02+01:00",
+          "tree_id": "8431b6c6d35c351873377946a8cfe96a4fab9c1a",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/5438caa8a3cdd478087f5a11fb892a203471d1a3"
+        },
+        "date": 1736514001050,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
