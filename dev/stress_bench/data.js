@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736514005149,
+  "lastUpdate": 1736775794732,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "b8a4b17476a22b1928dcc4728ef1c46a19e7fc04",
-          "message": "CURA-9830 consolidate polygon classes",
-          "timestamp": "2024-05-01T09:27:39Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2065/commits/b8a4b17476a22b1928dcc4728ef1c46a19e7fc04"
-        },
-        "date": 1714640820511,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8155,6 +8123,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/commit/5438caa8a3cdd478087f5a11fb892a203471d1a3"
         },
         "date": 1736514001050,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "4b12494b6b4eaa9b7d0e6902d9471fa074c615c9",
+          "message": "CURA-12236 Apply distance to walls for inside combing",
+          "timestamp": "2025-01-10T12:34:48Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2188/commits/4b12494b6b4eaa9b7d0e6902d9471fa074c615c9"
+        },
+        "date": 1736775790551,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
