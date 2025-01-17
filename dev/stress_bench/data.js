@@ -1,44 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737035362884,
+  "lastUpdate": 1737120973231,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "email": "alireza.doustdar@gmail.com",
-            "name": "HellAholic",
-            "username": "HellAholic"
-          },
-          "committer": {
-            "email": "noreply@github.com",
-            "name": "GitHub",
-            "username": "web-flow"
-          },
-          "distinct": true,
-          "id": "fc4266a86d180d5f48369b4096e43493aaf227ad",
-          "message": "Cura 11227 zseam support (#2067)",
-          "timestamp": "2024-05-03T15:01:37+02:00",
-          "tree_id": "255222a783ac9462686b6152f4c2d50dd95d6872",
-          "url": "https://github.com/Ultimaker/CuraEngine/commit/fc4266a86d180d5f48369b4096e43493aaf227ad"
-        },
-        "date": 1714741742312,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8163,6 +8127,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2187/commits/a98e7d065fefa91bceab0789577915ea94e1f396"
         },
         "date": 1737035359352,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "c468d03bb018ee27bf8e3c7d105368974cd0d3ea",
+          "message": "CURA-12352 different minimum layer time for layers that contain overhangs",
+          "timestamp": "2025-01-14T20:29:36Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2187/commits/c468d03bb018ee27bf8e3c7d105368974cd0d3ea"
+        },
+        "date": 1737120965867,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
