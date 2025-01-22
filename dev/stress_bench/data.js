@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737535246072,
+  "lastUpdate": 1737551014335,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "fdeb5651fecdd56ee09fbdab3a111bf4d5404c8c",
-          "message": "CURA-9830 consolidate polygon classes",
-          "timestamp": "2024-05-03T13:01:43Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2065/commits/fdeb5651fecdd56ee09fbdab3a111bf4d5404c8c"
-        },
-        "date": 1714758439783,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8127,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2187/commits/588a83856f8db7a347a7cc8f88bbeff87a746a1c"
         },
         "date": 1737535242400,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "518d620c73894100bb9c6f814e5c832eb767e0f8",
+          "message": "[CURA-12362] Cheetah flavor",
+          "timestamp": "2025-01-22T03:22:29Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2198/commits/518d620c73894100bb9c6f814e5c832eb767e0f8"
+        },
+        "date": 1737551010640,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
