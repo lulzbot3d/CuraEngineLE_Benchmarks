@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737551014335,
+  "lastUpdate": 1737632640427,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "6d77384d1c754155ffcb42db20e2833404d608ea",
-          "message": "Add extra travel move to outer wall start position",
-          "timestamp": "2024-05-04T01:32:16Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2075/commits/6d77384d1c754155ffcb42db20e2833404d608ea"
-        },
-        "date": 1714982986190,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8159,6 +8127,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2198/commits/518d620c73894100bb9c6f814e5c832eb767e0f8"
         },
         "date": 1737551010640,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "35a8c5843e208ef3fe3f5772e7e2190cd37d5b67",
+          "message": "[CURA-12362] Cheetah flavor (#2198)",
+          "timestamp": "2025-01-23T12:17:40+01:00",
+          "tree_id": "7f0729e049e61bb33684348eb0e3810d11919a5e",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/35a8c5843e208ef3fe3f5772e7e2190cd37d5b67"
+        },
+        "date": 1737632636521,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
