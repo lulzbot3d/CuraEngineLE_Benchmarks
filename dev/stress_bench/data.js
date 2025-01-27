@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737970484722,
+  "lastUpdate": 1737970756827,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "0e5f382e0ecee08dcd12b3127e894842bd97afa9",
-          "message": "CURA-9830 consolidate polygon classes",
-          "timestamp": "2024-05-04T01:32:16Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2065/commits/0e5f382e0ecee08dcd12b3127e894842bd97afa9"
-        },
-        "date": 1714996708686,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8163,6 +8131,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2202/commits/c841fb82b0e68c139ec143723bf0e6035c1a054e"
         },
         "date": 1737970481037,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "34fbc599a0131a120e54a74f7ba18bee18b83490",
+          "message": "CURA-12335 Handle flooring settings on the same basis as roofing",
+          "timestamp": "2025-01-23T11:17:46Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2202/commits/34fbc599a0131a120e54a74f7ba18bee18b83490"
+        },
+        "date": 1737970752815,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
