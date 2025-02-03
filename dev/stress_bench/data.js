@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738576937584,
+  "lastUpdate": 1738578538001,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "01a4de6e0869d1930dce26d877a66c0a83630ab0",
-          "message": "CURA-11873 interleaved prime tower bad raft",
-          "timestamp": "2024-05-09T22:01:29Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2078/commits/01a4de6e0869d1930dce26d877a66c0a83630ab0"
-        },
-        "date": 1715337104235,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8163,6 +8131,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2187/commits/0ca9c266620ec466e96cc7fe3fc17aa7ac627a00"
         },
         "date": 1738576933554,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "alireza.doustdar@gmail.com",
+            "name": "HellAholic",
+            "username": "HellAholic"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2dec76dc89038c11dae41c2622ffedfb57eae197",
+          "message": "CURA-12352 different minimum layer time for layers that contain overhangs (#2187)",
+          "timestamp": "2025-02-03T11:02:06+01:00",
+          "tree_id": "b6356c3b139be23f65aec9645bb368c5635e427b",
+          "url": "https://github.com/Ultimaker/CuraEngine/commit/2dec76dc89038c11dae41c2622ffedfb57eae197"
+        },
+        "date": 1738578533965,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
