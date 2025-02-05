@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738749219708,
+  "lastUpdate": 1738752028415,
   "repoUrl": "https://github.com/Ultimaker/CuraEngine",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "40ed0cdb8a0ba1a7b0c154a2c0de6fda0b784202",
-          "message": "CURA-9830 consolidate polygon classes",
-          "timestamp": "2024-05-11T08:13:45Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2065/commits/40ed0cdb8a0ba1a7b0c154a2c0de6fda0b784202"
-        },
-        "date": 1715593332873,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8167,6 +8135,38 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/Ultimaker/CuraEngine/pull/2204/commits/4426c45396aa0d026c8d51db68c23bbd9bda6393"
         },
         "date": 1738749216209,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "committer": {
+            "name": "Ultimaker",
+            "username": "Ultimaker"
+          },
+          "id": "c83319437f5804c6017200ef63cc123199181af5",
+          "message": "CURA-11978 Retract and unretract in a travel",
+          "timestamp": "2025-02-03T10:02:14Z",
+          "url": "https://github.com/Ultimaker/CuraEngine/pull/2204/commits/c83319437f5804c6017200ef63cc123199181af5"
+        },
+        "date": 1738752024731,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
