@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745857343918,
+  "lastUpdate": 1746321954020,
   "repoUrl": "https://github.com/lulzbot3d/CuraEngineLE",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "b8a4b17476a22b1928dcc4728ef1c46a19e7fc04",
-          "message": "CURA-9830 consolidate polygon classes",
-          "timestamp": "2024-05-01T09:27:39Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2065/commits/b8a4b17476a22b1928dcc4728ef1c46a19e7fc04"
-        },
-        "date": 1714640820511,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8183,6 +8151,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/lulzbot3d/CuraEngineLE/commit/be2f75df602a7c0351a9917e33cb47120f90a3ab"
         },
         "date": 1745857340113,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "spencer.fjelstad@gmail.com",
+            "name": "GrimQuagle",
+            "username": "GrimQuagle"
+          },
+          "committer": {
+            "email": "spencer.fjelstad@gmail.com",
+            "name": "GrimQuagle",
+            "username": "GrimQuagle"
+          },
+          "distinct": false,
+          "id": "9a92353514cd35e316d7b515f7edd7f7bee8d1d4",
+          "message": "Merge remote-tracking branch 'origin/ulti-main' into main-dev",
+          "timestamp": "2025-05-03T20:07:25-05:00",
+          "tree_id": "cfd058506c11486a07bf27fb2b210ec04e665ca4",
+          "url": "https://github.com/lulzbot3d/CuraEngineLE/commit/9a92353514cd35e316d7b515f7edd7f7bee8d1d4"
+        },
+        "date": 1746321950100,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
