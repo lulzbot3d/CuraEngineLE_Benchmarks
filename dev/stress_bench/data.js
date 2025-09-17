@@ -1,40 +1,8 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753369101052,
+  "lastUpdate": 1758123620383,
   "repoUrl": "https://github.com/lulzbot3d/CuraEngineLE",
   "entries": {
     "Stress Benchmark": [
-      {
-        "commit": {
-          "author": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "committer": {
-            "name": "Ultimaker",
-            "username": "Ultimaker"
-          },
-          "id": "7229363746bcdb311fa023a3e92df8a9613ff751",
-          "message": "Cura 11227 zseam support",
-          "timestamp": "2024-05-01T09:27:39Z",
-          "url": "https://github.com/Ultimaker/CuraEngine/pull/2067/commits/7229363746bcdb311fa023a3e92df8a9613ff751"
-        },
-        "date": 1714663442298,
-        "tool": "customSmallerIsBetter",
-        "benches": [
-          {
-            "name": "Number of test cases",
-            "value": 61,
-            "unit": "-",
-            "extra": ""
-          },
-          {
-            "name": "General Stress Level",
-            "value": 0,
-            "unit": "%",
-            "extra": "Crashes in: "
-          }
-        ]
-      },
       {
         "commit": {
           "author": {
@@ -8207,6 +8175,42 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/lulzbot3d/CuraEngineLE/commit/77668de58aa6ec0a25f85ae16be8681894fd5efa"
         },
         "date": 1753369097111,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Number of test cases",
+            "value": 61,
+            "unit": "-",
+            "extra": ""
+          },
+          {
+            "name": "General Stress Level",
+            "value": 0,
+            "unit": "%",
+            "extra": "Crashes in: "
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "sfjelstad@lulzbot.com",
+            "name": "GrimQuagle",
+            "username": "GrimQuagle"
+          },
+          "committer": {
+            "email": "sfjelstad@lulzbot.com",
+            "name": "GrimQuagle",
+            "username": "GrimQuagle"
+          },
+          "distinct": false,
+          "id": "a177ed6df6f48ed8930a1f92e25162816d5a88ac",
+          "message": "Merge remote-tracking branch 'origin/ulti-main' into main-dev",
+          "timestamp": "2025-09-17T10:15:07-05:00",
+          "tree_id": "9b2cad867e69b0c1ed85e837349b318e52f72df4",
+          "url": "https://github.com/lulzbot3d/CuraEngineLE/commit/a177ed6df6f48ed8930a1f92e25162816d5a88ac"
+        },
+        "date": 1758123616472,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
